@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title> TopoProfil-Aide </title>
+		<link rel="icon" href="images/lolo.png">
+    </head>
+	
+	<body>
+	<div id="bloc_page">
+	
+            <header>
+			</br> </br>
+                <div id="titre_principal">
+                    <div id="logo">
+					
+                          <h1> Topo_Profil </h1>   
+					
+						  
+                    </div>
+                          
+						  <h4> ~ analyser les régions avec nous ~ </h4>
+                </div>
+                 <nav>
+                    
+                        <a href="#"> <img onclick="document.getElementById('id01').style.display='block'" src="images/lolo.png">  </img> </a>
+                    
+                </nav>
+               
+            </header>
+			
+				<div id="banniere_image">
+                <div id="banniere_description">
+                    la perfection c'est notre objectif..                    
+                </div>
+				
+			
+    </div>
+	<!----------------------------------------------------ARTICLES------------------------------------------------------------------>
+	<div>
+	<table>
+	<tbody>
+		<tr>
+			<th colspan="2"> découvrir topo_profil </th>
+			<th> quelques profil topographique </th>
+		</tr>
+		<tr>
+			<td colspan="2"> </br> <h4> Avec notre Application vous pouvez</h4>
+			<ul>
+			
+	<li>Importer une carte topographique sous forme d’une image.</li>
+	<li>Remplir les informations nécessaires de la carte (le min, le max, l’équidistance, l’altitude, l’échelle).</li>
+	<li>Tracer des courbes de niveaux par utilisation de lignes constituée par une série des points et associer à chaque courbe une altitude et une couleur.</li>
+	<li>Tracer un segment à partir de deux points afin de déterminer les points d’intersection.</li>
+	<li>Calculer les points d’intersection qui détermine le profil à générer.</li>
+	<li>Construire les axes du graphique en prenant en comptes les altitudes, le min, le max, l’échelle, l’unité, l’équidistance.</li>
+	<li>Générer le profil résultant.</li>
+	<li>Calcule de la pente sélectionnée à partir du profil.</li>
+	<li> Réalisation une interface utilisateurs développée selon les standards de Windows.</li>
+</ul>
+
+			</p>
+                 
+		            </td>
+			<td>
+			<img class="mySlides" src="images/i0.jpg" width="250">
+            <img class="mySlides" src="images/i1.png" width="250">
+            <img class="mySlides" src="images/i2.png" width="250">
+            <img class="mySlides" src="images/i3.png" width="250">
+			<script>
+			var slideIndex = 0;
+            carousel();
+
+            function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none"; 
+             }
+            slideIndex++;
+            if (slideIndex > x.length) {slideIndex = 1} 
+            x[slideIndex-1].style.display = "block"; 
+            setTimeout(carousel, 2000); // Changer l'image chaque 2 secondes
+             }
+			</script>
+			</td>
+	
+		</tr>
+		<tr> <th colspan="3"> <h1> Tableau d'aide en ligne ! </h1> </th> 
+		</tr>
+		<tr>
+			<th> table </th> <th> Application </th> <th></th>
+		</tr>
+		<tr> <div class="bg">
+
+<table id="t01">
+  <tr>
+    <th width="25">bouton</th>
+    <th width="30"> capture</th>
+    <th >fonctionnalité</th>
+  </tr>
+   <tr>
+    <td>Acceuil</td>
+    <td>
+	<img src="images/c1.png"  />
+	</td>
+    <td>permet d'aller à la première page où vous pouvez générer un nouvau projet</td>
+  </tr>
+  <tr>
+    <td>importer</td>
+    <td>	<img src="images/c2.png"  /></td>
+   
+    <td> vous permet d'ouvrir une carte à partir d'un fichier puis entrer les informations nécessaires reliées à la carte: Echelle de la carte(entier),unité du graphe (texte),uniteAlt(texte), le min(la plus petite valeur) et le max(la plus grande ):(entier un multiple de 5) . chaque erreur de saisie va générer un message d'erreur qui vous permet de rentrer les données pour une autre fois.</td>
+  </tr>
+  
+  <tr>
+    <td> dessiner</td>
+    <td>
+		<img src="images/c++.png"  /></td>
+  
+    <td>vous permet de dessiner des courbes à travers des points et des segments.pour commencer il suffit d'activer le toggle boutton à coté de tracer courbe dans la barre de menu puis allez sur la page de travail, faites un clic gauche afin de dessiner le premier point puis mettez les autres points dans le lieu où vous voulez et à chaque fois que vous voulez fixer le point, faites un clic gauche. et pour terminer  faites un clic droit et entrez l'altitude de la courbe dessinée(l'altitude doit etre un multiple de 5 et positive).
+	Pour rentrer le point de sommet, il suffit de tracer une petite ligne puis entrer le nombre. S’il s’agit d’un entier qui n’est pas multiple de 5, une fenêtre s’affichera pour indiquer s’il représente un point de sommet ou bien de bas. Répondez avec oui ou non pour enregistrer cette donnée.( le point de sommet ne peut pas dépasser la valeur du max et lepoint de bas ne peut pas dépasser la valeur du min ). 
+
+</td>
+  </tr>
+  <tr>
+    <td>tracer segment</td>
+    <td>
+		<img src="images/c4.png"  /></td>
+    <td>vous permet de tracer un segment. pour commencer cliquez sur tracer segment dans la barre de menu, puis allez sur l'espace de travail, dessinez le premier point où vous voulez, une ligne appairetra, et enfin choisissez le lieu du 2ème point et fixez le avec une clique gauche. vous pouvez dessiner le segment qu'une seule fois sinon , une message d'erreur s'affichera.</td>
+  </tr>
+  <tr>
+    <td>profile</td>
+    <td>	<img src="images/c5.png"  /></td>
+    <td> ce bouton permet de tracer un profil topographique à partir les points d'intersection déterminer, et au meme temps vous pouvez selectionner des pentes et les afficher. pour tracer le profil , il faut d'abord dessiner les courbes et le segment et apparaitre les point d'intersection.puis allez sur la barre de menu activer le toggle boutoon à coté du profil. pour modifier les résultats , cliquez sur le bouton paramètre en haut, vous pouvez changer la couleur du fond, du graphe , les dimensions puis cliquez dur ok.  vous pouvez aussi faire le zoom en arrière et en avant. et il ya un bouton imprimer aussi pour imprimer le travail. pour afficher la pente, cliquez sur la pente que vous voulez dans le graphe, et les résultats s'afficheront.</td>
+  </tr>
+  <tr>
+    <td>intersection</td>
+    <td>	<img src="images/c6.png"  /></td>
+    <td>ce bouton permet de déterminer les points d'intersections des courbes avec le segment. pour cela il suffit d'acctiver le toggle boutton à coté de bouton intersection dans la barre de menu.</td>
+  </tr>
+  <tr>
+    <td>sauvegarder</td>
+ <td>	<img src="images/c8.png"  /></td>
+    <td>permet de sauvegarder le profil réalisé dans l'emplacement ou vous voulez, cliquez sur le bouton sauvegarder en haut, une fenetre apparaitera, choissisez le lieu, le nom puis cliquez sur enregistrer. </td>
+  </tr>
+   <tr>
+    <td>ouvrir</td>
+ <td>	<img src="images/c10.png"  /></td>
+    <td>permet d'ouvrir les profils réalisés avant, il suffit de choisis l'emplacement et le nom puis cliquez sur ouvrir. </td>
+  </tr>
+  <tr>
+    <td>imprimer</td>
+    <td>	<img src="images/c9.png"  /></td>
+    <td>permet d'imprimer votre travail à travers votre imprimantes avec le nombre de copies et le format que vous voulez(image, texte, dimensions personnalisées). pour imprimer les courbes avec la carte et les points d'intersections cliquez sur l'icone imprimer en haut, et pour imprimer le profil cliquez sur l'icone imprimez dans la fenetre du profil</td>
+  </tr>
+  
+  <tr>
+    <td>sortir</td>
+    <td><img src="images/c0.png"  /></td>
+    <td>permet de sortir de votre application</td>
+  </tr>
+  <tr>
+    <td>paramètre</td>
+   <td><img src="images/zozo.jpg" width="240" height="160" /></td>
+    <td>Elle contient plusieurs fonctionnalités:
+    -changer le background de l'application: clique sur bouton paramètre puis bouton color,puis choissiez la couleur désirée.
+    -ajouter point: qui permet d'ajouter un point dans la courbe.
+    -supprimerpoint qui permet de supprimer un point dans la courbe.
+    -un bouton déplacer: qui permer de déplacer la courbe.
+    -un bouton copier: copier le travail.
+    -bouton coller: coller le travail .
+    -un bouton couper.
+    -un bouton supprimer: pour supprimer la courbe et le segment.
+   </td>
+  </tr>
+  <tr>
+    <td>help</td>
+    <td><img src="images/c7.png"  /></td>
+    <td>afficher une page d'aide de l'application</td>
+  </tr>
+  <tr>
+    <td>zoom</td>
+    <td><img src="images/zam.png"  /></td>
+    <td>topoProfil permet de faire un zoom avant ou arrière, pour cela glisser la barre de zoom</td>
+  </tr>
+ 
+  <tr>
+    <td>modifier</td>
+    <td></td>
+    <td>pour modifier un point du courbe, désactiver le toggle bouton dessiner. séléctionnez la courbe, des points rouges s'afficheront. choisissez le point que vous voulez, faites un double clic gauche et après bougez le ou vous voulez, pour le fixer , faites clique gauche. et à chaque fois que vous modifier le point, les points d'intersections de changent.</td>
+  </tr>
+  <tr>
+    <td>Colorer</td>
+    <td></td>
+    <td>pour changer le background de l'application, cliquez sur paramètre, puis sur colorer, puis sur la couleur désirée/td>
+  </tr>
+  <tr>
+    <td>ajouter point</td>
+    <td></td>
+    <td>pour ajouter un point, désactiver le toggle bouton dessiner. séléctionnez le segment où vous voulez faire lajout, des points rouges s'afficheront.allez sur paramètre cliquez sur ajouter point, puis revenir dans l'espace du travail et choisissez l'emplacement sois au dessus ou bien ou dessous ou bien sur le segment séléctioné avant et fait une clique gauche.</td>
+  </tr>
+  <tr>
+   <td>Supprimer</td>
+    <td> </td>
+    <td>pour supprimer un point,ou bien une courbe ou bien un segment, désactiver le toggle bouton dessiner. sélectionnez la coubre, faites un clic gauche sur le point ou la courbe ou le segment que vous voulez supprimer, allez sur paramètre puis cliquer sur supprimer. </td>
+  </tr>
+  <tr>
+   <td>déplacer</td>
+    <td></td>
+    <td>pour déplacer une courbe , désactiver le toggle bouton dessiner. sélectionnez la coubre, allez sur paramètre puis cliquer sur déplacer. choisissez un nouvelle emplacement et pour le fixer: faite un clique gauche puis droite. </td>
+  </tr>
+  
+  <tr>
+    <td>Copier</td>
+    <td></td>
+    <td>pour copier une courbe séléctionnée. vous pouvez aussi utiliser les raccourci clavier Ctrl+C</td>
+  </tr>
+  <tr>
+    <td>Coller</td>
+    <td></td>
+    <td>pour coller une courbe séléctionnée. vous pouvez aussi utiliser les raccourci clavier Ctrl+V</td>
+  </tr>
+  <tr>
+    <td>Couper</td>
+    <td></td>
+    <td>pour couper une courbe séléctionnée. vous pouvez aussi utiliser les raccourci clavier Ctrl+X</td>
+  </tr>
+  <tr>
+    <td>Menu</td>
+    <td><img src="images/c13.png"  /></td>
+    <td>affiche le menu de TopoProfil, les fonctioonalités accessibles à partir de ce menu</td>
+  </tr>
+    <tr>
+    <td>Maximiser</td>
+    <td><img src="images/c11.png"  /></td>
+    <td>permet d'agrandir et de minimiser l'application</td>
+  </tr>
+   <tr>
+    <td>Minimiser</td>
+    <td><img src="images/c12.png"  /></td>
+    <td>mettre l'application vers le bout(dans la barre des taches).</td>
+  </tr>
+</table>
+</div>
+			
+			<td> <button onclick="document.getElementById('id01').style.display='block'"> Notre Exécutable </button> <img class="pays" src="images/Capture app.png" Width="500"> <h4> Notre menu </h4> <img class="pays" src="images/c+.png">
+					
+			<td> <button onclick="document.getElementById('id01').style.display='block'"> Résultats </button> <img class="pays" src="images/profil.png">  </td>
+		</tr>
+		
+	
+	</tbody>
+	</table>
+	</div>
+	
+	
+	
+		
+
+
+	</body>	
+	
+	<footer> <h1>Contacter nous!</h1> </br> 
+	
+	 <a href="https://www.facebook.com" target="_blank" class="contact"> <img src="images/facebook.png"> </a>
+	 <a href="https://www.twitter.com" target="_blank" class="contact"> <img src="images/twitter.png"> </a> 
+	 <a href="https://www.vimeo.com" target="_blank" class="contact"> <img src="images/vimeo.png"> </a>
+	 <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtWvNcnwWhsVFPrXsMxWxVqgsWKWmwrgRjNnPpTmLMNFcwgkVsJsRVHwTqTmRnbHvLRBjr" target="_blank" class="contact"> <img src="images/gmail.png"> </a>
+	<div> <ol> Adress : B.P.68M,16270 Oued Smar,Algérie </ol> <ol> Tel :  +213 558 245 445 </ol> <ol> Fax : +213 23 93 91 34 </ol> <ol> Email :  iz_mahdi@esi.dz  </ol> <ol> 
+	<ol></ol>
+	</div>
+	</footer>
+	<!------------------------------------------------------------Form-------------------------------------------------------------------->
+	
+
+	
+	
+	
+	
+	
+	
+</html>

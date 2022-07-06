@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Wpf.MatrixExtensions</name>
+    </assembly>
+    <members>
+        <member name="T:Wpf.MatrixExtensions.MatrixHelper">
+            <summary>
+            WPF Matrix helper methods.
+            </summary>
+        </member>
+        <member name="M:Wpf.MatrixExtensions.MatrixHelper.Translate(System.Double,System.Double)">
+            <summary>
+            Creates a translation matrix using the specified offsets.
+            </summary>
+            <param name="offsetX">X-coordinate offset.</param>
+            <param name="offsetY">Y-coordinate offset.</param>
+            <returns>The created translation matrix.</returns>
+        </member>
+        <member name="M:Wpf.MatrixExtensions.MatrixHelper.TranslatePrepend(System.Windows.Media.Matrix,System.Double,System.Double)">
+            <summary>
+            Prepends a translation around the center of provided matrix.
+            </summary>
+            <param name="matrix">The matrix to prepend translation.</param>
+            <param name="offsetX">X-coordinate offset.</param>
+            <param name="offsetY">Y-coordinate offset.</param>
+            <returns>The created translation matrix.</returns>
+        </member>
+        <member name="M:Wpf.MatrixExtensions.MatrixHelper.Scale(System.Double,System.Double)">
+            <summary>
+            Creates a matrix that scales along the x-axis and y-axis.
+            </summary>
+            <param name="scaleX">Scaling factor that is applied along the x-axis.</param>
+            <param name="scaleY">Scaling factor that is applied along the y-axis.</param>
+            <returns>The created scaling matrix.</returns>
+        </member>
+        <member name="M:Wpf.MatrixExtensions.MatrixHelper.ScaleAt(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Creates a matrix that is scaling from a specified center.
+            </summary>
+            <param name="scaleX">Scaling factor that is applied along the x-axis.</param>
+            <param name="scaleY">Scaling factor that is applied along the y-axis.</param>
+            <param name="centerX">The center X-coordinate of the scaling.</param>
+            <param name="centerY">The center Y-coordinate of the scaling.</param>
+            <returns>The created scaling matrix.</returns>
+        </member>
+        <member name="M:Wpf.MatrixExtensions.MatrixHelper.ScaleAtPrepend(System.Windows.Media.Matrix,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Prepends a scale around the center of provided matrix.
+            </summary>
+            <param name="matrix">The matrix to prepend scale.</param>
+            <param name="scaleX">Scaling factor that is applied along the x-axis.</param>
+            <param name="scaleY">Scaling factor that is applied along the y-axis.</param>
+            <param name="centerX">The center X-coordinate of the scaling.</param>
+            <param name="centerY">The center Y-coordinate of the scaling.</param>
+            <returns>The created scaling matrix.</returns>
+        </member>
+        <member name="M:Wpf.MatrixExtensions.MatrixHelper.Skew(System.Single,System.Single)">
+            <summary>
+            Creates a skew matrix.
+            </summary>
+            <param name="angleX">Angle of skew along the X-axis in radians.</param>
+            <param name="angleY">Angle of skew along the Y-axis in radians.</param>
+            <returns>When the method completes, contains the created skew matrix.</returns>
+        </member>
+        <member name="M:Wpf.MatrixExtensions.MatrixHelper.Rotation(System.Double)">
+            <summary>
+            Creates a matrix that rotates.
+            </summary>
+            <param name="radians">Angle of rotation in radians. Angles are measured clockwise when looking along the rotation axis.</param>
+            <returns>The created rotation matrix.</returns>
+        </member>
+        <member name="M:Wpf.MatrixExtensions.MatrixHelper.Rotation(System.Double,System.Double,System.Double)">
+            <summary>
+            Creates a matrix that rotates about a specified center.
+            </summary>
+            <param name="angle">Angle of rotation in radians.</param>
+            <param name="centerX">The center X-coordinate of the rotation.</param>
+            <param name="centerY">The center Y-coordinate of the rotation.</param>
+            <returns>The created rotation matrix.</returns>
+        </member>
+        <member name="M:Wpf.MatrixExtensions.MatrixHelper.Rotation(System.Double,System.Windows.Vector)">
+            <summary>
+            Creates a matrix that rotates about a specified center.
+            </summary>
+            <param name="angle">Angle of rotation in radians.</param>
+            <param name="center">The center of the rotation.</param>
+            <returns>The created rotation matrix.</returns>
+        </member>
+        <member name="M:Wpf.MatrixExtensions.MatrixHelper.TransformPoint(System.Windows.Media.Matrix,System.Windows.Point)">
+            <summary>
+            Transforms a point by this matrix.
+            </summary>
+            <param name="matrix">The matrix to use as a transformation matrix.</param>
+            <param name="point">>The original point to apply the transformation.</param>
+            <returns>The result of the transformation for the input point.</returns>
+        </member>
+    </members>
+</doc>

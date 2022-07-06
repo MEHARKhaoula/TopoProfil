@@ -1,0 +1,400 @@
+﻿/* Définition des polices personnalisées */
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Eléments principaux de la page */
+ 
+body
+{
+    background: url('images/bb.jpeg') ;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	
+}
+/* --------------------------------------------------- Images et vidéos ------------------------------------------ */
+table td
+{
+	text-align: center;
+	background-color: #FAEBD7;
+	border-style: outset;
+	
+}
+
+table th
+{ 
+	text-shadow: #809fff 1px 0px;
+	color: #D4AF37;
+	opacity: bold;
+	text-align: center;
+	background-color: black;
+	border-style: inset;
+	border-color: #D4AF37;
+}
+.pays
+{
+	height: 400px;
+	width: 600px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------- Picture slide -------------------------------------------- */
+.mySlides
+{
+	height: 400px;
+	width: 400 px;
+	display: none;
+	border-style: double;
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+
+#bloc_page
+{
+	background: url('images/back.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+    width: 950px;
+    margin: auto;
+	border: 3px;
+	border-style: double;
+	text-align: center;
+	
+	
+}
+
+section h1, footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+table {
+  width:100%;
+}
+table, th, td {
+  borth, td {
+  padding: 15px;
+  text-align: left;
+}
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+table#t01 th {
+  background-color: navy;
+  color: white;
+}er-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+table#t01 tr:nth-child(even) {
+  background-color: #fff;
+}
+table#t01 tr:nth-child(odd) {
+ background-color: #eee;
+}
+table#t01 th {
+  background-color: navy;
+  color: white;
+}
+/* Header */
+
+header
+{
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+	
+}
+
+#titre_principal
+{
+	
+    display: flex;
+    flex-direction: column;
+	font-size: 30px;
+	width: 900px;
+	text-align: center;
+	
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+	color: #809fff;
+	text-align: center;
+	
+}
+
+#logo img
+{
+    width: 59px;
+    height: 60px;
+}
+
+header h1,  h1
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 4em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+	text-shadow: 5px 2px 8px black;
+	-webkit-transform: rotateZ(-10deg); 
+    transform: rotateZ(-10deg);
+	
+	
+}
+
+header h4
+{
+    font-family: serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+	color: black;
+	font-style: italic;
+	text-shadow: 2px 1px #809fff;
+	-webkit-transform: rotateZ(-2deg); 
+    transform: rotateZ(-2deg);
+}
+
+
+/* ------------------------------------------Bannière---------------------------------------- */
+
+#banniere_image
+{
+    margin-top: 15px;
+    height: 100px;
+    backgound-color:#ffffff;
+background-size: cover;
+	
+    border-radius: 5px;
+    background: url('images/topo.jpg') ;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+background-position: center;
+	background-repeat: no-repeat;
+    margin-bottom: 25px;
+background-size: cover;
+	border-style: inset;
+	border-color: black;
+}
+
+#banniere_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 0.8em;
+	font-style: bold;
+    
+}
+/* --------------------------------------------------------------------------------------------- */
+
+.bouton_rouge
+{
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('images/fond_degraderouge.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.bouton_rouge img
+{
+    border: 0;
+}
+
+/* Footer */
+
+footer
+{
+    display: flex;
+    padding-top: 25px;
+	background: url('images/stars.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	text-shadow: grey 2px 2px;
+	opacity: bold;
+    
+}
+
+.contact
+{
+	
+	padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.contact:hover {
+    opacity: 0.7;
+}
+
+/* ---------------------------------------------------------------FORMULAIRE----------------------------------------------------------------------------------- */
+/* Bordure*/
+form {
+  border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=date], input[type=search], input[type=tel], input[type=email] {
+  width: 50%;
+  height: 100%;
+  text-align:center;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box; 
+  border: 1px solid #ccc;
+  display: inline-block;
+}
+
+
+/* Un style pour les boutons */
+button {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  width: 100%;
+  border-style: outset;
+  border-color: grey;
+  opacity: bold;
+}
+
+button:hover {
+  opacity: 0.8;
+  background: #809fff;
+  color: black;
+  border-style: outset;
+  border-color: black;
+}
+
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  text-align: left;
+  
+}
+
+
+
+.container h3 {
+   padding: 18px;
+  text-align: center;
+  text-shadow: 1px 2px gray;
+  font-weight: bold;
+  text-decoration: underline;
+  
+}
+.container
+{
+	background: url('images/form.jpg');
+	background-repeat: repeat-y;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	
+}
+
+/* (Background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  text-align: center;  
+}
+
+/* Contenu du Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5px auto; 
+  border: 1px solid ;
+  width: 50%; 
+  height: 100%;
+  background: black;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  background-repeat: repeat;
+  text-align: center;
+  
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0; 
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+
+/*  --------------------------------------------------------------FORMULAIRE------------------------------------------------------ */

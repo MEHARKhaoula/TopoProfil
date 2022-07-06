@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SaveFormat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <l1>
+    <ArrayOfPoint>
+      <Point>
+        <X>219</X>
+        <Y>209</Y>
+      </Point>
+      <Point>
+        <X>259</X>
+        <Y>210</Y>
+      </Point>
+      <Point>
+        <X>348</X>
+        <Y>213</Y>
+      </Point>
+      <Point>
+        <X>393</X>
+        <Y>214</Y>
+      </Point>
+    </ArrayOfPoint>
+  </l1>
+  <l2>
+    <ArrayOfInt>
+      <int>500</int>
+      <int>400</int>
+      <int>400</int>
+      <int>500</int>
+    </ArrayOfInt>
+  </l2>
+  <MAX>500</MAX>
+  <MIN>100</MIN>
+  <Equidistance>100</Equidistance>
+  <Echelle>100</Echelle>
+  <EchelleY> km</EchelleY>
+  <METRE> km</METRE>
+</SaveFormat>

@@ -1,0 +1,34 @@
+﻿<Page x:Class="new_interface.aide"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:new_interface"
+      
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      Title="aide" Height="600" Width="1024">
+    <Grid>
+        <Grid Background="#FF3580BF" HorizontalAlignment="Left" Height="600" VerticalAlignment="Top" Width="261">
+            <Image Source="icones/help.jpg" HorizontalAlignment="Left" Height="178" VerticalAlignment="Top" Width="261"/>
+            <Image Source="icones/aide.jpg" HorizontalAlignment="Left" Height="108" Margin="59,228,0,0" VerticalAlignment="Top" Width="134"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="580" Margin="285,10,0,0" VerticalAlignment="Top" Width="729">
+
+            <Image Source="icones/images.png" Stretch="Fill" HorizontalAlignment="Left" Height="206" Margin="217,197,0,0" VerticalAlignment="Top" Width="268"/>
+            <Button Content="Afficher_help" HorizontalAlignment="Left" Height="61" Margin="523,442,0,0" VerticalAlignment="Top" Width="114" Click="Button_Click"/>
+            <Button x:Name="BackButton"  Content="Retour_menu" HorizontalAlignment="Left" Height="61" Margin="100,442,0,0" VerticalAlignment="Top" Width="128" Click="Button_Click_1"/>
+            <Image Source="icones/support.jpg" Stretch="Fill" HorizontalAlignment="Left" Height="110" Margin="121,45,0,0" VerticalAlignment="Top" Width="516"/>
+
+        </Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Height="42" Margin="975,0,0,0" VerticalAlignment="Top" Width="39">
+
+            
+        </Button>
+
+    </Grid>
+
+
+
+</Page>

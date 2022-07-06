@@ -1,0 +1,62 @@
+﻿<Window x:Class="new_interface.Profil2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:new_interface"
+        mc:Ignorable="d"
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="Profil2" Height="500" Width="800" WindowStyle="None" Loaded="Window_Loaded" MouseLeftButtonDown="Window_MouseLeftButtonDown" WindowStartupLocation="CenterScreen">
+    <Grid Name="GridMain">
+
+        <Image Name="src" Source="icones/gray1.jpg" Stretch="Fill"/>
+        <ScrollViewer Name="scvGraph" 
+        
+         HorizontalScrollBarVisibility="Auto"
+         VerticalScrollBarVisibility="Auto" Margin="36,0,46.6,33.6" RenderTransformOrigin="0.407,0.469" Height="395" VerticalAlignment="Bottom"  >
+
+            <ScrollViewer.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.148"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="-1.654"/>
+                </TransformGroup>
+            </ScrollViewer.RenderTransform>
+            <Canvas Name="canGraph" 
+            Width="574" Height="240"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center" MouseLeftButtonDown="MouseDownClick" />
+        </ScrollViewer>
+
+
+
+        <Label DockPanel.Dock="Top" HorizontalAlignment="Center"  FontSize="20"  Content=""  />
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Height="40" HorizontalAlignment="Right" Margin="10">
+            <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="30" Height="Auto" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" Click="ButtonImprimer_Click" Margin="0,5" Name="FulltileLayout">
+                <Image Source="icones/i3.png"/>
+
+            </Button>
+            <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="30" Height="Auto" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" Click="Button_Click_1" Margin="0,5" Name="mod">
+                <Image Source="icones/i2.png"/>
+
+            </Button>
+            <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="30" Height="Auto" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" Click="zoomer" Margin="0,5" Name="zoom">
+                <Image Source="icones/i1.png"/>
+
+            </Button>
+            <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="30" Height="Auto" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" Click="ButtonMinimise_Click" Margin="0,5" >
+                <Image Source="icones/minimise.png"/>
+
+            </Button>
+            <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="30" Height="30" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" Click="ButtonMaximise_Click" Margin="0,0,0,5"  VerticalAlignment="Bottom">
+                <Image Source="icones/maximise.png"/>
+
+            </Button>
+
+            <Button x:Name="ButtonClose" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="30" Height="30" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" Click="ButtonClose_Click" Margin="0,0,0,5" VerticalAlignment="Bottom">
+                <Image Source="icones/close.png"/>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

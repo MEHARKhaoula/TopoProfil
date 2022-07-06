@@ -1,0 +1,1456 @@
+C:\Users\EL MOUHIT\source\repos\new_interface\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\EL MOUHIT\source\repos\new_interface\new_interface\bin\Debug\new_interface.exe
+C:\Users\EL MOUHIT\source\repos\new_interface\new_interface\bin\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\source\repos\new_interface\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\EL MOUHIT\source\repos\new_interface\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\EL MOUHIT\source\repos\new_interface\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\EL MOUHIT\source\repos\new_interface\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\EL MOUHIT\source\repos\new_interface\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\EL MOUHIT\source\repos\new_interface\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\EL MOUHIT\source\repos\new_interface\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\EL MOUHIT\source\repos\new_interface\new_interface\obj\Debug\App.g.cs
+C:\Users\EL MOUHIT\source\repos\new_interface\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\EL MOUHIT\source\repos\new_interface\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\EL MOUHIT\source\repos\new_interface\new_interface\obj\Debug\App.baml
+C:\Users\EL MOUHIT\source\repos\new_interface\new_interface\obj\Debug\MainWindow.baml
+C:\Users\EL MOUHIT\source\repos\new_interface\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\EL MOUHIT\source\repos\new_interface\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\EL MOUHIT\source\repos\new_interface\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\EL MOUHIT\source\repos\new_interface\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\EL MOUHIT\source\repos\new_interface\new_interface\obj\Debug\new_interface.exe
+C:\Users\EL MOUHIT\source\repos\new_interface\new_interface\obj\Debug\new_interface.pdb
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\obj\Debug\NOM_PAGE_XAML.g.cs
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\obj\Debug\App.g.cs
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\obj\Debug\new_interface.exe
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\obj\Debug\new_interface.pdb
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\bin\Debug\new_interface.exe
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\bin\Debug\new_interface.pdb
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\obj\Debug\App.baml
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\obj\Debug\MainWindow.baml
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\obj\Debug\NOM_PAGE_XAML.baml
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\obj\Debug\Picture.g.cs
+C:\Users\RSi\source\repos\new_interface - Copie (2)\new_interface\obj\Debug\Picture.baml
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\bin\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\bin\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\obj\Debug\App.g.cs
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\obj\Debug\App.baml
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\obj\Debug\MainWindow.baml
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\obj\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\obj\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\bin\Debug\itextsharp.dll
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\bin\Debug\itextsharp.xml
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\obj\Debug\Input.g.cs
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\obj\Debug\Input.baml
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\obj\Debug\Help.g.cs
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\obj\Debug\Help.baml
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\bin\Debug\DotNetBrowser.Chromium.Win-x64.dll
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\obj\Debug\aide.g.cs
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\obj\Debug\aide.baml
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\EL MOUHIT\Desktop\new_interface - Copie (2)\new_interface - Copie (2)\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\bin\Debug\new_interface.exe
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\bin\Debug\new_interface.pdb
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\aide.g.cs
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\Help.g.cs
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\Input.g.cs
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\App.g.cs
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\App.baml
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\aide.baml
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\Help.baml
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\Input.baml
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\MainWindow.baml
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\new_interface.exe
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\new_interface.pdb
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\Profil.g.cs
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\Window1.g.cs
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\Profil.baml
+C:\Users\lenovo\Desktop\Downloads\new_interface - Copie (4)\new_interface\obj\Debug\Window1.baml
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\bin\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\bin\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\aide.g.cs
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\Help.g.cs
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\Input.g.cs
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\Profil.g.cs
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\Window1.g.cs
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\App.g.cs
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\App.baml
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\aide.baml
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\Help.baml
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\Input.baml
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\MainWindow.baml
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\Profil.baml
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\Window1.baml
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Desktop\profile_integration-20200413T224454Z-001\profile_integration\new_interface\obj\Debug\new_interface.pdb
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\bin\Debug\new_interface.exe
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\bin\Debug\new_interface.pdb
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\aide.g.cs
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\Help.g.cs
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\Input.g.cs
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\Profil.g.cs
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\Window1.g.cs
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\App.g.cs
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\App.baml
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\aide.baml
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\Help.baml
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\Input.baml
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\MainWindow.baml
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\Profil.baml
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\Window1.baml
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\new_interface.exe
+C:\Users\lenovo\Desktop\Downloads\profile_integration\new_interface\obj\Debug\new_interface.pdb
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\bin\Debug\new_interface.exe
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\bin\Debug\new_interface.pdb
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\aide.g.cs
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\Help.g.cs
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\Input.g.cs
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\Profil.g.cs
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\Window1.g.cs
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\App.g.cs
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\App.baml
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\aide.baml
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\Help.baml
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\Input.baml
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\MainWindow.baml
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\Profil.baml
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\Window1.baml
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\new_interface.exe
+C:\Users\lenovo\Desktop\Downloads\captures\new_interface\obj\Debug\new_interface.pdb
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\bin\Debug\new_interface.exe
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\bin\Debug\new_interface.pdb
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\aide.g.cs
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\Help.g.cs
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\Input.g.cs
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\Profil.g.cs
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\Window1.g.cs
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\App.g.cs
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\App.baml
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\aide.baml
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\Help.baml
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\Input.baml
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\MainWindow.baml
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\Profil.baml
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\Window1.baml
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\new_interface.exe
+C:\Users\lenovo\Desktop\Downloads\Presentation\new_interface\obj\Debug\new_interface.pdb
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\bin\Debug\new_interface.exe
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\bin\Debug\new_interface.pdb
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\aide.g.cs
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\Help.g.cs
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\Input.g.cs
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\Window1.g.cs
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\App.g.cs
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\App.baml
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\aide.baml
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\Help.baml
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\Input.baml
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\MainWindow.baml
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\Window1.baml
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\new_interface.exe
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\bin\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\bin\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\aide.g.cs
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\Help.g.cs
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\Input.g.cs
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\Profil.g.cs
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\Window1.g.cs
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\App.g.cs
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\App.baml
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\aide.baml
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\Help.baml
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\Input.baml
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\MainWindow.baml
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\Profil.baml
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\Window1.baml
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\finale-20200420T191117Z-001\finale\new_interface\obj\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\aide.g.cs
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\Help.g.cs
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\Input.g.cs
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\Profil.g.cs
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\Window1.g.cs
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\App.g.cs
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\bin\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\bin\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\App.baml
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\aide.baml
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\Help.baml
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\Input.baml
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\MainWindow.baml
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\Profil.baml
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\Window1.baml
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\Input_info.g.cs
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\Input_info.baml
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\Profil1.g.cs
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\Profil1.baml
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\Input_altitude1.g.cs
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\Input_altitude1.baml
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\Input_altitude2.g.cs
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\Input_altitude2.baml
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\Input_altitude3.g.cs
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\Input_altitude3.baml
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\Profil2.g.cs
+C:\Users\EL MOUHIT\Downloads\refaire\finale\new_interface\obj\Debug\Profil2.baml
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\Input_altitude1.g.cs
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\Input_altitude2.g.cs
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\Input_altitude3.g.cs
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\Input_info.g.cs
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\Profil2.g.cs
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\Input_altitude1.baml
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\Input_altitude2.baml
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\Input_altitude3.baml
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\Input_info.baml
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\Profil2.baml
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\Zoom.g.cs
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\Zoom.baml
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\pte.g.cs
+C:\Users\lenovo\Desktop\Downloads\finale\new_interface\obj\Debug\pte.baml
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\bin\Debug\new_interface.exe
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\bin\Debug\new_interface.pdb
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\aide.g.cs
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Help.g.cs
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Input.g.cs
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Input_altitude1.g.cs
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Input_altitude2.g.cs
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Input_altitude3.g.cs
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Input_info.g.cs
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Profil2.g.cs
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\pte.g.cs
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Window1.g.cs
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Zoom.g.cs
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\App.g.cs
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\App.baml
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\aide.baml
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Help.baml
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Input.baml
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Input_altitude1.baml
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Input_altitude2.baml
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Input_altitude3.baml
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Input_info.baml
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\MainWindow.baml
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Profil2.baml
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\pte.baml
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Window1.baml
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Zoom.baml
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\new_interface.exe
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\aide.g.cs
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Help.g.cs
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input.g.cs
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_altitude1.g.cs
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_altitude2.g.cs
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_altitude3.g.cs
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_info.g.cs
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Profil2.g.cs
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\pte.g.cs
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Window1.g.cs
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Zoom.g.cs
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\App.g.cs
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\App.baml
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\aide.baml
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Help.baml
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input.baml
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_altitude1.baml
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_altitude2.baml
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_altitude3.baml
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_info.baml
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\MainWindow.baml
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Profil2.baml
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\pte.baml
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Window1.baml
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Zoom.baml
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_info1.g.cs
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_info1.baml
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_altitude4.g.cs
+C:\Users\EL MOUHIT\Downloads\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_altitude4.baml
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\new_interface.exe
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\new_interface.pdb
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\aide.g.cs
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Help.g.cs
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input.g.cs
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_altitude1.g.cs
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_altitude2.g.cs
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_altitude3.g.cs
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_altitude4.g.cs
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_info.g.cs
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_info1.g.cs
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Profil2.g.cs
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\pte.g.cs
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Window1.g.cs
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Zoom.g.cs
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\App.g.cs
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\App.baml
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\aide.baml
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Help.baml
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input.baml
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_altitude1.baml
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_altitude2.baml
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_altitude3.baml
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_altitude4.baml
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_info.baml
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Input_info1.baml
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\MainWindow.baml
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Profil2.baml
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\pte.baml
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Window1.baml
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\Zoom.baml
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\new_interface.csproj.CoreCompileInputs.cache
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\new_interface.exe
+C:\Users\boukaf maissa\source\repos\version_2-20200424T223738Z-001\version_2\new_interface\obj\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\bin\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\bin\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\aide.g.cs
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Help.g.cs
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Input.g.cs
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Input_altitude1.g.cs
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Input_altitude2.g.cs
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Input_altitude3.g.cs
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Input_altitude4.g.cs
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Input_info.g.cs
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Input_info1.g.cs
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Profil2.g.cs
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\pte.g.cs
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Window1.g.cs
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Zoom.g.cs
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\App.g.cs
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\App.baml
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\aide.baml
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Help.baml
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Input.baml
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Input_altitude1.baml
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Input_altitude2.baml
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Input_altitude3.baml
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Input_altitude4.baml
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Input_info.baml
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Input_info1.baml
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\MainWindow.baml
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Profil2.baml
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\pte.baml
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Window1.baml
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\Zoom.baml
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\mama\version_2\new_interface\obj\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\bin\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\bin\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\aide.g.cs
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Help.g.cs
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Input.g.cs
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Input_altitude1.g.cs
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Input_altitude2.g.cs
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Input_altitude3.g.cs
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Input_altitude4.g.cs
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Input_info.g.cs
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Input_info1.g.cs
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Profil2.g.cs
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\pte.g.cs
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Window1.g.cs
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Zoom.g.cs
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\App.g.cs
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\App.baml
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\aide.baml
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Help.baml
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Input.baml
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Input_altitude1.baml
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Input_altitude2.baml
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Input_altitude3.baml
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Input_altitude4.baml
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Input_info.baml
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Input_info1.baml
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\MainWindow.baml
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Profil2.baml
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\pte.baml
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Window1.baml
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\Zoom.baml
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\c bon\version_2\new_interface\obj\Debug\new_interface.pdb
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Input_altitude4.g.cs
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Input_info1.g.cs
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Input_altitude4.baml
+C:\Users\lenovo\Desktop\Downloads\version_2\new_interface\obj\Debug\Input_info1.baml
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\aide.g.cs
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Help.g.cs
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input.g.cs
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude1.g.cs
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude2.g.cs
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude3.g.cs
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude4.g.cs
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_info.g.cs
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_info1.g.cs
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Profil2.g.cs
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\pte.g.cs
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Window1.g.cs
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Zoom.g.cs
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\App.g.cs
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\App.baml
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\aide.baml
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Help.baml
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input.baml
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude1.baml
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude2.baml
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude3.baml
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude4.baml
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_info.baml
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_info1.baml
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\MainWindow.baml
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Profil2.baml
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\pte.baml
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Window1.baml
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Zoom.baml
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.pdb
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\new_interface.exe
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\new_interface.pdb
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\aide.g.cs
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Help.g.cs
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input.g.cs
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude1.g.cs
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude2.g.cs
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude3.g.cs
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude4.g.cs
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_info.g.cs
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_info1.g.cs
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Profil2.g.cs
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\pte.g.cs
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Window1.g.cs
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Zoom.g.cs
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\App.g.cs
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\App.baml
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\aide.baml
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Help.baml
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input.baml
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude1.baml
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude2.baml
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude3.baml
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude4.baml
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_info.baml
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Input_info1.baml
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\MainWindow.baml
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Profil2.baml
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\pte.baml
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Window1.baml
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\Zoom.baml
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.exe
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.pdb
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\MainWindow2.g.cs
+C:\Users\RSi\source\repos\une petite modification dans le graphe-20200427T121859Z-001\une petite modification dans le graphe\new_interface\obj\Debug\MainWindow2.baml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\aide.g.cs
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Help.g.cs
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input.g.cs
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude1.g.cs
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude2.g.cs
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude3.g.cs
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude4.g.cs
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_info.g.cs
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_info1.g.cs
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\MainWindow2.g.cs
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Profil2.g.cs
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\pte.g.cs
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Window1.g.cs
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Zoom.g.cs
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\App.g.cs
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\App.baml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\aide.baml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Help.baml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input.baml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude1.baml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude2.baml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude3.baml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude4.baml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_info.baml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_info1.baml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\MainWindow.baml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\MainWindow2.baml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Profil2.baml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\pte.baml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Window1.baml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Zoom.baml
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\EL MOUHIT\Downloads\Projet2CPModifier-20200503T132249Z-001\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\aide.g.cs
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Help.g.cs
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input.g.cs
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude1.g.cs
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude2.g.cs
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude3.g.cs
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude4.g.cs
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_info.g.cs
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_info1.g.cs
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\MainWindow2.g.cs
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Profil2.g.cs
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\pte.g.cs
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Window1.g.cs
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Zoom.g.cs
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\App.g.cs
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\App.baml
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\aide.baml
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Help.baml
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input.baml
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude1.baml
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude2.baml
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude3.baml
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_altitude4.baml
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_info.baml
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Input_info1.baml
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\MainWindow.baml
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\MainWindow2.baml
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Profil2.baml
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\pte.baml
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Window1.baml
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\Zoom.baml
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\for you\Projet2CPModifier\une petite modification dans le graphe\new_interface\obj\Debug\new_interface.pdb
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\bin\Debug\new_interface.exe
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\bin\Debug\new_interface.pdb
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\aide.g.cs
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Help.g.cs
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Input.g.cs
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Input_altitude1.g.cs
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Input_altitude2.g.cs
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Input_altitude3.g.cs
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Input_altitude4.g.cs
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Input_info.g.cs
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Input_info1.g.cs
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\MainWindow2.g.cs
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Profil2.g.cs
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\pte.g.cs
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Window1.g.cs
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Zoom.g.cs
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\App.g.cs
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\App.baml
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\aide.baml
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Help.baml
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Input.baml
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Input_altitude1.baml
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Input_altitude2.baml
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Input_altitude3.baml
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Input_altitude4.baml
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Input_info.baml
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Input_info1.baml
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\MainWindow.baml
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\MainWindow2.baml
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Profil2.baml
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\pte.baml
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Window1.baml
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\Zoom.baml
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\new_interface.csproj.CoreCompileInputs.cache
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\new_interface.exe
+C:\Users\PC-HP\source\repos\last_versiom\new_interface\obj\Debug\new_interface.pdb
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\bin\Debug\new_interface.exe
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\bin\Debug\new_interface.pdb
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\aide.g.cs
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Help.g.cs
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Input.g.cs
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Input_altitude1.g.cs
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Input_altitude2.g.cs
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Input_altitude3.g.cs
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Input_altitude4.g.cs
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Input_info.g.cs
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Input_info1.g.cs
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\MainWindow2.g.cs
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Profil2.g.cs
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\pte.g.cs
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Window1.g.cs
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Zoom.g.cs
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\App.g.cs
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\App.baml
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\aide.baml
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Help.baml
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Input.baml
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Input_altitude1.baml
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Input_altitude2.baml
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Input_altitude3.baml
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Input_altitude4.baml
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Input_info.baml
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Input_info1.baml
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\MainWindow.baml
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\MainWindow2.baml
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Profil2.baml
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\pte.baml
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Window1.baml
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\Zoom.baml
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\new_interface.exe
+C:\Users\lenovo\Desktop\Downloads\last_version\new_interface\obj\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\bin\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\bin\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\aide.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Help.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Input.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Input_altitude1.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Input_altitude2.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Input_altitude3.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Input_altitude4.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Input_info.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Input_info1.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\MainWindow2.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Profil2.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\pte.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Window1.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Zoom.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\App.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\App.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\aide.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Help.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Input.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Input_altitude1.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Input_altitude2.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Input_altitude3.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Input_altitude4.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Input_info.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Input_info1.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\MainWindow.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\MainWindow2.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Profil2.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\pte.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Window1.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\Zoom.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last_version+exception\new_interface\obj\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\bin\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\bin\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\aide.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Help.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Input.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Input_altitude1.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Input_altitude2.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Input_altitude3.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Input_altitude4.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Input_info.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Input_info1.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\MainWindow2.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Profil2.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\pte.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Window1.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Zoom.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\App.g.cs
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\App.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\aide.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Help.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Input.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Input_altitude1.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Input_altitude2.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Input_altitude3.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Input_altitude4.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Input_info.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Input_info1.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\MainWindow.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\MainWindow2.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Profil2.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\pte.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Window1.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\Zoom.baml
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\last_version+exception-20200506T234330Z-001\last one\new_interface\obj\Debug\new_interface.pdb
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\bin\Debug\new_interface.exe
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\bin\Debug\new_interface.pdb
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\aide.g.cs
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Help.g.cs
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Input.g.cs
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Input_altitude1.g.cs
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Input_altitude2.g.cs
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Input_altitude3.g.cs
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Input_altitude4.g.cs
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Input_info.g.cs
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Input_info1.g.cs
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\MainWindow2.g.cs
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Profil2.g.cs
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\pte.g.cs
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Window1.g.cs
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Zoom.g.cs
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\App.g.cs
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\App.baml
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\aide.baml
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Help.baml
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Input.baml
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Input_altitude1.baml
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Input_altitude2.baml
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Input_altitude3.baml
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Input_altitude4.baml
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Input_info.baml
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Input_info1.baml
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\MainWindow.baml
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\MainWindow2.baml
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Profil2.baml
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\pte.baml
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Window1.baml
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\Zoom.baml
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\new_interface.exe
+C:\Users\lenovo\Desktop\Downloads\commenter\new_interface\obj\Debug\new_interface.pdb
+C:\Users\hp\source\repos\commenter\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\hp\source\repos\commenter\new_interface\bin\Debug\new_interface.exe
+C:\Users\hp\source\repos\commenter\new_interface\bin\Debug\new_interface.pdb
+C:\Users\hp\source\repos\commenter\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\hp\source\repos\commenter\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\hp\source\repos\commenter\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\hp\source\repos\commenter\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\hp\source\repos\commenter\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\hp\source\repos\commenter\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\hp\source\repos\commenter\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\hp\source\repos\commenter\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\hp\source\repos\commenter\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\hp\source\repos\commenter\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\hp\source\repos\commenter\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\hp\source\repos\commenter\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\hp\source\repos\commenter\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\aide.g.cs
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Help.g.cs
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Input.g.cs
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Input_altitude.g.cs
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Input_altitude1.g.cs
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Input_altitude2.g.cs
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Input_altitude3.g.cs
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Input_altitude4.g.cs
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Input_info.g.cs
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Input_info1.g.cs
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\MainWindow2.g.cs
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Profil2.g.cs
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\pte.g.cs
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Window1.g.cs
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Zoom.g.cs
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\App.g.cs
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\App.baml
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\aide.baml
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Help.baml
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Input.baml
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Input_altitude.baml
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Input_altitude1.baml
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Input_altitude2.baml
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Input_altitude3.baml
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Input_altitude4.baml
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Input_info.baml
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Input_info1.baml
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\MainWindow.baml
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\MainWindow2.baml
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Profil2.baml
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\pte.baml
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Window1.baml
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\Zoom.baml
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\new_interface.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\new_interface.exe
+C:\Users\hp\source\repos\commenter\new_interface\obj\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\bin\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\bin\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\aide.g.cs
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\Help.g.cs
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\Input_altitude4.g.cs
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\Input_info1.g.cs
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\MainWindow2.g.cs
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\Profil2.g.cs
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\pte.g.cs
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\Window1.g.cs
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\Zoom.g.cs
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\App.g.cs
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\App.baml
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\aide.baml
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\Help.baml
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\Input_altitude4.baml
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\Input_info1.baml
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\MainWindow.baml
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\MainWindow2.baml
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\Profil2.baml
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\pte.baml
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\Window1.baml
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\Zoom.baml
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\commenter-20200516T223639Z-001\commenter\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\finalement\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\hp\source\repos\finalement\new_interface\bin\Debug\new_interface.exe
+C:\Users\hp\source\repos\finalement\new_interface\bin\Debug\new_interface.pdb
+C:\Users\hp\source\repos\finalement\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\hp\source\repos\finalement\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\hp\source\repos\finalement\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\hp\source\repos\finalement\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\hp\source\repos\finalement\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\hp\source\repos\finalement\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\hp\source\repos\finalement\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\hp\source\repos\finalement\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\hp\source\repos\finalement\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\hp\source\repos\finalement\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\hp\source\repos\finalement\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\hp\source\repos\finalement\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\hp\source\repos\finalement\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\aide.g.cs
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\Help.g.cs
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\Input_altitude4.g.cs
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\Input_info1.g.cs
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\MainWindow2.g.cs
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\Profil2.g.cs
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\pte.g.cs
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\Window1.g.cs
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\Zoom.g.cs
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\App.g.cs
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\App.baml
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\aide.baml
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\Help.baml
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\Input_altitude4.baml
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\Input_info1.baml
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\MainWindow.baml
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\MainWindow2.baml
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\Profil2.baml
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\pte.baml
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\Window1.baml
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\Zoom.baml
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\new_interface.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\new_interface.exe
+C:\Users\hp\source\repos\finalement\new_interface\obj\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\bin\Debug\new_interface.exe.config
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\bin\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\bin\Debug\new_interface.pdb
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\bin\Debug\Ab2d.ReaderSvg.dll
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\bin\Debug\MaterialDesignColors.dll
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\bin\Debug\PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.dll
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\bin\Debug\Wpf.MatrixExtensions.dll
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\bin\Debug\Ab2d.ReaderSvg.xml
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\bin\Debug\MaterialDesignColors.pdb
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\bin\Debug\PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\bin\Debug\Wpf.Controls.PanAndZoom.xml
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\bin\Debug\Wpf.MatrixExtensions.xml
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\new_interface.csprojAssemblyReference.cache
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\aide.g.cs
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\Help.g.cs
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\Input_altitude4.g.cs
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\Input_info1.g.cs
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\MainWindow.g.cs
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\MainWindow2.g.cs
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\Profil2.g.cs
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\pte.g.cs
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\Window1.g.cs
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\Zoom.g.cs
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\App.g.cs
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\new_interface_MarkupCompile.cache
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\new_interface_MarkupCompile.lref
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\App.baml
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\aide.baml
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\Help.baml
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\Input_altitude4.baml
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\Input_info1.baml
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\MainWindow.baml
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\MainWindow2.baml
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\Profil2.baml
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\pte.baml
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\Window1.baml
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\Zoom.baml
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\new_interface.g.resources
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\new_interface.Properties.Resources.resources
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\new_interface.csproj.GenerateResource.cache
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\new_interface.csproj.CopyComplete
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\new_interface.exe
+C:\Users\EL MOUHIT\Downloads\finalement-20200519T093041Z-001\finalement\new_interface\obj\Debug\new_interface.pdb

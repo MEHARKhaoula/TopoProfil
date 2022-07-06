@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PanAndZoom</name>
+    </assembly>
+    <members>
+        <member name="T:PanAndZoom.ButtonName">
+            <summary>
+            Describes mouse button names.
+            </summary>
+        </member>
+        <member name="F:PanAndZoom.ButtonName.Left">
+            <summary>
+            The left mouse button.
+            </summary>
+        </member>
+        <member name="F:PanAndZoom.ButtonName.Right">
+            <summary>
+            The right mouse button.
+            </summary>
+        </member>
+        <member name="F:PanAndZoom.ButtonName.Middle">
+            <summary>
+            The middle mouse button.
+            </summary>
+        </member>
+        <member name="T:PanAndZoom.IPanAndZoom">
+            <summary>
+            Defines pan and zoom contract.
+            </summary>
+        </member>
+        <member name="P:PanAndZoom.IPanAndZoom.InvalidatedChild">
+            <summary>
+            Gets or sets invalidate action for border child element.
+            </summary>
+            <remarks>
+            First parameter is zoom ratio for x axis.
+            Second parameter is zoom ratio for y axis.
+            Third parameter is pan offset for x axis.
+            Fourth parameter is pan offset for y axis.
+            </remarks>
+        </member>
+        <member name="P:PanAndZoom.IPanAndZoom.PanButton">
+            <summary>
+            Gets or sets pan input button.
+            </summary>
+        </member>
+        <member name="P:PanAndZoom.IPanAndZoom.ZoomSpeed">
+            <summary>
+            Gets or sets zoom speed ratio.
+            </summary>
+        </member>
+        <member name="P:PanAndZoom.IPanAndZoom.Stretch">
+            <summary>
+            Gets or sets stretch mode.
+            </summary>
+        </member>
+        <member name="P:PanAndZoom.IPanAndZoom.ZoomX">
+            <summary>
+            Gets the zoom ratio for x axis.
+            </summary>
+        </member>
+        <member name="P:PanAndZoom.IPanAndZoom.ZoomY">
+            <summary>
+            Gets the zoom ratio for y axis.
+            </summary>
+        </member>
+        <member name="P:PanAndZoom.IPanAndZoom.OffsetX">
+            <summary>
+            Gets the pan offset for x axis.
+            </summary>
+        </member>
+        <member name="P:PanAndZoom.IPanAndZoom.OffsetY">
+            <summary>
+            Gets the pan offset for y axis.
+            </summary>
+        </member>
+        <member name="P:PanAndZoom.IPanAndZoom.EnableConstrains">
+            <summary>
+            Gets or sets flag indicating whether zoom ratio and pan offset constrains are applied.
+            </summary>
+        </member>
+        <member name="P:PanAndZoom.IPanAndZoom.MinZoomX">
+            <summary>
+            Gets or sets minimum zoom ratio for x axis.
+            </summary>
+        </member>
+        <member name="P:PanAndZoom.IPanAndZoom.MaxZoomX">
+            <summary>
+            Gets or sets maximum zoom ratio for x axis.
+            </summary>
+        </member>
+        <member name="P:PanAndZoom.IPanAndZoom.MinZoomY">
+            <summary>
+            Gets or sets minimum zoom ratio for y axis.
+            </summary>
+        </member>
+        <member name="P:PanAndZoom.IPanAndZoom.MaxZoomY">
+            <summary>
+            Gets or sets maximum zoom ratio for y axis.
+            </summary>
+        </member>
+        <member name="P:PanAndZoom.IPanAndZoom.MinOffsetX">
+            <summary>
+            Gets or sets minimum offset for x axis.
+            </summary>
+        </member>
+        <member name="P:PanAndZoom.IPanAndZoom.MaxOffsetX">
+            <summary>
+            Gets or sets maximum offset for x axis.
+            </summary>
+        </member>
+        <member name="P:PanAndZoom.IPanAndZoom.MinOffsetY">
+            <summary>
+            Gets or sets minimum offset for y axis.
+            </summary>
+        </member>
+        <member name="P:PanAndZoom.IPanAndZoom.MaxOffsetY">
+            <summary>
+            Gets or sets maximum offset for y axis.
+            </summary>
+        </member>
+        <member name="P:PanAndZoom.IPanAndZoom.EnableInput">
+            <summary>
+            Gets or sets flag indicating whether input events are processed.
+            </summary>
+        </member>
+        <member name="P:PanAndZoom.IPanAndZoom.EnableGestureZoom">
+            <summary>
+            Gets or sets flag indicating whether zoom gesture is enabled.
+            </summary>
+        </member>
+        <member name="P:PanAndZoom.IPanAndZoom.EnableGestureRotation">
+            <summary>
+            Gets or sets flag indicating whether rotation gesture is enabled.
+            </summary>
+        </member>
+        <member name="P:PanAndZoom.IPanAndZoom.EnableGestureTranslation">
+            <summary>
+            Gets or sets flag indicating whether translation (pan) gesture is enabled.
+            </summary>
+        </member>
+        <member name="M:PanAndZoom.IPanAndZoom.Invalidate">
+            <summary>
+            Invalidate child element.
+            </summary>
+        </member>
+        <member name="M:PanAndZoom.IPanAndZoom.ZoomTo(System.Double,System.Double,System.Double)">
+            <summary>
+            Zoom to provided zoom ratio and provided center point.
+            </summary>
+            <param name="zoom">The zoom ratio.</param>
+            <param name="x">The center point x axis coordinate.</param>
+            <param name="y">The center point y axis coordinate.</param>
+        </member>
+        <member name="M:PanAndZoom.IPanAndZoom.ZoomDeltaTo(System.Double,System.Double,System.Double)">
+            <summary>
+            Zoom to provided zoom delta ratio and provided center point.
+            </summary>
+            <param name="delta">The zoom delta ratio.</param>
+            <param name="x">The center point x axis coordinate.</param>
+            <param name="y">The center point y axis coordinate.</param>
+        </member>
+        <member name="M:PanAndZoom.IPanAndZoom.StartPan(System.Double,System.Double)">
+            <summary>
+            Set pan origin.
+            </summary>
+            <param name="x">The origin point x axis coordinate.</param>
+            <param name="y">The origin point y axis coordinate.</param>
+        </member>
+        <member name="M:PanAndZoom.IPanAndZoom.PanTo(System.Double,System.Double)">
+            <summary>
+            Pan control to provided target point.
+            </summary>
+            <param name="x">The target point x axis coordinate.</param>
+            <param name="y">The target point y axis coordinate.</param>
+        </member>
+        <member name="M:PanAndZoom.IPanAndZoom.Fill(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Zoom and pan to fill panel.
+            </summary>
+            <param name="panelWidth">The panel width.</param>
+            <param name="panelHeight">The panel height.</param>
+            <param name="elementWidth">The element width.</param>
+            <param name="elementHeight">The element height.</param>
+        </member>
+        <member name="M:PanAndZoom.IPanAndZoom.Uniform(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Zoom and pan to panel extents while maintaining aspect ratio.
+            </summary>
+            <param name="panelWidth">The panel width.</param>
+            <param name="panelHeight">The panel height.</param>
+            <param name="elementWidth">The element width.</param>
+            <param name="elementHeight">The element height.</param>
+        </member>
+        <member name="M:PanAndZoom.IPanAndZoom.UniformToFill(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Zoom and pan to panel extents while maintaining aspect ratio. If aspect of panel is different panel is filled.
+            </summary>
+            <param name="panelWidth">The panel width.</param>
+            <param name="panelHeight">The panel height.</param>
+            <param name="elementWidth">The element width.</param>
+            <param name="elementHeight">The element height.</param>
+        </member>
+        <member name="M:PanAndZoom.IPanAndZoom.AutoFit(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Zoom and pan child element inside panel using stretch mode.
+            </summary>
+            <param name="panelWidth">The panel width.</param>
+            <param name="panelHeight">The panel height.</param>
+            <param name="elementWidth">The element width.</param>
+            <param name="elementHeight">The element height.</param>
+        </member>
+        <member name="M:PanAndZoom.IPanAndZoom.ToggleStretchMode">
+            <summary>
+            Set next stretch mode.
+            </summary>
+        </member>
+        <member name="M:PanAndZoom.IPanAndZoom.Reset">
+            <summary>
+            Reset pan and zoom matrix.
+            </summary>
+        </member>
+        <member name="M:PanAndZoom.IPanAndZoom.Fill">
+            <summary>
+            Zoom and pan to fill panel.
+            </summary>
+        </member>
+        <member name="M:PanAndZoom.IPanAndZoom.Uniform">
+            <summary>
+            Zoom and pan to panel extents while maintaining aspect ratio.
+            </summary>
+        </member>
+        <member name="M:PanAndZoom.IPanAndZoom.UniformToFill">
+            <summary>
+            Zoom and pan to panel extents while maintaining aspect ratio. If aspect of panel is different panel is filled.
+            </summary>
+        </member>
+        <member name="M:PanAndZoom.IPanAndZoom.AutoFit">
+            <summary>
+            Zoom and pan child element inside panel using stretch mode.
+            </summary>
+        </member>
+        <member name="T:PanAndZoom.StretchMode">
+            <summary>
+            Describes how content is resized to fill its allocated space.
+            </summary>
+        </member>
+        <member name="F:PanAndZoom.StretchMode.None">
+            <summary>
+            The content preserves its original size.
+            </summary>
+        </member>
+        <member name="F:PanAndZoom.StretchMode.Fill">
+            <summary>
+            The content is resized to fill the destination dimensions. The aspect ratio is not preserved.
+            </summary>
+        </member>
+        <member name="F:PanAndZoom.StretchMode.Uniform">
+            <summary>
+            The content is resized to fit in the destination dimensions while it preserves its native aspect ratio.
+            </summary>
+        </member>
+        <member name="F:PanAndZoom.StretchMode.UniformToFill">
+            <summary>
+            The content is resized to fill the destination dimensions while it preserves its native aspect ratio. If the aspect ratio of the destination rectangle differs from the source, the source content is clipped to fit in the destination dimensions.
+            </summary>
+        </member>
+    </members>
+</doc>

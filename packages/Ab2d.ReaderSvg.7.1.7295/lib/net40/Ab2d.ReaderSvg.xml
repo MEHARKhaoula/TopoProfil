@@ -1,0 +1,2199 @@
+<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>Ab2d.ReaderSvg</name>
+	</assembly>
+	<members>
+		<member name="M:Ab2d.PowerToys.XamlWriter.SilverlightXamlWriter.#ctor(Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings)"><summary>
+            Constructor
+            </summary><param name="settings">SilverlightXamlWriterSettings</param></member>
+		<member name="T:Ab2d.Common.ReaderSvg.GeometrySettings"><summary>
+            Geometry Settings used to define how the geometry is read with ReadGeometry method.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.GeometrySettings.IsFrozen"><summary>
+            If true Freeze = True is added to the geometry. This improves performance but makes objects unchangeable.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.GeometrySettings.ConvertToStreamGeometry"><summary>
+            If true all geometry objects are converted to StreamGeometry for better performance.
+            Note the if <see cref="P:Ab2d.Common.ReaderSvg.GeometrySettings.CombineGeometries" /> is true, geometries are always converted into StreamGeometry regardless of ConvertToStreamGeometry.
+            </summary><remarks>
+            The StreamGeometry object is a light-weight alternative to PathGeometry for creating geometric shapes. Use a StreamGeometry when you need to describe a complex geometry. StreamGeometry is optimized for handling many PathGeometry objects and performs better when compared to using many individual PathGeometry objects. 
+            </remarks></member>
+		<member name="P:Ab2d.Common.ReaderSvg.GeometrySettings.ForceCounterClockWisePointsOrder"><summary>
+            In some cases the polylines are defined in clock wise direction and this can produce a holes in the geometry. Setting this property to true prevents such problems.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.GeometrySettings.CombineGeometries"><summary>
+            If true the geometries with the same pen and brush are combined into one geometry. This can improve the performance significantly. For fine tuning which geometries are combined see also <see cref="P:Ab2d.Common.ReaderSvg.GeometrySettings.CombineElementWithPenAndBrush" /> and <see cref="P:Ab2d.Common.ReaderSvg.GeometrySettings.CombineAllSameIntoOneGeometry" />.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.GeometrySettings.CombineElementWithPenAndBrush"><summary>
+            By default CombineElementWithPenAndBrush is false and this means that only elements that have only pen or only brush set are defined.
+            If an element had both pen and brush defined it is not combined. This prevents problems when elements are overlapping - elements in front can cover some part of background elements.
+            If CombineElementWithPenAndBrush is set to true, than such elements are combined which leads to better performance, but can produce some anomalies if elements are overlapping.
+            NOTE: CombinePreserveElementsOrder is used only when <see cref="P:Ab2d.Common.ReaderSvg.GeometrySettings.CombineGeometries" /> is set to true.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.GeometrySettings.CombineAllSameIntoOneGeometry"><summary>
+            If true than all elements with same pen or brush are combined into one geometry regardless of the elements position.
+            For example we have 3 elements: A, B, C. If A and C have the same pen and brush, and CombineAllSameIntoOneGeometry is true,
+            than A and C are combined, regardless of the B element. If CombineAllSameIntoOneGeometry is false, than the A and C are not combined.
+            Set this CombineAllSameIntoOneGeometry to true if elements are not overlapping. 
+            NOTE: CombineAllSameIntoOneGeometry is used only when <see cref="P:Ab2d.Common.ReaderSvg.GeometrySettings.CombineGeometries" /> is set to true.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.GeometrySettings.GeometryTextExport"><summary>
+            Gets or sets an enum that specifies how text is exported into geometry objects (default value is GlyphRun).
+            </summary><remarks><para>
+            When objects are read as shapes, the text is usually represented with TextBlock elements. When text is read as geometries the text can be represented with GlyphRun.
+            </para><para>
+            But using GlyphRun has a big disadvantage when the read drawing is exported into xaml. The only way to set the font that is used by the GlyphRun object is by providing a file path and name to the font file. 
+            This makes the exported xaml not very portable to other computers.
+            </para><para>
+            To overcome this problem it is possible to set the <b>GeometryTextExport</b> value to PathGeometry. It means that all texts will be converted into PathGeometry and are therefore fully portable to any computer.  
+            </para><para>
+            It is also possible to skip all texts from the read geometry.
+            </para></remarks></member>
+		<member name="P:Ab2d.Common.ReaderSvg.GeometrySettings.IgnoreRootElementSize"><summary>
+            Gets or sets a Boolean that specifies if the size specified with root element is not used to create geometry objects. Default value is false.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.GeometrySettings.ResourcesCountLimit"><summary>
+            Defines if the pens and brushed are written into resources./&gt;
+            If ResourcesCountLimit is equal or less than 0 than resources are not used.
+            If ResourcesCountLimit is 1 than all pens and brushes are written to resources.
+            If ResourcesCountLimit is 2 (or higher) than all pens and brushes that are used 2 (or more) times are written to resources.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.GeometrySettings.ResourcesBrushStartIndex"><summary>
+            Start index used with <see cref="P:Ab2d.Common.ReaderSvg.GeometrySettings.ResourcesSolidColorBrushKeyFormatString" />.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.GeometrySettings.ResourcesPenStartIndex"><summary>
+            Start index used with <see cref="P:Ab2d.Common.ReaderSvg.GeometrySettings.ResourcesPenKeyFormatString" /></summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.GeometrySettings.ResourcesSolidColorBrushKeyFormatString"><summary>
+            Format string used to format the SolidColorBrush resource keys.
+            Default value is "Brush{0}"
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.GeometrySettings.ResourcesPenKeyFormatString"><summary>
+            Format string used to format the Pen resource keys.
+            Default value is "Pen{0}"
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.GeometrySettings.ResolveResourceKey"><summary>
+            Callback to customize the resource key names used in GetXaml when <see cref="P:Ab2d.Common.ReaderSvg.GeometrySettings.ResourcesCountLimit" /> is bigger than 0.
+            </summary></member>
+		<member name="M:Ab2d.Common.ReaderSvg.GeometrySettings.#ctor"><summary>
+            Constructor
+            </summary></member>
+		<member name="M:Ab2d.Common.ReaderSvg.GeometrySettings.SetDefault"><summary>
+            Sets default values - no optimization
+            </summary></member>
+		<member name="M:Ab2d.Common.ReaderSvg.GeometrySettings.SetOptimizationPercentage(System.Int32)"><summary>
+            Gets <see cref="T:Ab2d.Common.ReaderSvg.GeometrySettings" /> from percentage (0 - means fully usable and changeable, 100 - means best performance).
+            Note: For values above 50 it is possible that there are some anomalies on the image because of have geometry optimization - please check the image before exporting.
+            </summary><param name="percentage">0 - means fully usable and changeable, 100 - means best performance</param></member>
+		<member name="M:Ab2d.Common.ReaderSvg.GeometrySettings.FromOptimizationPercentage(System.Int32)"><summary>
+            Gets <see cref="T:Ab2d.Common.ReaderSvg.GeometrySettings" /> from percentage (0 - means fully usable and changeable, 100 - means best performance).
+            Note: For values above 50 it is possible that there are some anomalies on the image because of have geometry optimization - please check the image before exporting       
+            </summary><param name="percentage">0 - means fully usable and changeable, 100 - means best performance</param><returns>GeometrySettings</returns></member>
+		<member name="P:Ab2d.Common.ReaderSvg.GeometrySettings.NoOptimization"><summary>
+            Gets <see cref="T:Ab2d.Common.ReaderSvg.GeometrySettings" /> for best flexibility (no optimization) - all the objects can be changed and also each no pens and brushes are shared between geometries so they can be changed individually.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.GeometrySettings.BasicOptimization"><summary>
+            Gets <see cref="T:Ab2d.Common.ReaderSvg.GeometrySettings" /> with some basic optimization - same objects are combines in a safe matter so there should be no anomalies.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.GeometrySettings.AdvancedOptimization"><summary>
+            Gets <see cref="T:Ab2d.Common.ReaderSvg.GeometrySettings" /> with advanced optimization - many objects are combines.
+            Note that it is possible that because of optimization it is possible that some anomalies appear on image.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.GeometrySettings.FullOptimization"><summary>
+            Gets <see cref="T:Ab2d.Common.ReaderSvg.GeometrySettings" /> for best performance - many objects are combines.
+            Note that it is possible that because of optimization it is possible that some anomalies appear on image.
+            </summary></member>
+		<member name="E:Ab2d.Common.ReaderSvg.GeometrySettings.PropertyChanged"><summary>
+            Occurs when a property value changes
+            </summary></member>
+		<member name="M:Ab2d.Common.ReaderSvg.GeometrySettings.OnPropertyChanged(System.String)"><summary>
+            OnPropertyChanged
+            </summary><param name="propertyName">propertyName</param></member>
+		<member name="T:Ab2d.Common.ReaderSvg.GeometryTextExportType"><summary>
+            GeometryTextExportType enum describes how the text is exported into geometry objects.
+            </summary></member>
+		<member name="F:Ab2d.Common.ReaderSvg.GeometryTextExportType.RemoveText"><summary>
+            Text is removed from geometry.
+            </summary></member>
+		<member name="F:Ab2d.Common.ReaderSvg.GeometryTextExportType.GlyphRun"><summary>
+            GlyphRun is used to define the text.
+            </summary></member>
+		<member name="F:Ab2d.Common.ReaderSvg.GeometryTextExportType.PathGeometry"><summary>
+            Text is converted into Path.
+            </summary></member>
+		<member name="T:Ab2d.Common.ReaderSvg.ResolveResourceKeyDelegate"><summary>
+            ResolveResourceKeyDelegate is used to customize the resource key names used in GetXaml method when UseResources property is set to true and ReadGeometry method was used.
+            </summary><param name="resource">resource</param><param name="recommendedKey">recommendedKey</param><returns>key name that will be used</returns></member>
+		<member name="T:Ab2d.Common.ReaderSvg.ResolveImagePathDelegate"><summary>
+            ResolveImagePathDelegate is used to specify the path where the image will be saved
+            </summary><param name="imageToResolve">imageToResolve</param><returns>path where the image will be saved</returns></member>
+		<member name="T:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings"><summary>
+            BaseXamlWriterSettings is a base class that defines settings for GetXaml method.
+            To get xaml for WPF use <see cref="T:Ab2d.Common.ReaderSvg.WpfXamlWriterSettings" />. For Silverlight use <see cref="T:Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings" />.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.ResolveImagePath"><summary>
+            Callback to set the path where the image will be saved
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.NamedObjects"><summary>
+            Gets or sets NamedObjects dictionary with names (as keys) of the objects (as values). The defined names will be used to name the objects.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.XamlNamespace"><summary>
+            Gets or sets XamlNamespace
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.RootObject"><summary>
+            Gets or sets a string to specify a custom root object. If null or empty the last read object will be set as root object. (example values: "UserControl" or "Window").
+            </summary><remarks><para>
+            RootObject specifies the object that will be used as a root objects in the returned xaml. 
+            </para><para>
+            If null or empty the last read object will be set as root object.
+            </para><para>
+            With setting the <b>RootObject</b> a custom object can be used as a root object. For example "UserControl" or "Window".
+            </para><para>
+            It is also possible to specify more then one root object - for example "UserControl;Grid;Grid". This will use UserControl as a root object and than add Grid as its child. The read objects will be then added to the Grid.
+            </para></remarks></member>
+		<member name="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.StartComment"><summary>
+            Gets or sets start comment
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.IndentStep"><summary>
+            Gets or sets indent step - default value is 4
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.StartIndent"><summary>
+            Gets or sets indent value used on root element.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.FullNumberFormatString"><summary>
+            Gets full NumberFormatString - for example "{0:0.###}". To set the number format use NumberFormatString property.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.NumberFormatString"><summary>
+            Gets or sets NumberFormatString - for example 0.00 for 2 decimals or 0.## for 2 decimals if not 0. Empty string means unlimited number of decimals.
+            Default value is 0.###
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.WriteElementNames"><summary>
+            Gets or sets a Boolean that specifies if element names are written to the xaml string. Default value is true.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.WriteRootObjectResouceKey"><summary>
+            Gets or sets whether the xaml is written to a ResourceDictionary
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.RootElementKeyValue"><summary>
+            Gets or sets Key value for the root element.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.IsResourceDictionary"><summary>
+            Gets or sets whether the xaml is written to a ResourceDictionary
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.MaxDataTextLength"><summary>
+            Gets or sets the maximum length of texts used for Path's Data, PointCollection, etc. If data text is largest than MaxDataTextLength, the data text is truncated and "..." is added to the end of text.
+            Default value is 0, which does not limits the data text length.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.UseColorNames"><summary>
+            If true (default) known colors are written by their name (Black). If false a hexedecimal ARGB display is used (0xFF000000).
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.DefaultImageUriFormatString"><summary>
+            Gets or sets the format string that is used to write image's uri when ResolveImagePath delegate is not used. Default value is "image_{0}.{1}".
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.NameFormatString"><summary>
+            Gets or sets a format string that is used to format object names. NameFormatString can be used to add suffix or prefix to the names - for example "Prefix_{0}_suffix". When NameFormatString is null or empty the name without any prefix or suffix is used.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.UseCanvasPositionForTranslateTransform"><summary>
+            Gets or sets a Boolean that specifies if Canvas.Left and Canvas.Top are used instead of RenderTransform or LayoutTransform that are only translate transformations.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.WriteTransformationsAsElement"><summary>
+            Gets or sets a Boolean that specifies if the transformations are written as inner elements or as attributes.
+            </summary><remarks><para>
+            If <b>WriteTransformationsAsElement</b> is <b>true</b> than the transformations are written as inner elements. For example:
+            </para><para>
+            &lt;Canvas&gt;<br />
+                &lt;RenderTransform&gt;<br />
+                    &lt;MatrixTransform Matrix="1 0 0 1 10 20"/&gt;<br />
+                &lt;/RenderTransform&gt;<br />
+                ...
+            </para><para>
+            If <b>WriteTransformationsAsElement</b> is <b>false</b> than the transformations are written as attributes. For example:
+            </para><code lang="xaml">
+            &lt;Canvas RenderTransform="1 0 0 10 20"...
+            </code><para><b>NOTE:</b><br />
+            For Silverlight projects the visual designer in Visual Studio 2010 and Expression Blend may not parse transformations as attributes correctly! It works correctly for WPF projects. So for Silverlight projects it is recommended to write transformations as elements.
+            </para></remarks></member>
+		<member name="F:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.DefaultXamlNamespaceDeclaration"><summary>
+            Default Xaml Namespace declaration
+            </summary></member>
+		<member name="M:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.#ctor"><summary>
+            Constructor
+            </summary></member>
+		<member name="T:Ab2d.Common.ReaderSvg.IResourceXamlWriterSettings"><summary>
+            IResourceXamlWriterSettings interface is used to specify setting that tell Xaml Writer how to write Pens and Brushes as resources.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.IResourceXamlWriterSettings.ResourcesCountLimit"><summary>
+            Defines if the pens and brushed are written into resources.
+            If ResourcesCountLimit is equal or less than 0 than resources are not used.
+            If ResourcesCountLimit is 1 than all pens and brushes are written to resources.
+            If ResourcesCountLimit is 2 (or higher) than all pens and brushes that are used 2 (or more) times are written to resources.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.IResourceXamlWriterSettings.ResourcesBrushStartIndex"><summary>
+            Start index used with <see cref="P:Ab2d.Common.ReaderSvg.IResourceXamlWriterSettings.ResourcesSolidColorBrushKeyFormatString" />.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.IResourceXamlWriterSettings.ResourcesPenStartIndex"><summary>
+            Start index used with <see cref="P:Ab2d.Common.ReaderSvg.IResourceXamlWriterSettings.ResourcesPenKeyFormatString" /></summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.IResourceXamlWriterSettings.ResourcesSolidColorBrushKeyFormatString"><summary>
+            Format string used to format the SolidColorBrush resource keys.
+            Default value is "Brush{0}"
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.IResourceXamlWriterSettings.ResourcesPenKeyFormatString"><summary>
+            Format string used to format the Pen resource keys.
+            Default value is "Pen{0}"
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.IResourceXamlWriterSettings.ResolveResourceKey"><summary>
+            Callback to customize the resource key names used in GetXaml when <see cref="P:Ab2d.Common.ReaderSvg.IResourceXamlWriterSettings.ResourcesCountLimit" /> is bigger than 0.
+            </summary></member>
+		<member name="T:Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings"><summary>
+            SilverlightXamlWriterSettings defines settings for use with GetXaml method to get xaml defined for Silverlight.
+            </summary></member>
+		<member name="T:Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings.SilverlightVersionType"><summary>
+            SilverlightVersionType defines the supported Silverlight versions
+            </summary></member>
+		<member name="F:Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings.SilverlightVersionType.Silverlight_1"><summary>
+            Silverlight 1.0 and 1.1
+            </summary></member>
+		<member name="F:Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings.SilverlightVersionType.Silverlight_2"><summary>
+            Silverlight 2.0
+            </summary></member>
+		<member name="F:Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings.SilverlightVersionType.Silverlight_3"><summary>
+            Silverlight 3.0
+            </summary></member>
+		<member name="F:Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings.SilverlightVersionType.Silverlight_4"><summary>
+            Silverlight 4.0
+            </summary></member>
+		<member name="F:Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings.SilverlightVersionType.Silverlight_5"><summary>
+            Silverlight 5.0
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings.SilverlightVersion"><summary>
+            Gets or sets the Silverlight version.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings.IsSizeSetToPathElement"><summary>
+            Gets of sets a Boolean that specifies if Width and Height are set to Path elements.
+            This is a workaround for Visual Studio 2010 designer bug - without Width and Height set, the Path is not displayed in designer.
+            Default value is true.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings.FallbackBrush"><summary>
+            Gets or sets a Brush that is used for Silverlight XAML instead of VisualBrush (default value is Brushes.White).
+            </summary><remarks><para>
+            When an element is using a VisualBrush it cannot be used in Silverlight. The FallbackBrush property is used to define the Brush that is used instead. The default value is Brushes.White.
+            </para></remarks></member>
+		<member name="M:Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings.#ctor"><summary>
+            Constructor
+            </summary></member>
+		<member name="M:Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings.#ctor(Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings.SilverlightVersionType)"><summary>
+            Constructor
+            </summary><param name="silverlightVersion">silverlight version</param></member>
+		<member name="M:Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings.#ctor(System.Int32)"><summary>
+            Constructor
+            </summary><param name="silverlightVersion">silverlightVersion</param></member>
+		<member name="T:Ab2d.Common.ReaderSvg.WinRtXamlWriterSettings"><summary>
+            WinRtXamlWriterSettings defines settings for use with GetXaml method to get XAML defined for Windows Runtime (Windows Store applications).
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.WinRtXamlWriterSettings.IsSizeSetToPathElement"><summary>
+            Gets of sets a Boolean that specifies if Width and Height are set to Path elements.
+            This is a workaround for Visual Studio 2010 designer bug - without Width and Height set, the Path is not displayed in designer.
+            Default value is true.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.WinRtXamlWriterSettings.FallbackBrush"><summary>
+            Gets or sets a Brush that is used for Windows Runtime XAML instead of brushes that are not supported in Windows Runtime (for example VisualBrush or RadialGradientBrush). Default value is Brushes.White.
+            </summary></member>
+		<member name="M:Ab2d.Common.ReaderSvg.WinRtXamlWriterSettings.#ctor"><summary>
+            Constructor
+            </summary></member>
+		<member name="T:Ab2d.Common.ReaderSvg.WpfXamlWriterSettings"><summary>
+            WpfXamlWriterSettings defines settings for use with GetXaml method to get xaml defined for WPF.
+            </summary></member>
+		<member name="M:Ab2d.Common.ReaderSvg.WpfXamlWriterSettings.#ctor"><summary>
+            Constructor
+            </summary></member>
+		<member name="T:Ab2d.Common.ReaderSvg.SvgFileLoadedEventArgs"><summary>
+            SvgFileLoadedEventArgs is used for SvgFileLoaded event on SvgViewbox and SvgDrawing.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.SvgFileLoadedEventArgs.SvgFileUri"><summary>
+            Gets an Uri of the svg that was read.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.SvgFileLoadedEventArgs.ReadSvgFile"><summary>
+            Gets the Viewbox (for SvgViewbox) or Image (for SvgDrawing) that contains the read svg file.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.SvgFileLoadedEventArgs.UserReaderSvg"><summary>
+            Gets an instance of the Ab2d.ReaderSvg that is used to read the svg file.
+            </summary></member>
+		<member name="M:Ab2d.Common.ReaderSvg.SvgFileLoadedEventArgs.#ctor(System.Uri,System.Windows.FrameworkElement,Ab2d.ReaderSvg)"><summary>
+            Constructor
+            </summary><param name="svgFileUri">svgFileUri</param><param name="readSvgFile">readSvgFile</param><param name="userReaderSvg">userReaderSvg</param></member>
+		<member name="T:Ab2d.Common.ReaderSvg.SvgFileLoadingEventArgs"><summary>
+            SvgFileLoadingEventArgs is used for SvgFileLoading event on SvgViewbox and SvgDrawing.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.SvgFileLoadingEventArgs.SvgFileUri"><summary>
+            Gets an Uri of the svg that was read.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.SvgFileLoadingEventArgs.SvgFileStream"><summary>
+            Gets or sets a Stream that will be used to read the svg file. The SvgFileStream can be changed in the event handler to change the read svg file.
+            </summary></member>
+		<member name="P:Ab2d.Common.ReaderSvg.SvgFileLoadingEventArgs.UserReaderSvg"><summary>
+            Gets an instance of the Ab2d.ReaderSvg that is used to read the svg file.
+            </summary></member>
+		<member name="M:Ab2d.Common.ReaderSvg.SvgFileLoadingEventArgs.#ctor(System.Uri,System.IO.Stream,Ab2d.ReaderSvg)"><summary>
+            Constructor
+            </summary><param name="svgFileUri">svgFileUri</param><param name="svgFileStream">svgFileStream</param><param name="userReaderSvg">userReaderSvg</param></member>
+		<member name="T:Ab2d.Utility.ReaderSvg.TrueTransform"><summary>
+             TrueTransform class can be used to transfrom the coordinates, sizes and other values in the original WPF element and create a new WPF element with transformed values.
+             </summary><remarks><para><b>TrueTransform</b> class can be used to transfrom the coordinates, sizes and other values in the original WPF element and create a new WPF element with transformed values.
+             </para><para>
+             In WPF the transormations are usually applied with setting a Transform property on a shape or other element. 
+             This transform the object coordinates, sizes and other values before the object representation is sent to graphics card. This is done behind the scene.
+             But if we want to transform the object and get transformed object without using Transform property we can use the <b>TrueTransform</b>.
+             </para><para>
+             For example if we have:<br />
+             &lt;Rectangle Canvas.Left="100" Canvas.Top="50" Width="200" Height="300" /&gt;<br />
+             and send it to <see cref="M:Ab2d.Utility.ReaderSvg.TrueTransform.Transform(System.Windows.Shapes.Shape,System.Windows.Media.Transform)" /> method
+             with transformation parameter set to ScaleTransform with ScaleX = ScaleY = 0.5, we get back:<br />
+             &lt;Rectangle Canvas.Left="50" Canvas.Top="25" Width="100" Height="150" /&gt;
+             </para><para>
+             With using different version of <b>Transform</b> methods it is possible to transform objects that are derived from:<br />
+             - Panel (for example Canvas)<br />
+             - Shape (for example Rectangle, Ellipse)<br />
+             - Geometry (for example DrawingGeometry).
+             </para><para>
+             Note that TrueTransform is primarily used to transform shapes and not common GUI elements like Buttons, TextBoxes, etc - therefore it cannot transform all possible WPF elements.
+             </para><example><para>
+             The following code can be used to translate and scale the objects read with ReaderSvg:
+             </para><code>
+             var readViewbox = Ab2d.ReaderSvg.Instance.Read("mySvgFile.svg");
+             
+             // First get the inner canvas - this way we skip the size adjustments
+             var rootCanvas = _lastSvgViewbox.Child as Canvas;
+            
+             if (rootCanvas == null || rootCanvas.Children.Count == 0)
+                 return;
+             
+             var innerCanvas = rootCanvas.Children[0] as Canvas;
+             
+             if (innerCanvas == null)
+                 return;
+             
+             // Create transformation (note that order of adding transformations to TransformGroup is important)
+             var transformGroup = new TransformGroup();
+             transformGroup.Children.Add(new TranslateTransform(100, 100));
+             transformGroup.Children.Add(new ScaleTransform(0.5, 0.5));
+             
+             // Create transformed objects
+             var transformedCanvas = Ab2d.Utility.ReaderSvg.TrueTransform.Transform(innerCanvas, transformGroup) as Canvas; // when using ReaderWmf use the Ab2d.Utility.ReaderWmf namespace
+             </code></example></remarks></member>
+		<member name="M:Ab2d.Utility.ReaderSvg.TrueTransform.Transform(System.Windows.Controls.Panel,System.Windows.Media.Transform)"><summary>
+            Transforms the coordinats, sizes and other values in the originalElement with using transformation.
+            </summary><param name="originalPanel">originalPanel as Panel</param><param name="transformation">transformation</param><returns>Transformed FrameworkElement</returns></member>
+		<member name="M:Ab2d.Utility.ReaderSvg.TrueTransform.Transform(System.Windows.Shapes.Shape,System.Windows.Media.Transform)"><summary>
+            Transforms the coordinats, sizes and other values in the originalShape with using transformation.
+            </summary><param name="originalShape">originalShape as Shape</param><param name="transformation">transformation</param><returns>Transformed FrameworkElement</returns></member>
+		<member name="M:Ab2d.Utility.ReaderSvg.TrueTransform.Transform(System.Windows.Media.Geometry,System.Windows.Media.Transform)"><summary>
+            Transforms the coordinats, sizes and other values in the originalGeometry with using transformation.
+            </summary><param name="originalGeometry">originalGeometry as Geometry</param><param name="transformation">transformation</param><returns>Transformed Geometry</returns></member>
+		<member name="M:Ab2d.Utility.ReaderSvg.TrueTransform.Transform(System.Windows.Controls.Viewbox,System.Windows.Media.Transform)"><summary>
+            Transforms the coordinats, sizes and other values in the originalGeometry with using transformation.
+            </summary><param name="originalViewbox">originalViewbox as Viewbox</param><param name="transformation">transformation</param><returns>Transformed Viewbox</returns></member>
+		<member name="T:Ab2d.Utility.ReaderSvg.ResourceDictionaryWriter"><summary>
+            ResourceDictionaryWriter class is a helper class that can be used to build ResourceDictionaries from multiple input files.
+            </summary><remarks><para><b>ResourceDictionaryWriter</b> class is a helper class that can be used to build ResourceDictionaries from multiple input files.
+            </para><para>
+            Read more about how to use Resource Dictionaries on: http://msdn.microsoft.com/en-us/library/cc903952(VS.95).aspx
+            </para><para>
+            To customize the behaviour of <b>ResourceDictionaryWriter</b> it is possible to derive a custom class form <b>ResourceDictionaryWriter</b> and change protected fields or override its virtual methods.
+            </para></remarks><example><para>
+            The following code shows how to add three svg files to ResourceDictionary with basic optimization settings and get the xaml for the ResourceDictionary.
+            </para><code>
+            GeometrySettings settings = GeometrySettings.BasicOptimization;
+            
+            ResourceDictionaryWriter resourceWriter = new ResourceDictionaryWriter();
+            
+            resourceWriter.AddGeometryFile("button1.svg", settings);
+            resourceWriter.AddGeometryFile("button2.svg", settings);
+            resourceWriter.AddGeometryFile("button3.svg", settings);
+            
+            string xaml = resourceWriter.GetXaml();
+            </code><para>
+            The following code shows how to derive a class from <b>ResourceDictionaryWriter</b> to create a Silverlight ResourceDictionaryWriter with custom NumberFormatString.
+            </para><code>
+            public class SilverlightResourceDictionaryWriter : Ab2d.Utility.ReaderSvg.ResourceDictionaryWriter
+            {
+                protected override BaseXamlWriterSettings CreateXamlWriterSettings()
+                {
+                    SilverlightXamlWriterSettings newSilverlightXamlWriterSettings;
+            
+                    newSilverlightXamlWriterSettings = new SilverlightXamlWriterSettings();
+            
+                    // format decimal numbers to show only one decimal
+                    newSilverlightXamlWriterSettings.NumberFormatString = "0.#";
+            
+                    return newSilverlightXamlWriterSettings;
+                }
+            }        
+            </code></example></member>
+		<member name="P:Ab2d.Utility.ReaderSvg.ResourceDictionaryWriter.UsedSvgReader"><summary>
+            Ab2d.ReaderSvg instance that is used to read svg files.
+            </summary></member>
+		<member name="P:Ab2d.Utility.ReaderSvg.ResourceDictionaryWriter.GeometrySettings"><summary>
+            GeometrySettings that are used to read svg file as geometries.
+            </summary></member>
+		<member name="P:Ab2d.Utility.ReaderSvg.ResourceDictionaryWriter.XamlWriterSettings"><summary>
+            BaseXamlWriterSettings that is used for GetXaml method.
+            </summary></member>
+		<member name="M:Ab2d.Utility.ReaderSvg.ResourceDictionaryWriter.#ctor"><summary>
+            Constructor.
+            </summary></member>
+		<member name="M:Ab2d.Utility.ReaderSvg.ResourceDictionaryWriter.CreateXamlWriterSettings"><summary>
+            Creates a BaseXamlWriterSettings. It can be overriden to provide different Xaml settings or use SilverlightXamlWriterSettings.
+            </summary><remarks><para>
+            The <b>CreateXamlWriterSettings</b> method by default creates an instance of WpfXamlWriterSettings that is used for GetXaml method.
+            </para><para>
+            The method can be overriden to create an instance of SilverlightXamlWriterSettings instead of WpfXamlWriterSettings.
+            The derived method can also set some properties, for example NumberFormatString.
+            </para><para>
+            Note that in order to work correctly the following properties cannot be changed in derived class:<br />
+            NamedObjects, RootObject, XamlNamespace, StartComment, WriteElementNames and WriteRootObjectResouceKey.
+            </para><para>
+            Other setting such as NumberFormatString and others can be changed to any other values.
+            </para></remarks><example><para>
+            The following sample creates a new SilverlightResourceDictionaryWriter that derive from ResourceDictionaryWriter.
+            It creates an instance of SilverlightXamlWriterSettings instead of WpfXamlWriterSettings and also sets a custom NumberFormatString.
+            </para><code>
+            public class SilverlightResourceDictionaryWriter : Ab2d.Utility.ReaderSvg.ResourceDictionaryWriter
+            {
+                protected override BaseXamlWriterSettings CreateXamlWriterSettings()
+                {
+                    SilverlightXamlWriterSettings newSilverlightXamlWriterSettings;
+            
+                    newSilverlightXamlWriterSettings = new SilverlightXamlWriterSettings();
+            
+                    // format decimal numbers to show only one decimal
+                    newSilverlightXamlWriterSettings.NumberFormatString = "0.#";
+            
+                    return newSilverlightXamlWriterSettings;
+                }
+            }        
+            </code></example><returns>BaseXamlWriterSettings</returns></member>
+		<member name="M:Ab2d.Utility.ReaderSvg.ResourceDictionaryWriter.CreateReaderSvg"><summary>
+            Creates a new instance of Ab2d.ReaderSvg class. Can be overridden to specify some special properties to created ReaderSvg.
+            </summary><returns>Ab2d.ReaderSvg</returns></member>
+		<member name="M:Ab2d.Utility.ReaderSvg.ResourceDictionaryWriter.Reset"><summary>
+            Resets the collected svg files so a new ResourceDictionary can be created.
+            </summary></member>
+		<member name="M:Ab2d.Utility.ReaderSvg.ResourceDictionaryWriter.AddFile(System.String)"><summary>
+            Adds a svg or svgz file to the ResourceDictionary as WPF Shapes.
+            </summary><param name="fileName">fileName</param><returns>read svg or svgz file as Viewbox</returns></member>
+		<member name="M:Ab2d.Utility.ReaderSvg.ResourceDictionaryWriter.ReadSvgFile(System.String)"><summary>
+            Reads svg file as shapes.
+            </summary><remarks><para><b>ReadSvgStream</b> method is used to read svg file from file.
+            </para><para>
+            The method reads svg file as shapes and returns a Viewbox. 
+            It is also used for <see cref="M:Ab2d.Utility.ReaderSvg.ResourceDictionaryWriter.AddGeometryFile(System.String,Ab2d.Common.ReaderSvg.GeometrySettings)" /> method. 
+            In this case the read Viewbox is internally converted into Geometries.
+            </para></remarks><param name="fileName">fileName</param><returns>Viewbox</returns></member>
+		<member name="M:Ab2d.Utility.ReaderSvg.ResourceDictionaryWriter.AddStream(System.IO.Stream)"><summary>
+            Adds a svg or svgz from stream to the ResourceDictionary as WPF Shapes.
+            </summary><param name="stream">stream</param><returns>read svg or svgz file as Viewbox</returns></member>
+		<member name="M:Ab2d.Utility.ReaderSvg.ResourceDictionaryWriter.ReadSvgStream(System.IO.Stream)"><summary>
+            Reads svg stream as shapes.
+            </summary><remarks><para><b>ReadSvgStream</b> method is used to read svg file from stream.
+            </para><para>
+            The method reads svg file as shapes and returns a Viewbox. 
+            It is also used for <see cref="M:Ab2d.Utility.ReaderSvg.ResourceDictionaryWriter.AddGeometryStream(System.IO.Stream,Ab2d.Common.ReaderSvg.GeometrySettings)" /> method. 
+            In this case the read Viewbox is internally converted into Geometries.
+            </para></remarks><param name="stream">Stream</param><returns>Viewbox</returns></member>
+		<member name="M:Ab2d.Utility.ReaderSvg.ResourceDictionaryWriter.AddGeometryFile(System.String,Ab2d.Common.ReaderSvg.GeometrySettings)"><summary>
+            Adds a svg or svgz file to the ResourceDictionary as Geometry.
+            </summary><param name="fileName">fileName</param><param name="geometrySettings">GeometrySettings used to read this file</param><returns>read svg or svgz file as Image</returns></member>
+		<member name="M:Ab2d.Utility.ReaderSvg.ResourceDictionaryWriter.AddGeometryStream(System.IO.Stream,Ab2d.Common.ReaderSvg.GeometrySettings)"><summary>
+            Adds a svg or svgz from stream to the ResourceDictionary as Geometry.
+            </summary><param name="stream">stream</param><param name="geometrySettings">GeometrySettings used to read this stream</param><returns>read svg or svgz file as Image</returns></member>
+		<member name="M:Ab2d.Utility.ReaderSvg.ResourceDictionaryWriter.GetXaml"><summary>
+            Gets the xaml string of the ResourceDictionary with all added svg objects as resources.
+            </summary><remarks><para><b>GetXaml</b> method returns the xaml string of the ResourceDictionary with all added svg objects as resources.
+            </para><para>
+            The method can be overriden in derived class.
+            In this case call the base <b>GetXaml</b> method to create the xaml string than can be than further processed.
+            </para></remarks><returns>xaml</returns></member>
+		<member name="M:Ab2d.Utility.ReaderSvg.ResourceDictionaryWriter.GetRootResourceKey(System.Object,System.String,System.Int32)"><summary>
+            GetRootResourceKey gets the name of the resource object that added by any Read method on ResourceDictionaryWriter.
+            </summary><param name="rootObject">read object</param><param name="fileName">file name if exist (if the object was not read by stream)</param><param name="rootResourceIndex">index of the read object</param><returns>resource key as string</returns></member>
+		<member name="M:Ab2d.Utility.ReaderSvg.ResourceDictionaryWriter.ResolveResourceKeyCallback(System.Object,System.String)"><summary>
+            ResolveResourceKeyCallback is used to change the recommendedKey that is used for resources
+            </summary><param name="resource">object that the key is used for</param><param name="recommendedKey">recommendedKey</param><returns>key as string that will be used for this resource</returns></member>
+		<member name="T:Ab2d.Licensing.ReaderSvg.LicenseHelper"><summary>
+            LicenseHelper class defines the <see cref="M:Ab2d.Licensing.ReaderSvg.LicenseHelper.SetLicense(System.String,System.String,System.String)" /> method that can be called to set the license data.
+            </summary></member>
+		<member name="M:Ab2d.Licensing.ReaderSvg.LicenseHelper.SetLicense(System.String,System.String,System.String)"><summary>
+            SetLicense method can be called to activate the commercial license or extend the evaluation.
+            The parameter values for the commercial value can be get from the User Account web page.
+            </summary><param name="licenseOwner">license owner</param><param name="licenseType">type of the license</param><param name="license">license text</param></member>
+		<member name="T:Ab2d.Controls.SvgViewbox"><summary>
+            SvgViewbox is a Viewbox control that shows elements defined in svg file as WPF Shapes in a Viewbox control.
+            The source of svg file is set by <see cref="P:Ab2d.Controls.SvgViewbox.Source" /> or <see cref="P:Ab2d.Controls.SvgViewbox.SourceStream" /> properties.
+            </summary><remarks><para>SvgViewbox is using <see cref="T:Ab2d.ReaderSvg" /> library to read the svg file and convert it into WPF elements. </para><para>To read the svg file set <see cref="P:Ab2d.Controls.SvgViewbox.Source" /> or <see cref="P:Ab2d.Controls.SvgViewbox.SourceStream" /> property. 
+            It supports the Pack URI (see also "http://msdn2.microsoft.com/en-us/library/aa970069.aspx#Site_of_Origin_File_Pack_URIs"). Here are some of the example Sources that can be used to read svg file from various locations:</para><list type="table"><listheader><term>URI string</term><description>Description</description></listheader><item><term>Subfolder/ResourceFile.svg</term><description>Reads ResourceFile.svg from the application resources (embeded in the assembly) under Subfolder - set the file's Build Action to Resource</description></item><item><term>pack://application:,,,/Subfolder/ResourceFile.svg</term><description>Same as previous but this time with full pack URI</description></item><item><term>ContentFile.svg</term><description>Reads ContentFile.svg from the same folder as the application is running - set the file's Build Action to Content</description></item><item><term>pack://application:,,,/ReferencedAssembly;component/ResourceFile.svg</term><description>Reads ResourceFile.svg from the ReferencedAssembly resources.</description></item><item><term>pack://siteoforigin:,,,/File.svg</term><description>Reads File.svg from the same folder as the application is running - this is a loose file that means it is not included in the project</description></item><item><term>c:\images\File.svg</term><description>Reads File.svg from the specified file on the disk</description></item><item><term>http://www.mysite.com/images/File.svg</term><description>Reads File.svg from specified url location</description></item></list><para>When using in code create new Uri with on of the above strings and set it to Source property.</para></remarks><example><para>
+            The following example shows how to use SvgViewbox xaml.
+            </para><code lang="xaml">
+            &lt;ab2d:SvgViewbox Source="Images/MyImage.svg" Width="200" Height="100"/&gt;
+            </code><para>
+            The following example shows how to use SvgViewbox in code:
+            </para><code lang="C#">
+            var mySvgImage = new Ab2d.Controls.SvgViewbox();
+            mySvgImage.Source = new Uri("Images/MyImage.svg");
+            mySvgImage.Width = 200;
+            mySvgImage.Height = 100;
+            
+            myStackPanel.Controls.Add(mySvgImage);
+            </code><para>
+            The following example shows how to read svg file from stream:
+            </para><code lang="C#">
+            var streamResourceInfo = Application.GetResourceStream(new Uri("pack://application:,,,/Resources/home1.svg"));
+            if (streamResourceInfo != null)
+            {
+                var mySvgImage = new Ab2d.Controls.SvgViewbox();
+                mySvgImage.SourceStream = streamResourceInfo.Stream;
+                mySvgImage.Width = 200;
+                mySvgImage.Height = 100;
+                
+                myStackPanel.Controls.Add(mySvgImage);
+            }
+            </code></example></member>
+		<member name="E:Ab2d.Controls.SvgViewbox.SvgFileLoading"><summary>
+            Occurs before the reading of svg file is started.
+            </summary></member>
+		<member name="E:Ab2d.Controls.SvgViewbox.SvgFileLoaded"><summary>
+            Occurs when the reading of svg file is completed.
+            </summary></member>
+		<member name="M:Ab2d.Controls.SvgViewbox.#ctor"><summary>
+            Constructor for SvgViewbox.
+            </summary></member>
+		<member name="M:Ab2d.Controls.SvgViewbox.OnCreateAutomationPeer"><inheritdoc /></member>
+		<member name="P:Ab2d.Controls.SvgViewbox.NamedObjects"><summary>
+            Dictionary defined from elements in svg file. Elements ids are keys and its appropriate objects are values.
+            </summary></member>
+		<member name="P:Ab2d.Controls.SvgViewbox.Source"><summary>
+            Source or the svg or svgz image.
+            </summary></member>
+		<member name="P:Ab2d.Controls.SvgViewbox.SourceStream"><summary>
+            Stream that is used to read svg file. When this property is set (not null) it is used instead of <see cref="P:Ab2d.Controls.SvgViewbox.Source" /> property.
+            </summary></member>
+		<member name="P:Ab2d.Controls.SvgViewbox.AutoSize"><summary>
+            If true (default) the size of main canvas is calculated from the size of all inner objects. This means that the returned objects will be just as big as its contain objects.
+            If false the size of svg element is used for the size of main canvas. This is useful for example if you were working on a Letter area and would like to preserve the position of objects inside the Letter.
+            </summary></member>
+		<member name="P:Ab2d.Controls.SvgViewbox.NamedObjectsSource"><summary>
+            Gets or sets one of the <see cref="T:Ab2d.ReaderSvg.NamedObjectsSourceType" /> as the source to get the object's name. Default value is NamedObjectsSourceType.Auto.
+            </summary><remarks><para>
+            The name is used to fill the <see cref="P:Ab2d.ReaderSvg.NamedObjects" /> dictionary or as the Name property in the exported XAML.
+            The names can be get from the id attribute of the svg element or from the title element. Usually names are set from id attribute. But some applications (for example Microsoft Visio) do not allow to change id attribute but instead set the title element.
+            </para><para>
+            Setting NamedObjectsSource to Title or TitleIfExist (Id is used if title does not exist) is useful so users can specify the name of the created WPF elements in the application that created the svg file.
+            </para><para>
+            By default NamedObjectsSource is set to <b>Auto</b>. This means that ReaderSvg tries to define the source of the name with checking which application created the svg file - for example for files created in Microsoft Visio the TitleIfExist is used internally.
+            </para><para>
+            Note that the name must start with a letter or underscore and can contain only letters, digits, or underscores. If this is not the case than the name is corrected by ReaderSvg (underscores are used instead of irregular characters).
+            </para></remarks></member>
+		<member name="P:Ab2d.Controls.SvgViewbox.InnerReaderSvg"><summary>
+            Gets the ReaderSvg that was used to read the svg file. Useful to get the properties of ReaderSvg for example NamedObjects (gets the names of objects as defined in svg file)
+            </summary></member>
+		<member name="F:Ab2d.Controls.SvgViewbox.SourceProperty"><summary>
+            SourceProperty
+            </summary></member>
+		<member name="F:Ab2d.Controls.SvgViewbox.SourceStreamProperty"><summary>
+            SourceProperty
+            </summary></member>
+		<member name="F:Ab2d.Controls.SvgViewbox.AutoSizeProperty"><summary>
+            AutoSizeProperty
+            </summary></member>
+		<member name="M:Ab2d.Controls.SvgViewbox.ReadSvg(System.Uri)"><summary>
+            Reads svg file from sourceUri. This method can be overridden to provide reading svg files from some other source.
+            </summary><param name="sourceUri">sourceUri</param></member>
+		<member name="M:Ab2d.Controls.SvgViewbox.ReadSvg(System.Uri,System.IO.Stream)"><summary>
+            Reads svg file from sourceUri or sourceStream.
+            This method can be overridden to provide reading svg files from some other source.
+            </summary><param name="sourceUri">sourceUri</param><param name="sourceStream">sourceStream</param></member>
+		<member name="M:Ab2d.Controls.SvgViewbox.OnSvgFileLoading(System.Uri,System.IO.Stream)"><summary>
+            OnSvgFileLoading is called before the svg file is read. The method can be overridden in derived class.
+            </summary><param name="svgFileUri">svg file Uri</param><param name="svgFileStream">Stream that will be used to read the svg file</param><returns>Stream that will be used to read the svg file</returns></member>
+		<member name="M:Ab2d.Controls.SvgViewbox.OnSvgFileLoaded(System.Uri,System.Windows.Controls.Viewbox)"><summary>
+            OnSvgFileLoaded is called after the svg file has been read. The method can be overriden in derived class.
+            </summary><param name="svgFileUri">svg file Uri</param><param name="readSvgFile">Image with read svg file</param></member>
+		<member name="T:Ab2d.Controls.SvgViewboxAutomationPeer"><summary>
+            SvgViewboxAutomationPeer class provides support for UI automation
+            </summary></member>
+		<member name="M:Ab2d.Controls.SvgViewboxAutomationPeer.#ctor(Ab2d.Controls.SvgViewbox)"><summary>
+            Constructor
+            </summary><param name="owner">SvgViewbox</param></member>
+		<member name="M:Ab2d.Controls.SvgViewboxAutomationPeer.GetAutomationControlTypeCore"><summary>
+            GetAutomationControlTypeCore
+            </summary><returns>AutomationControlType</returns></member>
+		<member name="M:Ab2d.Controls.SvgViewboxAutomationPeer.GetClassNameCore"><summary>
+            GetClassNameCore
+            </summary><returns>SvgViewbox</returns></member>
+		<member name="T:Ab2d.Controls.SvgDrawing"><summary>
+            SvgDrawing is a Viewbox control that shows elements defined in svg file as WPF geometry drawing objects.
+            The source of svg file is set by <see cref="P:Ab2d.Controls.SvgDrawing.Source" /> or <see cref="P:Ab2d.Controls.SvgDrawing.SourceStream" /> properties.
+            </summary><remarks><para>
+            The difference between SvgDrawing and <see cref="T:Ab2d.Controls.SvgViewbox" /> is that SvgViewbox gets objects as Shapes (Canvas, Path, Polyline, etc) and SvgDrawing produces Drawings (DrawingGeometry, StreamGeometry, etc).
+            Drawings have better performance and lower memory consumption, but Shapes support more functionality - layout, focus, mouse events, etc.
+            </para><para>
+            For more information about reading geometers see <see cref="M:Ab2d.ReaderSvg.ReadGeometry(System.String,Ab2d.Common.ReaderSvg.GeometrySettings)" />.
+            </para><para>
+            For more information about setting the optimization percent see <see cref="M:Ab2d.Common.ReaderSvg.GeometrySettings.FromOptimizationPercentage(System.Int32)" />.
+            </para><para>
+            SvgViewbox can be used in xaml. If you would like to read svg file in code and need some more advanced features and options please use <see cref="T:Ab2d.ReaderSvg" /></para><para>To read the svg file set <see cref="P:Ab2d.Controls.SvgDrawing.Source" /> property. It supports the Pack URI (see also "http://msdn2.microsoft.com/en-us/library/aa970069.aspx#Site_of_Origin_File_Pack_URIs"). Here are some of the example Sources that can be used to read svg file from various locations:</para><list type="table"><listheader><term>URI string</term><description>Description</description></listheader><item><term>Subfolder/ResourceFile.svg</term><description>Reads ResourceFile.svg from the application resources (embeded in the assembly) under Subfolder - set the file's Build Action to Resource</description></item><item><term>pack://application:,,,/Subfolder/ResourceFile.svg</term><description>Same as previous but this time with full pack URI</description></item><item><term>ContentFile.svg</term><description>Reads ContentFile.svg from the same folder as the application is running - set the file's Build Action to Content</description></item><item><term>pack://application:,,,/ReferencedAssembly;component/ResourceFile.svg</term><description>Reads ResourceFile.svg from the ReferencedAssembly resources.</description></item><item><term>pack://siteoforigin:,,,/File.svg</term><description>Reads File.svg from the same folder as the application is running - this is a loose file that means it is not included in the project</description></item><item><term>c:\images\File.svg</term><description>Reads File.svg from the specified file on the disk</description></item><item><term>http://www.mysite.com/images/File.svg</term><description>Reads File.svg from specified url location</description></item></list><para>When using in code create new Uri with on of the above strings and set it to Source property.</para></remarks><example>
+            The following example shows myClipart.svg inside a Grid (the svg file's BuildAction is set to Resource). The svg file is read as Drawing that is fully optimized for better performance (if animated).
+            <code lang="xml">
+            &lt;Window x:Class="Ab2d.ReaderSvgSample"
+                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:ab2d="clr-namespace:Ab2d.Controls;assembly=Ab2d.ReaderSvg"
+                    Title="Window1" Height="500" Width="500"/&gt;
+                 &lt;Grid&gt;
+                     &lt;ab2d:SvgDrawing Name="mySvgDrawing" Source="myClipart.svg"
+                                      OptimizationPercent="100" Stretch="Uniform"/&gt;  
+                 &lt;/Grid&gt;
+            &lt;/Window&gt;
+            </code><para>
+            The following example shows how to read svg file from stream:
+            </para><code lang="C#">
+            var streamResourceInfo = Application.GetResourceStream(new Uri("pack://application:,,,/Resources/home1.svg"));
+            if (streamResourceInfo != null)
+            {
+                var mySvgImage = new Ab2d.Controls.SvgDrawing();
+                mySvgImage.SourceStream = streamResourceInfo.Stream;
+                mySvgImage.Width = 200;
+                mySvgImage.Height = 100;
+                
+                myStackPanel.Controls.Add(mySvgImage);
+            }
+            </code></example></member>
+		<member name="E:Ab2d.Controls.SvgDrawing.SvgFileLoading"><summary>
+            Occurs before the reading of svg file is started.
+            </summary></member>
+		<member name="E:Ab2d.Controls.SvgDrawing.SvgFileLoaded"><summary>
+            Occurs when the reading of svg file is completed.
+            </summary></member>
+		<member name="M:Ab2d.Controls.SvgDrawing.#ctor"><summary>
+            Constructor
+            </summary></member>
+		<member name="M:Ab2d.Controls.SvgDrawing.OnCreateAutomationPeer"><summary>
+            OnCreateAutomationPeer
+            </summary><returns>AutomationPeer</returns></member>
+		<member name="P:Ab2d.Controls.SvgDrawing.OptimizationPercent"><summary>
+            Gets or sets the geometry optimization percent. 0 means no optimization, 100 means full optimization.
+            </summary><remarks>
+            For more information see <see cref="M:Ab2d.Common.ReaderSvg.GeometrySettings.FromOptimizationPercentage(System.Int32)" />.
+            </remarks></member>
+		<member name="P:Ab2d.Controls.SvgDrawing.Source"><summary>
+            Gets or sets the Source of the svg or svgz file
+            </summary></member>
+		<member name="P:Ab2d.Controls.SvgDrawing.SourceStream"><summary>
+            Stream that is used to read svg file. When this property is set (not null) it is used instead of <see cref="P:Ab2d.Controls.SvgDrawing.Source" /> property.
+            </summary></member>
+		<member name="P:Ab2d.Controls.SvgDrawing.Stretch"><summary>
+            Gets or sets the SvgDrawing.Windows.Media.Stretch
+            mode, which determines how content fits into the available space.
+            </summary></member>
+		<member name="P:Ab2d.Controls.SvgDrawing.StretchDirection"><summary>
+            Gets or sets the System.Windows.Controls.StretchDirection, which determines
+            how scaling is applied to the contents of a SvgDrawing.
+            </summary></member>
+		<member name="P:Ab2d.Controls.SvgDrawing.InnerReaderSvg"><summary>
+            Gets the ReaderSvg that was used to read the svg or svgz file.
+            </summary></member>
+		<member name="P:Ab2d.Controls.SvgDrawing.InnerImage"><summary>
+            Gets the Image returned by last read with ReaderSvg.
+            </summary></member>
+		<member name="P:Ab2d.Controls.SvgDrawing.AutoSize"><summary>
+            If true (default) the size of main canvas is calculated from the size of all inner objects. This means that the returned objects will be just as big as its contain objects.
+            If false the size of svg element is used for the size of main canvas. This is useful for example if you were working on a Letter area and would like to preserve the position of objects inside the Letter.
+            </summary></member>
+		<member name="P:Ab2d.Controls.SvgDrawing.NamedObjectsSource"><summary>
+            Gets or sets one of the <see cref="T:Ab2d.ReaderSvg.NamedObjectsSourceType" /> as the source to get the object's name. Default value is NamedObjectsSourceType.Auto.
+            </summary><remarks><para>
+            The name is used to fill the <see cref="P:Ab2d.ReaderSvg.NamedObjects" /> dictionary or as the Name property in the exported XAML.
+            The names can be get from the id attribute of the svg element or from the title element. Usually names are set from id attribute. But some applications (for example Microsoft Visio) do not allow to change id attribute but instead set the title element.
+            </para><para>
+            Setting NamedObjectsSource to Title or TitleIfExist (Id is used if title does not exist) is useful so users can specify the name of the created WPF elements in the application that created the svg file.
+            </para><para>
+            By default NamedObjectsSource is set to <b>Auto</b>. This means that ReaderSvg tries to define the source of the name with checking which application created the svg file - for example for files created in Microsoft Visio the TitleIfExist is used internally.
+            </para><para>
+            Note that the name must start with a letter or underscore and can contain only letters, digits, or underscores. If this is not the case than the name is corrected by ReaderSvg (underscores are used instead of irregular characters).
+            </para></remarks></member>
+		<member name="F:Ab2d.Controls.SvgDrawing.SourceProperty"><summary>
+            SourceProperty
+            </summary></member>
+		<member name="F:Ab2d.Controls.SvgDrawing.SourceStreamProperty"><summary>
+            SourceProperty
+            </summary></member>
+		<member name="F:Ab2d.Controls.SvgDrawing.OptimizationPercentProperty"><summary>
+            OptimizationPercentProperty
+            </summary></member>
+		<member name="F:Ab2d.Controls.SvgDrawing.StretchDirectionProperty"><summary>
+            StretchDirectionProperty
+            </summary></member>
+		<member name="F:Ab2d.Controls.SvgDrawing.StretchProperty"><summary>
+            StretchProperty
+            </summary></member>
+		<member name="F:Ab2d.Controls.SvgDrawing.AutoSizeProperty"><summary>
+            AutoSizeProperty
+            </summary></member>
+		<member name="M:Ab2d.Controls.SvgDrawing.ReadSvg(System.Uri,System.Int32)"><summary>
+            Reads svg or svgz file from sourceUri and with optimizationPercent
+            </summary><param name="sourceUri">sourceUri</param><param name="optimizationPercent">optimizationPercent</param></member>
+		<member name="M:Ab2d.Controls.SvgDrawing.ReadSvg(System.Uri,System.IO.Stream,System.Int32)"><summary>
+            Reads svg file from sourceUri or sourceStream and with the specified optimizationPercent
+            </summary><param name="sourceUri">sourceUri</param><param name="sourceStream">sourceStream</param><param name="optimizationPercent">optimizationPercent</param></member>
+		<member name="M:Ab2d.Controls.SvgDrawing.OnSvgFileLoading(System.Uri,System.IO.Stream)"><summary>
+            OnSvgFileLoading is called before the svg file is read. The method can be overridden in derived class.
+            </summary><param name="svgFileUri">svg file Uri</param><param name="svgFileStream">Stream that will be used to read the svg file</param><returns>Stream that will be used to read the svg file</returns></member>
+		<member name="M:Ab2d.Controls.SvgDrawing.OnSvgFileLoaded(System.Uri,System.Windows.Controls.Image)"><summary>
+            OnSvgFileLoaded is called after the svg file has been read. The method can be overridden in derived class.
+            </summary><param name="svgFileUri">svg file Uri</param><param name="readSvgFile">Image with read svg file</param></member>
+		<member name="M:Ab2d.Controls.SvgDrawing.MeasureOverride(System.Windows.Size)"><inheritdoc /></member>
+		<member name="M:Ab2d.Controls.SvgDrawing.ArrangeOverride(System.Windows.Size)"><inheritdoc /></member>
+		<member name="M:Ab2d.Controls.SvgDrawing.OnRender(System.Windows.Media.DrawingContext)"><summary>
+            OnRender
+            </summary><param name="dc"></param></member>
+		<member name="T:Ab2d.Controls.SvgDrawingAutomationPeer"><summary>
+            SvgDrawingAutomationPeer class used for UI Automation
+            </summary></member>
+		<member name="M:Ab2d.Controls.SvgDrawingAutomationPeer.#ctor(Ab2d.Controls.SvgDrawing)"><summary>
+            Constructor
+            </summary><param name="owner">owner</param></member>
+		<member name="M:Ab2d.Controls.SvgDrawingAutomationPeer.GetAutomationControlTypeCore"><summary>
+            GetAutomationControlTypeCore
+            </summary><returns>AutomationControlType</returns></member>
+		<member name="M:Ab2d.Controls.SvgDrawingAutomationPeer.GetClassNameCore"><summary>
+            GetClassNameCore
+            </summary><returns>SvgDrawing</returns></member>
+		<member name="T:Ab2d.ReaderSvg"><summary>
+            ReaderSvg is a class library for reading svg and svgz files and converting its elements into WPF elements. For usage in XAML see <see cref="T:Ab2d.Controls.SvgViewbox" /> and <see cref="T:Ab2d.Controls.SvgDrawing" />.
+            </summary><remarks><para>
+            Ab2d.ReaderSvg class can be used to read svg and svgz files from the code.
+            </para><para>
+            They can be read as Shapes with <see cref="M:Ab2d.ReaderSvg.Read(System.String)" /> method or as Drawing objects with <see cref="M:Ab2d.ReaderSvg.ReadGeometry(System.String)" />.
+            </para><para>
+            After the file has been read, it is possible to get the xaml of the read Viewbox or Image with <see cref="M:Ab2d.ReaderSvg.GetXaml" /> method.
+            </para><para>
+            If your application needs images and shapes from many svg and svgz files, it is recommended that they are stored in a ResourceDictionary.
+            To simplify creating ResourceDictionaries a <see cref="T:Ab2d.Utility.ReaderSvg.ResourceDictionaryWriter" /> class can be used. There is also a sample Ab2d.ReaderSvg.ResourceDictionaryWriter application available to simplify this process.
+            </para><para>
+            When svg file was created with Microsoft Visio, than the ReaderSvg can also read custom properties and layers data from the svg file.
+            To read more about reading custom properties see <see cref="M:Ab2d.ReaderSvg.GetCustomProperties(System.String)" /> method. To read more about accessing layers data see <see cref="M:Ab2d.ReaderSvg.GetLayerNames" /> method.
+            </para></remarks><example><para>
+            The following example shows the most simple use of ReaderSvg. It loads the mySample.svg file and adds it to the myStackPanel.
+            </para><code>
+            Viewbox sampleViewbox = Ab2d.ReaderSvg.Instance.Read(@"c:\mySample.svg");
+            myStackPanel.Children.Add(sampleViewbox);
+            </code><para>
+            The following sample shows how to read svg from Application's Resource.
+            The <see cref="M:Ab2d.ReaderSvg.ReadGeometry(System.String,Ab2d.Common.ReaderSvg.GeometrySettings)" /> reads svg file into Drawing objects and fully optimizes it for best performance.
+            </para><code>
+            Image clipartFromResource;
+            Ab2d.Common.ReaderSvg.GeometrySettings settings;
+            
+            // gets Drawing objects optimized for best performance
+            // NOTE: Because of heavy optimization it is possible that some anomalies appear on the image
+            settings = Ab2d.Common.ReaderSvg.GeometrySettings.FullOptimization;
+            
+            Uri uri = new Uri("/cliparts/mySample.svg", UriKind.Relative);
+            using (Stream svgStream = Application.GetResourceStream(uri).Stream)
+            {
+                clipartFromResource = Ab2d.ReaderSvg.Instance.ReadGeometry(svgStream, settings);
+            }
+            
+            myStackPanel.Children.Add(clipartFromResource);
+            </code><para>
+            The following sample reads the mySample.svg file, gets its xaml for Silverlight and saves it into a file.
+            </para><code>
+            var myReader = new Ab2d.ReaderSvg();
+            
+            Viewbox sampleViewbox = myReader.Read(@"c:\mySample.svg");
+            string xaml = myReader.GetXaml(new Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings());
+            
+            System.IO.File.WriteAllText(@"c:\mySample_for_Silverlight.xaml", xaml);
+            </code><para>The next example uses the <see cref="M:Ab2d.ReaderSvg.RenderToBitmap(System.Int32,System.Int32,System.Windows.Media.Brush)" /> method to render the read svg file to image with custom size and saves it to disk:</para><code>
+            var readerSvg = new Ab2d.ReaderSvg();
+            readerSvg.Read(@"c:\mySample.svg");
+            
+            // Render to bitmap with 1024 width - height will be set automatically so that the
+            // Image aspect ratio is preserved
+            var wpfBitmap = readerSvg.RenderToBitmap(1024, 0, Brushes.White);
+            
+            var encoder = new System.Windows.Media.Imaging.PngBitmapEncoder();
+            // Uncomment to save to jpg
+            //var encoder = new JpegBitmapEncoder();
+            //encoder.QualityLevel = 85;
+            
+            encoder.Frames.Add(System.Windows.Media.Imaging.BitmapFrame.Create(wpfBitmap));
+                        
+            using (var stream = System.IO.File.OpenWrite("c:\\svgImage.png"))
+            {
+                encoder.Save(stream);
+            }     
+            </code></example></member>
+		<member name="T:Ab2d.ReaderSvg.SwitchElementProcessingTypes"><summary>
+            The SwitchElementsProcessingTypes enum defines the possible values for the SwitchElementsProcessingType property.
+            </summary></member>
+		<member name="F:Ab2d.ReaderSvg.SwitchElementProcessingTypes.Disabled"><summary>
+            Svg switch element will not be imported.
+            </summary></member>
+		<member name="F:Ab2d.ReaderSvg.SwitchElementProcessingTypes.ShowFirstDiscardOthers"><summary>
+            Only the first switch child will be imported. Other children will not be imported.
+            </summary></member>
+		<member name="F:Ab2d.ReaderSvg.SwitchElementProcessingTypes.ShowFirstHideOthers"><summary>
+            All switch children will be imported. Only the first element will be shown. Other children will have their Visibility set to Hidden.
+            </summary></member>
+		<member name="F:Ab2d.ReaderSvg.SwitchElementProcessingTypes.ShowFirstCollapseOthers"><summary>
+            All switch children will be imported. Only the first element will be shown. Other children will have their Visibility set to Collapsed.
+            </summary></member>
+		<member name="F:Ab2d.ReaderSvg.SwitchElementProcessingTypes.ShowAll"><summary>
+            All switch children will be imported and shown.
+            </summary></member>
+		<member name="T:Ab2d.ReaderSvg.SvgCreators"><summary>
+            SvgCreators enum defines common applications that can produce svg files.
+            </summary></member>
+		<member name="F:Ab2d.ReaderSvg.SvgCreators.Unknown"><summary>
+            Unknown
+            </summary></member>
+		<member name="F:Ab2d.ReaderSvg.SvgCreators.Visio"><summary>
+            Microsoft Visio
+            </summary></member>
+		<member name="F:Ab2d.ReaderSvg.SvgCreators.CorelDraw"><summary>
+            CorelDraw
+            </summary></member>
+		<member name="F:Ab2d.ReaderSvg.SvgCreators.AdobeIllustrator"><summary>
+            Adobe Illustrator
+            </summary></member>
+		<member name="F:Ab2d.ReaderSvg.SvgCreators.Inkscape"><summary>
+            Inkscape
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.SvgCreator"><summary>
+            Gets an application that was used to create this svg file.
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.Title"><summary>
+            Title defined in svg file
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.Description"><summary>
+            Description defined in svg file
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.NamedObjects"><summary>
+            Dictionary with elements ids as keys and its appropriate objects as values
+            Ids (keys) can be defined in a drawing application
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.SetNameProperty"><summary>
+            Gets or sets a Boolean that determines if the object's Name property is set to the name defined in svg file (default value is true).
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.Width"><summary>
+            Gets or sets the Width of the returned Viewbox element
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.Height"><summary>
+            Gets or sets the Height of the returned Viewbox element
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.WidthInUnits"><summary>
+            Gets a string that represents width of svg element in specified units (for example "2cm" or "2in"). If the read sgv element does not specify units, than this value is null.
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.HeightInUnits"><summary>
+            Gets a string that represents height of svg element in specified units (for example "2cm" or "2in"). If the read sgv element does not specify units, than this value is null.
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.InnerWidth"><summary>
+            Gets the Width of all read svg elements
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.InnerHeight"><summary>
+            Gets Height of all read svg elements
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.SvgBounds"><summary>
+            Gets the bounds of the svg elements.
+            Note: Usually svg elements does not start at (0,0) but are places in a virtual letter. To work only with svg elements so they can be sized according to the host element (for example StackPanel, Page, etc.) two Canvases and a Viewbox is used. But with SvgBounds property it is possible to get the original bounds of the svg elements. If <see cref="P:Ab2d.ReaderSvg.AutoSize" /> is set to false, the SvgBounds are get from the root svg element.
+            Also this property makes InnerWeight and InnerHeight obsolete.
+            </summary></member>
+		<member name="T:Ab2d.ReaderSvg.NamedObjectsSourceType"><summary>
+            Enum that defines the available sources for the object's name.
+            </summary></member>
+		<member name="F:Ab2d.ReaderSvg.NamedObjectsSourceType.Auto"><summary>
+            Automatically tries to define the source of the name with checking which application created the svg file - for example for files created in Microsoft Visio the TitleIfExist is used internally.
+            </summary></member>
+		<member name="F:Ab2d.ReaderSvg.NamedObjectsSourceType.Id"><summary>
+            Name is get from svg element's id.
+            </summary></member>
+		<member name="F:Ab2d.ReaderSvg.NamedObjectsSourceType.Title"><summary>
+            Name is get from svg element's title child element (useful for Microsoft Visio or other applications that set title).
+            </summary></member>
+		<member name="F:Ab2d.ReaderSvg.NamedObjectsSourceType.TitleIfExist"><summary>
+            Name is get from svg element's title child element. If the title child element does not exist the element's id is used for the name (useful for Microsoft Visio or other applications that set title).
+            </summary></member>
+		<member name="F:Ab2d.ReaderSvg.NamedObjectsSourceType.InkscapeLabel"><summary>
+            Name is get from the Label set in Inkscape (written to inkscape:label attribute). Note that the leading hash '#' is removed from the name.
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.NamedObjectsSource"><summary>
+            Gets or sets one of the <see cref="T:Ab2d.ReaderSvg.NamedObjectsSourceType" /> as the source to get the object's name. Default value is NamedObjectsSourceType.Auto.
+            </summary><remarks><para>
+            The name is used to fill the <see cref="P:Ab2d.ReaderSvg.NamedObjects" /> dictionary or as the Name property in the exported XAML.
+            The names can be get from the id attribute of the svg element or from the title element. Usually names are set from id attribute. But some applications (for example Microsoft Visio) do not allow to change id attribute but instead set the title element.
+            </para><para>
+            Setting NamedObjectsSource to Title or TitleIfExist (Id is used if title does not exist) is useful so users can specify the name of the created WPF elements in the application that created the svg file.
+            </para><para>
+            By default NamedObjectsSource is set to <b>Auto</b>. This means that ReaderSvg tries to define the source of the name with checking which application created the svg file - for example for files created in Microsoft Visio the TitleIfExist is used internally.
+            </para><para>
+            Note that the name must start with a letter or underscore and can contain only letters, digits, or underscores. If this is not the case than the name is corrected by ReaderSvg (underscores are used instead of invalid characters).
+            </para></remarks></member>
+		<member name="P:Ab2d.ReaderSvg.SetSvgNameToParentTransformCanvas"><summary>
+            Gets or sets a boolean that specifies if object name is set to the Canvas that is created to contain object's transformation when the object also defines the Canvas.Left and Canvas.Top properties. Default value is false.
+            </summary><remarks><para>
+            When svg element uses both position (x and y attributes) and transformation, then ReaderSvg creates a parent Canvas that contains object's transformation.
+            This way the object can preserve the same position values as in svg file (specified with Canvas.Left and Canvas.Top properties) and also the same transformation.
+            </para><para>
+            For example (first svg element and then WPF element):
+            </para><code>
+            &lt;rect id="rect1" x="20" y="10" transform="matrix(-1 0 0 1 0 0)" /&gt;
+            </code><code>
+            &lt;Canvas Name="rect1_transform" RenderTransform="-1 0 0 1 0 0" &gt;
+                &lt;Rectangle Name="rect1" Canvas.Left="20" Canvas.Top="10" /&gt;
+            &lt;/Canvas&gt;
+            </code><para>
+            The sample shows that in order to preserve all the attribute values a new parent canvas needs to be created.
+            </para><para>
+            The property <b>SetSvgNameToParentTransformCanvas</b> is used to specify which element (in our example Canvas or Rectangle) will get the name of the
+            original svg element ("rect1" in our example).
+            </para><para>
+            When the SetSvgNameToParentTransformCanvas is set to false (by default) the Rectangle gets the name from svg element 
+            and the created Canvas gets the name created from svg name and the format string specified by the <see cref="P:Ab2d.ReaderSvg.TransformCanvasNameFormatString" /> property -
+            by default "_transform" suffix.
+            </para><para>
+            When the SetSvgNameToParentTransformCanvas is set to true, the svg name is set to the Canvas element. The Rectangle does not get any name specified.
+            This value can be used to preserve the backward compatibility with older version of ReaderSvg.
+            </para><para>
+            NOTE: If you want to optimize the hierarchy of the objects and do not want to have many Canvas objects,
+            you can set the <see cref="P:Ab2d.ReaderSvg.FlattenHierarchies" /> property to true before reading the svg file and
+            the read objects will have only minimal amount of Canvases.
+            </para></remarks></member>
+		<member name="P:Ab2d.ReaderSvg.TransformCanvasNameFormatString"><summary>
+            Gets or sets a string that specifies how the Transform Canvas that is created to contain object's transformation is named.
+            Default value is "{0}_transform".
+            </summary><remarks><para><b>TransformCanvasNameFormatString</b> gets or sets a string that specifies how the Transform Canvas that is created to contain object's transformation is named.
+            </para><para>
+            Default value is "{0}_transform".
+            </para><para>
+            See <see cref="P:Ab2d.ReaderSvg.SetSvgNameToParentTransformCanvas" /> for more information when the Transform Canvas is created.
+            </para></remarks></member>
+		<member name="P:Ab2d.ReaderSvg.IsCorrectingNamesForWpf"><summary>
+            Gets or sets a Boolean that specifies if the names are corrected so that they can be used in XAML.
+            The following rule is applied in this case: name must start with a letter or underscore and can contain only letters, digits, or underscores.
+            If true, then invalid characters are replaced with underscore. If false, then the <see cref="P:Ab2d.ReaderSvg.NamedObjects" /> dictionary contains unchanged names, but the GetXaml method still corrects the names.
+            Default value is true (for backwards compatibility).
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.MakeNamesUnique"><summary>
+            Gets or sets a Boolean that specifies if ReaderSvg adds index text to the names of objects that were already used to make them unique.
+            For example if svg object has a name "SvgObject" and if the second svg object has the same name, the second svg object will be named "SvgObject2".
+            Default value is true.
+            </summary></member>
+		<member name="T:Ab2d.ReaderSvg.GetCustomSvgElementNameDelegate"><summary>
+            GetCustomSvgElementNameDelegate is used for <see cref="F:Ab2d.ReaderSvg.GetCustomSvgElementNameCallback" /> to provide custom element names.
+            </summary><param name="originalSvgElementName">svg name defined in svg file (can be null)</param><param name="createdWpfObject">WPF objects created from svg element</param><returns>name of the created WPF object (can be null)</returns></member>
+		<member name="F:Ab2d.ReaderSvg.GetCustomSvgElementNameCallback"><summary>
+            GetCustomSvgElementNameCallback can be used to provide custom naming of WPF objects created from svg elements. 
+            The object names are written into <see cref="P:Ab2d.ReaderSvg.NamedObjects" /> dictionary.
+            Note that when <see cref="P:Ab2d.ReaderSvg.IsCorrectingNamesForWpf" /> or <see cref="P:Ab2d.ReaderSvg.MakeNamesUnique" /> are true, the name can be corrected after calling the GetCustomSvgElementNameCallback.
+            Also names used for XAML are always corrected.
+            </summary><remarks><para>
+            GetCustomSvgElementNameCallback can be used to provide custom naming of WPF objects created from svg elements.
+            </para><para>
+            Note that when <see cref="P:Ab2d.ReaderSvg.IsCorrectingNamesForWpf" /> is true, the name can be corrected after calling the GetCustomSvgElementNameCallback.
+            </para><para>
+            The GetCustomSvgElementNameCallback get two parameters: <br />
+            - svg name defined in svg file (can be null)<br />
+            - WPF objects created from svg element.
+            </para><para>
+            The GetCustomSvgElementNameCallback can also return null or empty string. In this case the name will not be written to <see cref="P:Ab2d.ReaderSvg.NamedObjects" /> dictionary.
+            </para></remarks></member>
+		<member name="T:Ab2d.ReaderSvg.BeforeWpfObjectCreatedDelegate"><summary>
+            BeforeWpfObjectCreatedDelegate is used for <see cref="F:Ab2d.ReaderSvg.BeforeWpfObjectCreatedCallback" /> to provide a way to create custom WPF objects from svg elements.
+            </summary><param name="svgElementOuterXml">OuterXml text for the svg element</param><param name="objectName">name of the objects - read from svg element attributes based on the value of the <see cref="P:Ab2d.ReaderSvg.NamedObjectsSource" /></param><param name="parentObject">parent WPF object that the created objects will be added to</param><returns>When a WPF object as FrameworkElement is returned, then it is added to the parentObject. When null is returned, then standard ReaderSvg code is used to create a WPF object from the svg element.</returns></member>
+		<member name="F:Ab2d.ReaderSvg.BeforeWpfObjectCreatedCallback"><summary>
+            BeforeWpfObjectCreatedCallback can be used to provide a way to create custom WPF objects from svg elements. See remarks for more info.
+            </summary><remarks><para>
+            BeforeWpfObjectCreatedCallback can be used to provide a way to create custom WPF objects from svg elements.
+            </para><para>
+            The signature of the callback method is defined by the <see cref="T:Ab2d.ReaderSvg.BeforeWpfObjectCreatedDelegate" /> delegate.
+            </para><para>
+            To adjust the WPF object that is created by ReaderSvg, then use the <see cref="F:Ab2d.ReaderSvg.AfterWpfObjectCreatedCallback" /> instead.
+            </para></remarks></member>
+		<member name="T:Ab2d.ReaderSvg.AfterWpfObjectCreatedDelegate"><summary>
+            AfterWpfObjectCreatedDelegate is used for <see cref="F:Ab2d.ReaderSvg.AfterWpfObjectCreatedCallback" /> to provide a way to customize WPF objects that are created with ReaderSvg from svg elements.
+            </summary><param name="svgElementOuterXml">OuterXml text for the svg element</param><param name="objectName">name of the objects - read from svg element attributes based on the value of the <see cref="P:Ab2d.ReaderSvg.NamedObjectsSource" /></param><param name="parentObject">parent WPF object that the created objects will be added to</param><param name="createdWpfObject">WPF object that was created by ReaderSvg from the svgElementOuterXml</param><returns>Usually the same object as is passed to the createdWpfObject should be returned. This object is added to the parentObject. It is also possible to return a completely different object. When null is returned, then no object is added to the parentObject.</returns></member>
+		<member name="F:Ab2d.ReaderSvg.AfterWpfObjectCreatedCallback"><summary>
+            AfterWpfObjectCreatedCallback can be used to provide a way to customize WPF objects that are created with ReaderSvg from svg elements. See remarks for more info.
+            </summary><remarks><para>
+            BeforeWpfObjectCreatedCallback can be used to provide a way to customize WPF objects that are created with ReaderSvg from svg elements.
+            </para><para>
+            The signature of the callback method is defined by the <see cref="T:Ab2d.ReaderSvg.AfterWpfObjectCreatedDelegate" /> delegate.
+            </para><para>
+            To create your own WPF objects from svg elements, you can also use the <see cref="F:Ab2d.ReaderSvg.BeforeWpfObjectCreatedCallback" />.
+            </para></remarks></member>
+		<member name="P:Ab2d.ReaderSvg.AutoSize"><summary>
+            When AutoSize is false the size of read svg objects is determined by the width and height defined in the svg header.
+            For example when svg header define the size as Letter, than the read svg objects will retain the position within the letter area.
+            When AutoSize is set to true (by default), the size defined in svg header is ignored. Instead the size of the actual svg content is calculated
+            so that the read objects do not have any empty area around them. The calculated or read size of svg elements can be read from <see cref="P:Ab2d.ReaderSvg.SvgBounds" /> property.
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.UseSimpleText"><summary>
+            If true text is always rendered as TextBlock - also if text is using custom strokes and fill patters.
+            If false than in case of custom strokes and fill patterns text is converted into Path elements and the appropriate effects are applied to it.
+            Default value is false;
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.UseOldSizeMeasurement"><summary>
+            If true than size measurement from ReaderSvg v1.2 is used - if your application depends on previous sizes of read elements than use this property.
+            Note: Size measurement is used so svg elements can be used inside other controls - so its size is adjusted regarding to the desired size - set with Width and Height properties or by the parent element.
+            This property will exit only in ReaderSvg v1.3
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.ConvertTransformationsToMatrixTransform"><summary>
+            Gets or sets a Boolean that specifies if all transformations are converted to MatrixTransform.
+            Default values is false that preserves the type of transformation defined in svg file.
+            </summary><remarks><para><b>ConvertTransformationsToMatrixTransform</b> gets or sets a Boolean that specifies if all transformations are converted to MatrixTransform.
+            </para><para>
+            Default values is false that preserves the type of transformation defined in svg file.
+            </para><para>
+            For example the following svg transform value: "translate(100,30) rotate(30)" will be converted into the following XAML when ConvertTransformationsToMatrixTransform is set to false (note that the order of transformation need to be reversed):
+            </para><code>
+            &lt;Canvas.RenderTransform&gt;
+                &lt;TransformGroup&gt;
+                    &lt;RotateTransform Angle="30" /&gt;
+                    &lt;ScaleTransform ScaleX="100" ScaleY="30"/&gt;
+                &lt;/TransformGroup&gt;
+            &lt;/Canvas.RenderTransform&gt;
+            </code><para>
+            When ConvertTransformationsToMatrixTransform is set to true, then all transformation will be converted into MatrixTransform - the following XAML will be created:
+            </para><code>
+            &lt;Canvas.RenderTransform&gt;
+                &lt;MatrixTransform Matrix="0.8660,0.5,-0.5,0.8660,100,30" /&gt;
+            &lt;/Canvas.RenderTransform&gt;
+            </code><para>
+            NOTE:<br />
+            ConvertTransformationsToMatrixTransform property controls what WPF objects are created from transformation defined in svg file.
+            </para><para>
+            When exporting the WPF objects to XAML, you can also control how transformations are written to XAML.
+            They can be written as elements (as shown above) or as simple RenderTransform attribute: RenderTransform="0.8660,0.5,-0.5,0.8660,100,30".
+            This is controlled by <see cref="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.WriteTransformationsAsElement" /> property of XamlWriterSettings class.
+            </para></remarks></member>
+		<member name="P:Ab2d.ReaderSvg.AddNewCanvasForTransformations"><summary>
+            If true (default = false) transformations on elements are not set on the element itself but are set to a new canvas and the element is added as its parent.
+            This property is added for backward compatibility with versions 2.3 and older.
+            </summary><remarks><para>
+            In Ab2d.ReaderSvg version 2.3 and older transformations were not applied to the element itself. Instead a new Canvas was created with a transformation and the element was set as its child.
+            </para><para>
+            For performance reasons it is recommended that this property is false because less Canvases are created.
+            </para></remarks><example><para>
+            For example the following input svg:
+            </para><code lang="xml">
+            &lt;path transform="matrix(-3,0,-1,0,100,0)" d="..."/&gt;
+            </code>
+            If AddNewCanvasForTransformations is false (default) the following xaml is created from the previous svg element:
+            <code lang="xaml">
+            &lt;Path RenderTransform="-3,0,-1,0,100,0" Data="..."/&gt;
+            </code>
+            If AddNewCanvasForTransformations is true the following xaml is created from the previous svg element (this xaml would be also generated by the version 2.3 or older):
+            <code lang="xaml">
+            &lt;Canvas RenderTransform="-3,0,-1,0,100,0"&gt;
+                &lt;Path Data="..."/&gt;
+            &lt;/Canvas&gt;
+            </code></example></member>
+		<member name="P:Ab2d.ReaderSvg.InnerCanvas"><summary>
+            Gets the inner canvas without the Viewbox control. See also <see cref="P:Ab2d.ReaderSvg.SvgBounds" />.
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.OverrideMiterLimit"><summary>
+            Gets or sets a value that is used instead of the miter limit specified in the svg file.
+            If value is 0, than the miter limit from svg file is used. Default value is 0.
+            </summary><remarks><para><b>OverrideMiterLimit</b> gets or sets a value that is used instead of the miter limit specified in the svg file.
+            </para><para>
+            This property is required to workaround the problems that are created because WPF and svg use the miter limit value differently.
+            </para><para>
+            In sgv the miter limit defines an angle at which the miter line cap is changed into bevel line cap. 
+            For example the if miter limit in svg is 4 (default value for svg), this means that when the angle between two lines is less than 29 degrees, the bevel line cab will be used instead of miter line cab.
+            </para><para>
+            In WPF the miter limit defines how far away the miter is allowed to go.
+            For example if miter limit in WPF is 4 and line thickness is 20, than the miter can extent 20 * 4 = 80 points away from the line connection point.
+            </para><para>
+            The WPF of using miter limit on one hand provides more control over the rendered line cap, but in cases where the angles between lines are very small, the rendering can create some strange artifacts that are not created in svg.
+            If there are some artifacts in the image, it is recommended to set the default value of <b>OverrideMiterLimit</b> to 2 or 1.
+            </para><para>
+            For backward compatibility the default the value of the <b>OverrideMiterLimit</b> is set to 0. This value does not override the miter limit svg value.
+            </para></remarks></member>
+		<member name="P:Ab2d.ReaderSvg.LastReadViewbox"><summary>
+            Gets the lastly read svg as WPF's Viewbox element (used when Read is used, when using ReadGeometry method see LastReadImage)
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.LastReadImage"><summary>
+            Gets the lastly read svg as WPF's Image element (used when ReadGeometry is used, when using Read method see LastReadViewbox)
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.ShowDemoTextInEvaluation"><summary>
+            ShowDemoTextInEvaluation is not used any more.
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.ReadPathAsPathGeometry"><summary>
+            If false (default) the path is read as StreamGeometry (better performance). If true the path is read as PathGeometry (worse performance but path can be modified).
+            </summary><remarks><para>
+            If ReadPathAsPathGeometry is false (default) all the paths are read as StreamGeometry. The svg file is read much faster and also has better performance when drawn in WPF.
+            </para><para>
+            If ReadPathAsPathGeometry is true all the paths are read as PathGeometry. It takes longer to read the svg file. Also the performance in WPF is not as good as with StreamGeometry (ReadPathAsPathGeometry == false). The advantage of PathGeometry is that it can be modified.
+            </para></remarks></member>
+		<member name="P:Ab2d.ReaderSvg.BitmapImages"><summary>
+            Gets list of all bitmap images that are defined in svg file and cannot be converted to vector elements.
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.HasCustomProperties"><summary>
+            Gets a Boolean that specifies if the read svg files has some custom properties defined.
+            </summary><remarks><para>
+            ReaderSvg can read embedded data and custom properties that were defined in Microsoft Visio.
+            </para><para>
+            If HasCustomProperties is true, the <see cref="M:Ab2d.ReaderSvg.GetCustomProperties(System.String)" /> or <see cref="M:Ab2d.ReaderSvg.GetCustomProperties(System.Object)" /> can be used to get custom properties for the specified object.
+            </para><para>
+            To get all defined custom properties as DataTable use the <see cref="M:Ab2d.ReaderSvg.GetCustomPropertiesDataTable" /> method.
+            </para><para>
+            To get all objects that have custom properties defined use <see cref="M:Ab2d.ReaderSvg.GetObjectsWithCustomProperties" /> method.
+            </para></remarks></member>
+		<member name="P:Ab2d.ReaderSvg.OptimizeStyleProcessing"><summary>
+            Gets or sets a Boolean that specifies if ReaderSvg is using an optimized style processing that improves speed of reading svg file (default value is true).
+            </summary><remarks><para>
+            If <b>OptimizeStyleProcessing</b> is true the ReaderSvg tries to optimize processing of styles in svg file. The optimizations can in some complex style declarations lead to inaccurate reading of svg file. In this case it is recommended to set <b>OptimizeStyleProcessing</b> to false.
+            </para></remarks></member>
+		<member name="P:Ab2d.ReaderSvg.OptimizeObjectGroups"><summary>
+            Gets or sets a Boolean that specifies if groups (Canvas or DrawingGroup) are optimized in such a way that they groups that contain only one other group (Canvas or DrawingGroup) are removed.
+            Default value is false which preserves the groups as they are defined in the original svg file.
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.FlattenHierarchies"><summary>
+            Gets or sets a Boolean that specifies if all child groups (Canvases or DrawingGroup) are removed and all elements are placed under the root group.
+            The group transformations are added to child objects so that the rendered drawing looks the same.
+            The exception to the removed groups are the groups that define clipping.
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.TransformShapes"><summary>
+            Gets or sets a Boolean that specifies if all shape objects (Rectangles, Ellipses, Path, Polygons, etc.) that have simple transformation (only translate or scale) or canvas position are transformed with changing their data
+            with the specified transformation. This can remove RenderTransform, Canvas.Left and Canvas.Top from most of the shapes (exception are shapes that render transform).
+            </summary><remarks><para><b>TransformShapes</b> gets or sets a Boolean that specifies if all shape objects (Rectangles, Ellipses, Path, Polygons, etc.) that have simple transformation (only translate or scale) or canvas position are transformed with changing their data
+            with the specified transformation. This can remove RenderTransform, Canvas.Left and Canvas.Top from most of the shapes (exception are shapes that render transform).
+            </para><para>
+            When rotate transformations are used on Path with curves, Rectangle and Ellipse shape, the shape object will still contain the transformation because it is not possible to rotate the object with changing its data (position and size).
+            </para></remarks></member>
+		<member name="P:Ab2d.ReaderSvg.AddHiddenElements"><summary>
+            Gets or sets a Boolean that specifies if hidden elements are read. Default value is true.
+            </summary><remarks><para><b>AddHiddenElements</b> specifies if hidden elements are read.
+            </para><para>
+            The elements is hidden if in svg file its visibility attribute is set to "hidden" or display attribute is set to "none".
+            </para><para>
+            If visibility attribute is set to "hidden", than the element is hidden but it still occupies space (Visibility.Hidden).<br />
+            If display attribute is set to "none", that the element is hidden and it does not occupy space (Visibility.Collapsed). 
+            </para><para>
+            If <b>AddHiddenElements</b> is true (default) the hidden elements are read and their Visibility is set to Hidden or Collapsed value.
+            </para><para>
+            If <b>AddHiddenElements</b> is false the hidden elements are skipped.
+            </para></remarks></member>
+		<member name="P:Ab2d.ReaderSvg.SwitchElementProcessingType"><summary>
+            Specifies which children of the svg switch element will be imported and shown. Default value is ShowFirstCollapseOthers (imports all switch children but shows only the first one; others are Collapsed).
+            </summary><remarks><para><b>SwitchElementProcessingType</b> specifies which children of the svg switch element will be processed and shown.
+            The switch element in svg file defines children that are shown based on the conditions defined in switch element.
+            Because it is not possible to process svg conditions in WPF, it is possible to choose how the children will be imported.
+            </para><para>
+            By default only the first switch child is imported - the <b>SwitchElementProcessingType</b> is set to <b>ShowFirstDiscardOthers</b>.
+            </para><para>
+            With setting the <b>SwitchElementProcessingType</b> it is possible to disable importing switch children (<b>Disabled</b>),
+            show the first child and set other to Hidden (<b>ShowFirstHideOthers</b>) or Collapsed (<b>ShowFirstCollapseOthers</b>).
+            It is also possible to show all the children (<b>ShowAll</b>).
+            </para></remarks></member>
+		<member name="P:Ab2d.ReaderSvg.ReadForeignObjects"><summary>
+            Gets or sets a boolean that specifies if foreignObject elements in svg files are read (currently only Visio metafiles are supported). Default value is true.
+            </summary></member>
+		<member name="P:Ab2d.ReaderSvg.UseOnlyInstalledFontFamilies"><summary>
+            When UseOnlyInstalledFontFamilies is false (by default), then FontFamily is created also with font names that are not installed on the system (this preserves the original font family name when exported to XAML).
+            When UseOnlyInstalledFontFamilies is true and font family name in svg file is not installed on the system, then Arial font family is used.
+            </summary></member>
+		<member name="E:Ab2d.ReaderSvg.ProgressChanged"><summary>
+            ProgressChanged event can be used to get notifications of how much the svg file has been read.
+            </summary><remarks><para><b>ProgressChanged</b> event can be used to get notifications of how much the svg file has been read.
+            </para><para>
+            Please note that in order to show changes with the progress bar, it should be shown on another thread and not on the thread where the ReaderSvg is working.
+            </para></remarks></member>
+		<member name="P:Ab2d.ReaderSvg.Instance"><summary>
+            Gets static instance of Ab2d.ReaderSvg so you do not need to create your own instance of it.
+            </summary><example>
+            Instead of creating a new object to read one file, it is possible to simply use the Instance static property:
+            <code>
+            mySvgObject = Ab2d.ReaderSvg.Instance.Read(fileName);
+            </code></example></member>
+		<member name="M:Ab2d.ReaderSvg.#ctor"><summary>
+            Constructor of ReaderSvg
+            ReaderSvg is a class library for reading svg files and converting its elements into WPF elements
+            </summary></member>
+		<member name="M:Ab2d.ReaderSvg.Read(System.String)"><summary>
+            Reads svg or svgz file from file system or from online source. The file is read as Shapes (Canvas, Path, Ellipse, etc.).
+            </summary><example><para>
+            The following sample loads the mySample.svg file and adds it to the myStackPanel.
+            </para><code>
+            Viewbox sampleViewbox = Ab2d.ReaderSvg.Instance.Read(@"c:\mySample.svg");
+            myStackPanel.Children.Add(sampleViewbox);
+            </code><para>
+            The following sample loads the mySample.svg file from web site.
+            </para><code>
+            Ab2d.ReaderSvg myReaderSvg = new Ab2d.ReaderSvg();
+            
+            Viewbox sampleViewbox = myReaderSvg.Read(@"http://www.myWeb.com/test/mySample.svg");
+            myStackPanel.Children.Add(sampleViewbox);
+            </code></example><param name="url">url of file name of the svg file</param><returns>Viewbox with elements defined in svg file</returns><overloads><summary>
+            Reads svg or svgz file from file, from online source or from stream. The file is read as Shapes (Canvas, Path, Ellipse, etc.).
+            </summary><example><para>
+            The following sample loads the mySample.svg file and adds it to the myStackPanel.
+            </para><code>
+            Viewbox sampleViewbox = Ab2d.ReaderSvg.Instance.Read(@"c:\mySample.svg");
+            myStackPanel.Children.Add(sampleViewbox);
+            </code><para>
+            The following sample loads the mySample.svg file from web site.
+            </para><code>
+            Ab2d.ReaderSvg myReaderSvg = new Ab2d.ReaderSvg();
+            
+            Viewbox sampleViewbox = myReaderSvg.Read(@"http://www.myWeb.com/test/mySample.svg");
+            myStackPanel.Children.Add(sampleViewbox);
+            </code> 
+            The following sample shows how to read svg file from Application's Resource (mySample.svg file is included into the project under cliparts folder and its build action is set to Resource):
+            <code>
+            Uri uri = new Uri("/cliparts/mySample.svg", UriKind.Relative);
+            using (Stream svgStream = Application.GetResourceStream(uri).Stream)
+            {
+                clipartFromResource = Ab2d.ReaderSvg.Instance.Read(svgStream);
+            }
+            
+            myStackPanel.Children.Add(clipartFromResource);
+            </code></example></overloads></member>
+		<member name="M:Ab2d.ReaderSvg.Read(System.IO.Stream)"><summary>
+            Reads svg file from stream - useful for reading svg files from resources. The file is read as Shapes (Canvas, Path, Ellipse, etc.).
+            </summary><example>
+            The following sample shows how to read svg file from Application's Resource (mySample.svg file is included into the project under cliparts folder and its build action is set to Resource):
+            <code>
+            Uri uri = new Uri("/cliparts/mySample.svg", UriKind.Relative);
+            using (Stream svgStream = Application.GetResourceStream(uri).Stream)
+            {
+                clipartFromResource = Ab2d.ReaderSvg.Instance.Read(svgStream);
+            }
+            
+            myStackPanel.Children.Add(clipartFromResource);
+            </code></example><param name="stream">stream to read svg file</param><returns>Viewbox with elements defined in svg file</returns></member>
+		<member name="M:Ab2d.ReaderSvg.ReadGeometry(System.String)"><summary>
+            Reads svg or svgz file and returns System.Windows.Controls.Image with elements as Drawings (DrawingGeometry, EllipseGeometry, GlyphRunDrawing etc.) with no optimization.
+            </summary><remarks><para>
+            Drawing objects do not derive from the FrameworkElement class and provide a lighter-weight implementation for rendering shapes, images, and text. 
+            Because of this Drawing objects on one side lack support for Layout System, input, and focus, but on the other side have much better performance and lower memory consumption.
+            </para><para>
+            Returned Drawing has much better performance as Shapes that are returned with <see cref="M:Ab2d.ReaderSvg.Read(System.String)">Read</see> method.
+            </para><para>
+            If better layout support, input, focus and other functionality is needed use <see cref="M:Ab2d.ReaderSvg.Read(System.String)">Read</see> method instead that returns elements as Shapes.
+            </para><para>
+            It is also possible to optimize the read Drawing objects with the <see cref="T:Ab2d.Common.ReaderSvg.GeometrySettings">GeometrySettings</see> objects that is passed to the <see cref="M:Ab2d.ReaderSvg.ReadGeometry(System.String,Ab2d.Common.ReaderSvg.GeometrySettings)" /> method.
+            </para></remarks><example>
+            The following sample reads the mySample.svg file into sampleImage with no optimization:
+            <code>
+            Image sampleImage = myReader.ReadGeometry(@"c:\mySample.svg");
+            </code></example><param name="uri">uri</param><returns>Image</returns><overloads><summary>
+            Reads svg or svgz file and returns System.Windows.Controls.Image with elements as Drawings (DrawingGeometry, EllipseGeometry, GlyphRunDrawing etc.) with no optimization.
+            </summary><remarks><para>
+            Drawing objects do not derive from the FrameworkElement class and provide a lighter-weight implementation for rendering shapes, images, and text. 
+            Because of this Drawing objects on one side lack support for Layout System, input, and focus, but on the other side have much better performance and lower memory consumption.
+            </para><para>
+            Returned Drawing has much better performance as Shapes that are returned with <see cref="M:Ab2d.ReaderSvg.Read(System.String)">Read</see> method.
+            </para><para>
+            If better layout support, input, focus and other functionality is needed use <see cref="M:Ab2d.ReaderSvg.Read(System.String)">Read</see> method instead that returns elements as Shapes.
+            </para><para>
+            It is also possible to optimize the read Drawing objects with the <see cref="T:Ab2d.Common.ReaderSvg.GeometrySettings">GeometrySettings</see> objects that is passed to the <see cref="M:Ab2d.ReaderSvg.ReadGeometry(System.String,Ab2d.Common.ReaderSvg.GeometrySettings)" /> method.
+            </para></remarks><example>
+            The following sample reads the mySample.svg file into sampleImage with no optimization:
+            <code>
+            Image sampleImage = myReader.ReadGeometry(@"c:\mySample.svg");
+            </code>
+            The following sample shows how to read svg file from Application's Resource (mySample.svg file is included into the project under cliparts folder and its build action is set to Resource).
+            The svg file is read into Drawing objects with full geometry optimization.
+            <code>
+            Image clipartFromResource;
+            Ab2d.Common.ReaderSvg.GeometrySettings settings;
+            
+            // gets Drawing objects optimized for best performance
+            // NOTE: Because of heavy optimization it is possible that some anomalies appear on the image
+            settings = Ab2d.Common.ReaderSvg.GeometrySettings.FullOptimization;
+            
+            Uri uri = new Uri("/cliparts/mySample.svg", UriKind.Relative);
+            using (Stream svgStream = Application.GetResourceStream(uri).Stream)
+            {
+                clipartFromResource = Ab2d.ReaderSvg.Instance.ReadGeometry(svgStream, settings);
+            }
+            </code></example></overloads></member>
+		<member name="M:Ab2d.ReaderSvg.ReadGeometry(System.IO.Stream)"><summary>
+            Reads svg or svgz file and returns System.Windows.Controls.Image with elements as Drawings (DrawingGeometry, EllipseGeometry, GlyphRunDrawing etc.) with no optimization.
+            </summary><remarks><para>
+            Drawing objects do not derive from the FrameworkElement class and provide a lighter-weight implementation for rendering shapes, images, and text. 
+            Because of this Drawing objects on one side lack support for Layout System, input, and focus, but on the other side have much better performance and lower memory consumption.
+            </para><para>
+            Returned Drawing has much better performance as Shapes that are returned with <see cref="M:Ab2d.ReaderSvg.Read(System.String)">Read</see> method.
+            </para><para>
+            If better layout support, input, focus and other functionality is needed use <see cref="M:Ab2d.ReaderSvg.Read(System.String)">Read</see> method instead that returns elements as Shapes.
+            </para><para>
+            It is also possible to optimize the read Drawing objects with the <see cref="T:Ab2d.Common.ReaderSvg.GeometrySettings">GeometrySettings</see> objects that is passed to the <see cref="M:Ab2d.ReaderSvg.ReadGeometry(System.String,Ab2d.Common.ReaderSvg.GeometrySettings)" /> method.
+            </para></remarks><example>
+            The following sample shows how to read svg file from Application's Resource (mySample.svg file is included into the project under cliparts folder and its build action is set to Resource):
+            <code>
+            Uri uri = new Uri("/cliparts/mySample.svg", UriKind.Relative);
+            using (Stream svgStream = Application.GetResourceStream(uri).Stream)
+            {
+                clipartFromResource = Ab2d.ReaderSvg.Instance.ReadGeometry(svgStream);
+            }
+            
+            myStackPanel.Children.Add(clipartFromResource);
+            </code></example><param name="stream">stream</param><returns>Image</returns></member>
+		<member name="M:Ab2d.ReaderSvg.ReadGeometry(System.String,Ab2d.Common.ReaderSvg.GeometrySettings)"><summary>
+            Reads svg or svgz file and returns System.Windows.Controls.Image with elements as Drawings (DrawingGeometry, EllipseGeometry, GlyphRunDrawing etc.).
+            </summary><remarks><para>
+            Drawing objects do not derive from the FrameworkElement class and provide a lighter-weight implementation for rendering shapes, images, and text. 
+            Because of this Drawing objects on one side lack support for Layout System, input, and focus, but on the other side have much better performance and lower memory consumption.
+            </para><para>
+            Returned Drawing has much better performance as Shapes that are returned with <see cref="M:Ab2d.ReaderSvg.Read(System.String)">Read</see> method.
+            </para><para>
+            If better layout support, input, focus and other functionality is needed use <see cref="M:Ab2d.ReaderSvg.Read(System.String)">Read</see> method instead that returns elements as Shapes.
+            </para><para>
+            It is also possible to optimize the read Drawing objects with the <see cref="T:Ab2d.Common.ReaderSvg.GeometrySettings">GeometrySettings</see> objects that is passed to the ReadGeometry method.
+            </para></remarks><example>
+            The following sample reads the mySample.svg file into sampleImage:
+            <code>
+            Ab2d.Common.ReaderSvg.GeometrySettings settings;
+            
+            // gets Drawing objects optimized for best performance
+            // NOTE: Because of heavy optimization it is possible that some anomalies appear on the image
+            settings = Ab2d.Common.ReaderSvg.GeometrySettings.FullOptimization;
+            
+            Image sampleImage = myReader.ReadGeometry(@"c:\mySample.svg", settings);
+            </code></example><param name="uri">uri</param><param name="settings">GeometrySettings that defines how the geometry will be created</param><returns>Image</returns></member>
+		<member name="M:Ab2d.ReaderSvg.ReadGeometry(System.IO.Stream,Ab2d.Common.ReaderSvg.GeometrySettings)"><summary>
+            Reads svg or svgz file and returns System.Windows.Controls.Image with elements as Drawings (DrawingGeometry, EllipseGeometry, GlyphRunDrawing etc.).
+            </summary><remarks><para>
+            Drawing objects do not derive from the FrameworkElement class and provide a lighter-weight implementation for rendering shapes, images, and text. 
+            Because of this Drawing objects on one side lack support for Layout System, input, and focus, but on the other side have much better performance and lower memory consumption.
+            </para><para>
+            Returned Drawing has much better performance as Shapes that are returned with <see cref="M:Ab2d.ReaderSvg.Read(System.String)">Read</see> method.
+            </para><para>
+            If better layout support, input, focus and other functionality is needed use <see cref="M:Ab2d.ReaderSvg.Read(System.String)">Read</see> method instead that returns elements as Shapes.
+            </para><para>
+            It is also possible to optimize the read Drawing objects with the <see cref="T:Ab2d.Common.ReaderSvg.GeometrySettings">GeometrySettings</see> objects that is passed to the ReadGeometry method.
+            </para></remarks><example>
+            The following sample reads the mySample.svg file into sampleImage:
+            <code>
+            Image sampleImage = myReader.ReadGeometry(@"c:\mySample.svg");
+            </code></example><example>
+            The following sample shows how to read svg file from Application's Resource (mySample.svg file is included into the project under cliparts folder and its build action is set to Resource).
+            The svg file is read into Drawing objects with full geometry optimization.
+            <code>
+            Image clipartFromResource;
+            Ab2d.Common.ReaderSvg.GeometrySettings settings;
+            
+            // gets Drawing objects optimized for best performance
+            // NOTE: Because of heavy optimization it is possible that some anomalies appear on the image
+            settings = Ab2d.Common.ReaderSvg.GeometrySettings.FullOptimization;
+            
+            Uri uri = new Uri("/cliparts/mySample.svg", UriKind.Relative);
+            using (Stream svgStream = Application.GetResourceStream(uri).Stream)
+            {
+                clipartFromResource = Ab2d.ReaderSvg.Instance.ReadGeometry(svgStream, settings);
+            }
+            </code></example><param name="stream">stream</param><param name="settings">GeometrySettings that defines how the geometry will be created</param><returns>Image</returns></member>
+		<member name="M:Ab2d.ReaderSvg.GetXaml"><summary>
+            Gets xaml of the last read svg or svgz file with the default setting for WPF.
+            </summary><remarks><para><see cref="M:Ab2d.ReaderSvg.Read(System.String)">Read</see> or <see cref="M:Ab2d.ReaderSvg.ReadGeometry(System.String,Ab2d.Common.ReaderSvg.GeometrySettings)">ReadGeometry</see> must be called before using GetXaml.
+            </para><para>
+            To specify detailed options for xaml or to get xaml for Silverlight use <see cref="M:Ab2d.ReaderSvg.GetXaml(Ab2d.Common.ReaderSvg.BaseXamlWriterSettings)">GetXaml</see> method.
+            </para></remarks><example>
+            The following sample reads the mySample.svg file, gets its xaml (for WPF) and saves it into a file.
+            <code>
+            string xaml;
+            Viewbox sampleViewbox;
+            
+            sampleViewbox = myReader.Read(@"c:\mySample.svg");
+            xaml = myReader.GetXaml();
+            
+            System.IO.File.WriteAllText(@"c:\mySample.xaml", xaml);
+            </code></example><returns>xaml of the last read svg or svgz file</returns><overloads><summary>
+            Gets xaml of the last read svg or svgz file.
+            </summary><remarks><para><see cref="M:Ab2d.ReaderSvg.Read(System.String)">Read</see> or <see cref="M:Ab2d.ReaderSvg.ReadGeometry(System.String,Ab2d.Common.ReaderSvg.GeometrySettings)">ReadGeometry</see> must be called before using GetXaml.
+            </para><para>
+            To specify detailed options for xaml or to get xaml for Silverlight use <see cref="M:Ab2d.ReaderSvg.GetXaml(Ab2d.Common.ReaderSvg.BaseXamlWriterSettings)">GetXaml</see> method.
+            </para></remarks><example>
+            The following sample reads the mySample.svg file, gets its xaml (for WPF) and saves it into a file.
+            <code>
+            string xaml;
+            Viewbox sampleViewbox;
+            
+            sampleViewbox = myReader.Read(@"c:\mySample.svg");
+            xaml = myReader.GetXaml();
+            
+            System.IO.File.WriteAllText(@"c:\mySample.xaml", xaml);
+            </code>  
+            The following sample reads the mySample.svg file, gets its xaml for Silverlight and saves it into a file.
+            <code>
+            string xaml;
+            Viewbox sampleViewbox;
+            
+            sampleViewbox = myReader.Read(@"c:\mySample.svg");
+            xaml = myReader.GetXaml(new Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings());
+            
+            System.IO.File.WriteAllText(@"c:\mySample_for_Silverlight.xaml", xaml);
+            </code><para>
+            The GetXaml method by default writes image uri-s as "image_0.png", "image_1.png", and so on. The default format for the uri is controlled by <see cref="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.DefaultImageUriFormatString" />.
+            With <see cref="T:Ab2d.Common.ReaderSvg.ResolveImagePathDelegate" /> it is possible to control the image uri of each of the used images.
+            The following code reads the svg file, saves the images to disk and creates xaml text with image uri-s that point to saved images.
+            </para><code>
+            // Use the code with:
+            // string xamlText = GetXaml("images_test.svg", @"c:\temp\", "image_{0}.png");
+            
+            private Dictionary&lt;BitmapSource, string&gt; _imageFileNames;
+            
+            private string GetXaml(string svgFileName, string imagesPath, string imageFormatString)
+            {
+                string xamlText;
+                Ab2d.ReaderSvg myReaderSvg;
+                Ab2d.Common.ReaderSvg.WpfXamlWriterSettings xamlSettings;
+            
+            
+                // Read the svg file
+                myReaderSvg = new Ab2d.ReaderSvg();
+                myReaderSvg.Read(svgFileName);
+            
+            
+                _imageFileNames = new Dictionary&lt;BitmapSource, string&gt;();
+            
+                for (int i = 0; i &lt; myReaderSvg.BitmapImages.Count; i++)
+                {
+                    BitmapSource oneBitmap;
+                    string filePath;
+            
+                    oneBitmap = myReaderSvg.BitmapImages[i];
+                    filePath = System.IO.Path.Combine(imagesPath, string.Format(imageFormatString, i + 1));
+            
+                    using (System.IO.FileStream fs = new System.IO.FileStream(filePath, System.IO.FileMode.Create))
+                    {
+                        PngBitmapEncoder enc = new PngBitmapEncoder();
+            
+                       // NOTE:
+                       // If break on exception is turned on in VS, 
+                       // the next line will throw an exception, but it is handled in .net framework (so click continue)
+                       // See also: http://social.msdn.microsoft.com/Forums/en-US/wpf/thread/9f23dde5-f281-4175-a6a2-5f4ad14a4dfe/?lc=1033&amp;ffpr=0
+                       enc.Frames.Add(BitmapFrame.Create(oneBitmap));
+                        enc.Save(fs);
+            
+                        _imageFileNames.Add(oneBitmap, filePath);
+                    }
+                }
+            
+            
+                xamlSettings = new Ab2d.Common.ReaderSvg.WpfXamlWriterSettings();
+                xamlSettings.ResolveImagePath = ResolveImagePath;
+            
+                xamlText = myReaderSvg.GetXaml(xamlSettings);
+            
+                return xamlText;
+            }
+            
+            private string ResolveImagePath(BitmapSource imageToResolve)
+            {
+                string retImagePath;
+                
+                if (imageToResolve == null)
+                    retImagePath = "";
+                else
+                    _imageFileNames.TryGetValue(imageToResolve, out retImagePath);
+            
+                return retImagePath;
+            }
+            </code></example></overloads></member>
+		<member name="M:Ab2d.ReaderSvg.GetXaml(Ab2d.Common.ReaderSvg.BaseXamlWriterSettings)"><summary>
+            Gets xaml of the last read svg or svgz.
+            </summary><remarks><para><see cref="M:Ab2d.ReaderSvg.Read(System.String)">Read</see> or <see cref="M:Ab2d.ReaderSvg.ReadGeometry(System.String,Ab2d.Common.ReaderSvg.GeometrySettings)">ReadGeometry</see> must be called before using GetXaml.
+            </para><para>
+            To get xaml for WPF, use <see cref="T:Ab2d.Common.ReaderSvg.WpfXamlWriterSettings">Ab2d.Common.ReaderSvg.WpfXamlWriterSettings</see>. For Silverlight use <see cref="T:Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings">Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings</see>.
+            </para><para>
+            If the read svg file contains bitmap images, it is possible to use the <see cref="T:Ab2d.Common.ReaderSvg.ResolveImagePathDelegate" /> delegate to specify the path to the image that will be used in the returned xaml.
+            If the delegate is not specified, the format of the image uri-s is defined by <see cref="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.DefaultImageUriFormatString" />. With its default value the image uri-s are written as "image_0.png", "image_1.png", and so on. The sample below described the use of <see cref="T:Ab2d.Common.ReaderSvg.ResolveImagePathDelegate" /> delegate.
+            </para></remarks><example>
+            The following sample reads the mySample.svg file, gets its xaml for Silverlight and saves it into a file.
+            <code>
+            string xaml;
+            Viewbox sampleViewbox;
+            
+            sampleViewbox = myReader.Read(@"c:\mySample.svg");
+            xaml = myReader.GetXaml(new Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings());
+            
+            System.IO.File.WriteAllText(@"c:\mySample_for_Silverlight.xaml", xaml);
+            </code><para>
+            The GetXaml method by default writes image uri-s as "image_0.png", "image_1.png", and so on. The default format for the uri is controlled by <see cref="P:Ab2d.Common.ReaderSvg.BaseXamlWriterSettings.DefaultImageUriFormatString" />.
+            With <see cref="T:Ab2d.Common.ReaderSvg.ResolveImagePathDelegate" /> it is possible to control the image uri of each of the used images.
+            The following code reads the svg file, saves the images to disk and creates xaml text with image uri-s that point to saved images.
+            </para><code>
+            // Use the code with:
+            // string xamlText = GetXaml("images_test.svg", @"c:\temp\", "image_{0}.png");
+            
+            private Dictionary&lt;BitmapSource, string&gt; _imageFileNames;
+            
+            private string GetXaml(string svgFileName, string imagesPath, string imageFormatString)
+            {
+                string xamlText;
+                Ab2d.ReaderSvg myReaderSvg;
+                Ab2d.Common.ReaderSvg.WpfXamlWriterSettings xamlSettings;
+            
+            
+                // Read the svg file
+                myReaderSvg = new Ab2d.ReaderSvg();
+                myReaderSvg.Read(svgFileName);
+            
+            
+                _imageFileNames = new Dictionary&lt;BitmapSource, string&gt;();
+            
+                for (int i = 0; i &lt; myReaderSvg.BitmapImages.Count; i++)
+                {
+                    BitmapSource oneBitmap;
+                    string filePath;
+            
+                    oneBitmap = myReaderSvg.BitmapImages[i];
+                    filePath = System.IO.Path.Combine(imagesPath, string.Format(imageFormatString, i + 1));
+            
+                    using (System.IO.FileStream fs = new System.IO.FileStream(filePath, System.IO.FileMode.Create))
+                    {
+                        PngBitmapEncoder enc = new PngBitmapEncoder();
+            
+                       // NOTE:
+                       // If break on exception is turned on in VS, 
+                       // the next line will throw an exception, but it is handled in .net framework (so click continue)
+                       // See also: http://social.msdn.microsoft.com/Forums/en-US/wpf/thread/9f23dde5-f281-4175-a6a2-5f4ad14a4dfe/?lc=1033&amp;ffpr=0
+                       enc.Frames.Add(BitmapFrame.Create(oneBitmap));
+                        enc.Save(fs);
+            
+                        _imageFileNames.Add(oneBitmap, filePath);
+                    }
+                }
+            
+            
+                xamlSettings = new Ab2d.Common.ReaderSvg.WpfXamlWriterSettings();
+                xamlSettings.ResolveImagePath = ResolveImagePath;
+            
+                xamlText = myReaderSvg.GetXaml(xamlSettings);
+            
+                return xamlText;
+            }
+            
+            private string ResolveImagePath(BitmapSource imageToResolve)
+            {
+                string retImagePath;
+                
+                if (imageToResolve == null)
+                    retImagePath = "";
+                else
+                    _imageFileNames.TryGetValue(imageToResolve, out retImagePath);
+            
+                return retImagePath;
+            }
+            </code></example><param name="settings">XamlWriterSettings that define advanced options for xaml writer. To get xaml for WPF, use <see cref="T:Ab2d.Common.ReaderSvg.WpfXamlWriterSettings">Ab2d.Common.ReaderSvg.WpfXamlWriterSettings</see>. For Silverlight use <see cref="T:Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings">Ab2d.Common.ReaderSvg.SilverlightXamlWriterSettings</see>.</param><returns>xaml of the last read svg or svgz</returns></member>
+		<member name="M:Ab2d.ReaderSvg.GetElementSvgText(System.String,Ab2d.ReaderSvg.NamedObjectsSourceType)"><summary>
+            GetElementSvgText can be called after the svg file has been read. 
+            It returns svg text of the element with with the specified elementName and elementNameType.
+            If the element is not found, null is returned.
+            </summary><remarks><para><b>GetElementSvgText</b> returns svg text of the element with with the specified elementName. If the element is not found, null is returned.
+            The method can be called after the svg file has been read.
+            </para><para>
+            Elements in svg file can use different attributes or inner elements to define their names.
+            Usually id attribute is used for that. But some files (for example files from Visio) define title element for naming.
+            Files created in Inkscape also define inkscape:label attribute that can also be used for naming.
+            </para><para>
+            To specify which attribute or element to use for naming the <b>elementNameType</b> parameter is used.
+            By default it is set to Auto. This means that the same naming specification used to read the current svg file is used - defined by the <see cref="P:Ab2d.ReaderSvg.NamedObjectsSource" /> property.
+            Other values specify other way to get the name.
+            </para></remarks><param name="elementName">name of the svg element</param><param name="elementNameType">elementNameType specifies the what element or attribute in svg file defines the element name</param><returns>svg text of the element with elementName or null if not found</returns></member>
+		<member name="M:Ab2d.ReaderSvg.Transform(System.Windows.Media.Transform,System.Boolean)"><summary>
+            Transform method transforms all the coordinates, sizes and other values in the last read Viewbox with using transformation.
+            </summary><remarks><para><b>Transform</b> method transforms all the coordinates, sizes and other values in the last read Viewbox with using transformation.
+            </para><para>
+            The method is using <see cref="T:Ab2d.Utility.ReaderSvg.TrueTransform" /> to do the transformation. Check the class info to get more information.
+            </para><para>
+            If the method is called with setting updateLastReadViewbox parameter to true, than the LastReadViewbox is also changed. This allows calling GetXaml method and get the xaml with the transformed objects.
+            </para></remarks><param name="transformation">transformation</param><param name="updateLastReadViewbox">if true than LastReadViewbox is also changed. This allows calling GetXaml method and get the xaml with the transformed objects.</param><returns>transformed Viewbox</returns></member>
+		<member name="M:Ab2d.ReaderSvg.TransformFromPixelsToMM(System.Int32,System.Boolean)"><summary>
+            TransformFromPixelsToMM method transforms all the coordinates, sizes and other values in the last read Viewbox in such a way that it converts all units in pixels into millimeters with using specified dpi setting.
+            </summary><remarks><para>
+            Some drawing applications (for example Inkscape) allows user to draw with using real units (for example mm). But when the drawing is saved into svg file, it is converted into pixel units.
+            The <b>TransformFromPixelsToMM</b> method can convert the units used in svg file back to the unints that were used when creating the drawing.
+            </para><para>
+            The method needs a dpi (dots per inch) parameter. For files created with Inkscape 90 should be used.
+            Note that it is possible to get the application that was used to create the svg file with <see cref="P:Ab2d.ReaderSvg.SvgCreator" /> property.
+            </para><para>
+            This method is using <see cref="M:Ab2d.ReaderSvg.Transform(System.Windows.Media.Transform,System.Boolean)" /> method. 
+            It creates the ScaleTransform with specifying the scale as:<br />
+            scale = 25.4 / (double)dpi; // 25.4 mm in one inch
+            </para><para>
+            If the method is called with setting updateLastReadViewbox parameter to true, than the LastReadViewbox is also changed. This allows calling GetXaml method and get the xaml with the transformed objects.
+            </para></remarks><param name="dpi">Dots per inch setting (for Inkscape use 90)</param><param name="updateLastReadViewbox">if true than LastReadViewbox is also changed. This allows calling GetXaml method and get the xaml with the transformed objects.</param><returns>transformed Viewbox</returns></member>
+		<member name="M:Ab2d.ReaderSvg.GetObjectName(System.Object)"><summary>
+            Gets the name of the object read with ReadSvg. This is the opposite as using NamedObjects dictionary. Returns null if object is not found or it does not have a name defined.
+            </summary><param name="objectToFind">object whose name will be returned.</param><returns>object's name or null if object is not found or it does not have a name defined.</returns></member>
+		<member name="M:Ab2d.ReaderSvg.RenderToBitmap(System.Windows.Media.Brush)"><summary>
+            Renders the read svg objects into bitmap. Bitmap will have the same size as read svg object and will be rendered at 96 dpi.
+            </summary><param name="backgroundBrush">background brush</param><returns>BitmapSource</returns><example><para>The following example uses this method to render the read svg file to wpfBitmap:</para><code>
+            var readerSvg = new Ab2d.ReaderSvg();
+            readerSvg.Read(@"c:\mySample.svg");
+            
+            // Render to bitmap
+            var wpfBitmap = readerSvg.RenderToBitmap(Brushes.White);
+            </code><para>The next example uses the <see cref="M:Ab2d.ReaderSvg.RenderToBitmap(System.Int32,System.Int32,System.Windows.Media.Brush)" /> method to render the read svg file to image with custom size and saves it to disk:</para><code>
+            var readerSvg = new Ab2d.ReaderSvg();
+            readerSvg.Read(@"c:\mySample.svg");
+            
+            // Render to bitmap with 1024 width - height will be set automatically so that the
+            // Image aspect ratio is preserved
+            var wpfBitmap = readerSvg.RenderToBitmap(1024, 0, Brushes.White);
+            
+            var encoder = new System.Windows.Media.Imaging.PngBitmapEncoder();
+            // Uncomment to save to jpg
+            //var encoder = new JpegBitmapEncoder();
+            //encoder.QualityLevel = 85;
+            
+            encoder.Frames.Add(System.Windows.Media.Imaging.BitmapFrame.Create(wpfBitmap));
+                        
+            using (var stream = System.IO.File.OpenWrite("c:\\svgImage.png"))
+            {
+                encoder.Save(stream);
+            }        
+            </code></example></member>
+		<member name="M:Ab2d.ReaderSvg.RenderToBitmap(System.Windows.Media.Brush,System.Int32)"><summary>
+            Renders the read svg objects into bitmap. Bitmap will have the same size as read svg object and will be rendered at dpi specified in the parameter.
+            </summary><param name="backgroundBrush">background brush</param><param name="dpi">dpi used to render the bitmap</param><returns>BitmapSource</returns><example><para>The following example uses this method to render the read svg file to wpfBitmap:</para><code>
+            var readerSvg = new Ab2d.ReaderSvg();
+            readerSvg.Read(@"c:\mySample.svg");
+            
+            // Render to bitmap
+            var wpfBitmap = readerSvg.RenderToBitmap(Brushes.White);
+            </code><para>The next example uses the <see cref="M:Ab2d.ReaderSvg.RenderToBitmap(System.Int32,System.Int32,System.Windows.Media.Brush)" /> method to render the read svg file to image with custom size and saves it to disk:</para><code>
+            var readerSvg = new Ab2d.ReaderSvg();
+            readerSvg.Read(@"c:\mySample.svg");
+            
+            // Render to bitmap with 1024 width - height will be set automatically so that the
+            // Image aspect ratio is preserved
+            var wpfBitmap = readerSvg.RenderToBitmap(1024, 0, Brushes.White);
+            
+            var encoder = new System.Windows.Media.Imaging.PngBitmapEncoder();
+            // Uncomment to save to jpg
+            //var encoder = new JpegBitmapEncoder();
+            //encoder.QualityLevel = 85;
+            
+            encoder.Frames.Add(System.Windows.Media.Imaging.BitmapFrame.Create(wpfBitmap));
+                        
+            using (var stream = System.IO.File.OpenWrite("c:\\svgImage.png"))
+            {
+                encoder.Save(stream);
+            }        
+            </code></example></member>
+		<member name="M:Ab2d.ReaderSvg.RenderToBitmap(System.Int32,System.Int32,System.Windows.Media.Brush)"><summary>
+            Renders the read svg objects into bitmap with custom width and height and at 96 dpi.
+            </summary><param name="customWidth">width of the rendered bitmap (use 0 to preserve the existing width or preserve the aspect ratio when setting only height)</param><param name="customHeight">height of the rendered bitmap (use 0 to preserve the existing height or preserve the aspect ratio when setting only width)</param><param name="backgroundBrush">background brush</param><returns>BitmapSource</returns><example><para>The following example uses the <see cref="M:Ab2d.ReaderSvg.RenderToBitmap(System.Windows.Media.Brush)" /> method to render the read svg file to wpfBitmap:</para><code>
+            var readerSvg = new Ab2d.ReaderSvg();
+            readerSvg.Read(@"c:\mySample.svg");
+            
+            // Render to bitmap
+            var wpfBitmap = readerSvg.RenderToBitmap(Brushes.White);
+            </code><para>The next example uses this method to render the read svg file to image with custom size and saves it to disk:</para><code>
+            var readerSvg = new Ab2d.ReaderSvg();
+            readerSvg.Read(@"c:\mySample.svg");
+            
+            // Render to bitmap with 1024 width - height will be set automatically so that the
+            // Image aspect ratio is preserved
+            var wpfBitmap = readerSvg.RenderToBitmap(1024, 0, Brushes.White);
+            
+            var encoder = new System.Windows.Media.Imaging.PngBitmapEncoder();
+            // Uncomment to save to jpg
+            //var encoder = new JpegBitmapEncoder();
+            //encoder.QualityLevel = 85;
+            
+            encoder.Frames.Add(System.Windows.Media.Imaging.BitmapFrame.Create(wpfBitmap));
+                        
+            using (var stream = System.IO.File.OpenWrite("c:\\svgImage.png"))
+            {
+                encoder.Save(stream);
+            }        
+            </code></example></member>
+		<member name="M:Ab2d.ReaderSvg.RenderToBitmap(System.Int32,System.Int32,System.Int32,System.Windows.Media.Brush)"><summary>
+            Renders the read svg objects into bitmap with custom width and height and at dpi specified with parameter to the method.
+            </summary><param name="customWidth">width of the rendered bitmap (use 0 to preserve the existing width or preserve the aspect ratio when setting only height)</param><param name="customHeight">height of the rendered bitmap (use 0 to preserve the existing height or preserve the aspect ratio when setting only width)</param><param name="dpi">dpi used to render the bitmap</param><param name="backgroundBrush">background brush</param><returns>BitmapSource</returns><example><para>The following example uses the <see cref="M:Ab2d.ReaderSvg.RenderToBitmap(System.Windows.Media.Brush)" /> method to render the read svg file to wpfBitmap:</para><code>
+            var readerSvg = new Ab2d.ReaderSvg();
+            readerSvg.Read(@"c:\mySample.svg");
+            
+            // Render to bitmap
+            var wpfBitmap = readerSvg.RenderToBitmap(Brushes.White);
+            </code><para>The next example uses this method to render the read svg file to image with custom size and saves it to disk:</para><code>
+            var readerSvg = new Ab2d.ReaderSvg();
+            readerSvg.Read(@"c:\mySample.svg");
+            
+            // Render to bitmap with 1024 width - height will be set automatically so that the
+            // Image aspect ratio is preserved
+            var wpfBitmap = readerSvg.RenderToBitmap(1024, 0, Brushes.White);
+            
+            var encoder = new System.Windows.Media.Imaging.PngBitmapEncoder();
+            // Uncomment to save to jpg
+            //var encoder = new JpegBitmapEncoder();
+            //encoder.QualityLevel = 85;
+            
+            encoder.Frames.Add(System.Windows.Media.Imaging.BitmapFrame.Create(wpfBitmap));
+                        
+            using (var stream = System.IO.File.OpenWrite("c:\\svgImage.png"))
+            {
+                encoder.Save(stream);
+            }        
+            </code></example></member>
+		<member name="M:Ab2d.ReaderSvg.GetLayerNames"><summary>
+            Returns a List of layer names that were defined in Microsoft Visio.
+            </summary><returns>List of layer names that were defined in Microsoft Visio.</returns><remarks><para>
+            Ab2d.ReaderSvg has some methods that are specialized to read additional data from svg files that were created with <b>Microsoft Visio</b>.
+            </para><para>
+            It is possible to get the data about the <b>layers</b> and <b>custom properties and data</b>.
+            </para><para>
+            To get information about the layers use <see cref="M:Ab2d.ReaderSvg.GetLayerNames" /> or <see cref="M:Ab2d.ReaderSvg.GetElementsForLayerName(System.String)" />.
+            </para><para>
+            To get custom properties and associated data use:<br /><see cref="M:Ab2d.ReaderSvg.GetCustomProperties(System.String)" /><br /><see cref="M:Ab2d.ReaderSvg.GetCustomProperties(System.Object)" /><br /><see cref="M:Ab2d.ReaderSvg.GetObjectsWithCustomProperties" /><br /><see cref="M:Ab2d.ReaderSvg.GetCustomPropertiesDataTable" /></para></remarks><example><para>
+            The following code is taken from OfficePlanSample and shows how to fill a LayersPanel with checkboxes - one for each layer defined in svg file.
+            With checking or unchecking the checkboxes the elements associated to the layer are shown or hidden. The svg file is read with SvgViewbox that is defined in xaml.
+            </para><code lang="xaml">
+            &lt;svg:SvgViewbox Name="SvgOfficePlan" Source="Resources/Office plan.svg"/&gt;
+            </code><code lang="cs">
+            private void CollectLayers(Ab2d.ReaderSvg readerSvg)
+            {
+                List&lt;string&gt; layers;
+            
+                // Get names of the layers defined in Visio
+                // SvgOfficePlan is a SvgViewbox control defined in XAML
+                layers = SvgOfficePlan.InnerReaderSvg.GetLayerNames();
+            
+                foreach (string oneLayerName in layers)
+                {
+                    CheckBox newCheckBox;
+            
+                    // Create a checkbox for each layer
+                    newCheckBox = new CheckBox();
+                    newCheckBox.Content = oneLayerName;
+                    newCheckBox.IsChecked = true;
+                    newCheckBox.Checked += new RoutedEventHandler(LayerRadioButton_Checked);
+                    newCheckBox.Unchecked += new RoutedEventHandler(LayerRadioButton_Checked);
+            
+                    // Fill LayersPanel with checkboxes
+                    LayersPanel.Children.Add(newCheckBox);
+                }
+            }
+            
+            void LayerRadioButton_Checked(object sender, RoutedEventArgs e)
+            {
+                string layerName;
+                CheckBox changedCheckBox;
+            
+                changedCheckBox = (CheckBox)sender;
+            
+                layerName = (string)changedCheckBox.Content;
+            
+                // Show or hide all elements in the layer
+                ShowHideLayerElements(layerName, changedCheckBox.IsChecked ?? false);
+            }
+            
+            private void ShowHideLayerElements(string layerName, bool isVisible)
+            {
+                List&lt;UIElement&gt; elementsForLayerName;
+            
+                // Get all UIElements that are connected to specified layer
+                elementsForLayerName = SvgOfficePlan.InnerReaderSvg.GetElementsForLayerName(layerName);
+            
+                // TODO:
+                // Because one object can be in multiple layers 
+                // we should check that when showing an object 
+                // all the layers for the objects should be visible
+            
+                foreach (UIElement oneElement in elementsForLayerName)
+                {
+                    if (isVisible)
+                        oneElement.Visibility = Visibility.Visible;
+                    else
+                        oneElement.Visibility = Visibility.Collapsed;
+                }
+            }        
+            
+            public List&lt;string&gt; GetLayerNames()
+            {
+                if (!Ab.Common.Licensing.ReaderSvg.CommonLicensing.IsCalledFromWellKnowApplication())
+                    CheckIfProVersion(true);
+            
+                if (_visioLayers == null)
+                    return null;
+                else
+                    return _visioLayers.GetLayerNames();
+            }  
+            </code></example></member>
+		<member name="M:Ab2d.ReaderSvg.GetElementsForLayerName(System.String)"><summary>
+            Returns a List of UIElements that are assigned to the layer with layerName (layers can be only defined in Microsoft Visio).
+            </summary><param name="layerName">name of the layer</param><returns>List of UIElements that are assigned to the layerName or null if layer does not exist.</returns><remarks><para>
+            Ab2d.ReaderSvg has some methods that are specialized to read additional data from svg files that were created with <b>Microsoft Visio</b>.
+            </para><para>
+            It is possible to get the data about the <b>layers</b> and <b>custom properties and data</b>.
+            </para><para>
+            To get information about the layers use <see cref="M:Ab2d.ReaderSvg.GetLayerNames" /> or <see cref="M:Ab2d.ReaderSvg.GetElementsForLayerName(System.String)" />.
+            </para><para>
+            To get custom properties and associated data use:<br /><see cref="M:Ab2d.ReaderSvg.GetCustomProperties(System.String)" /><br /><see cref="M:Ab2d.ReaderSvg.GetCustomProperties(System.Object)" /><br /><see cref="M:Ab2d.ReaderSvg.GetObjectsWithCustomProperties" /><br /><see cref="M:Ab2d.ReaderSvg.GetCustomPropertiesDataTable" /></para></remarks><example><para>
+            The following code is taken from OfficePlanSample and shows how to fill a LayersPanel with checkboxes - one for each layer defined in svg file.
+            With checking or unchecking the checkboxes the elements associated to the layer are shown or hidden. The svg file is read with SvgViewbox that is defined in xaml.
+            </para><code lang="xaml">
+            &lt;svg:SvgViewbox Name="SvgOfficePlan" Source="Resources/Office plan.svg"/&gt;
+            </code><code lang="cs">
+            private void CollectLayers(Ab2d.ReaderSvg readerSvg)
+            {
+                List&lt;string&gt; layers;
+            
+                // Get names of the layers defined in Visio
+                // SvgOfficePlan is a SvgViewbox control defined in XAML
+                layers = SvgOfficePlan.InnerReaderSvg.GetLayerNames();
+            
+                foreach (string oneLayerName in layers)
+                {
+                    CheckBox newCheckBox;
+            
+                    // Create a checkbox for each layer
+                    newCheckBox = new CheckBox();
+                    newCheckBox.Content = oneLayerName;
+                    newCheckBox.IsChecked = true;
+                    newCheckBox.Checked += new RoutedEventHandler(LayerRadioButton_Checked);
+                    newCheckBox.Unchecked += new RoutedEventHandler(LayerRadioButton_Checked);
+            
+                    // Fill LayersPanel with checkboxes
+                    LayersPanel.Children.Add(newCheckBox);
+                }
+            }
+            
+            void LayerRadioButton_Checked(object sender, RoutedEventArgs e)
+            {
+                string layerName;
+                CheckBox changedCheckBox;
+            
+                changedCheckBox = (CheckBox)sender;
+            
+                layerName = (string)changedCheckBox.Content;
+            
+                // Show or hide all elements in the layer
+                ShowHideLayerElements(layerName, changedCheckBox.IsChecked ?? false);
+            }
+            
+            private void ShowHideLayerElements(string layerName, bool isVisible)
+            {
+                List&lt;UIElement&gt; elementsForLayerName;
+            
+                // Get all UIElements that are connected to specified layer
+                elementsForLayerName = SvgOfficePlan.InnerReaderSvg.GetElementsForLayerName(layerName);
+            
+                // TODO:
+                // Because one object can be in multiple layers 
+                // we should check that when showing an object 
+                // all the layers for the objects should be visible
+            
+                foreach (UIElement oneElement in elementsForLayerName)
+                {
+                    if (isVisible)
+                        oneElement.Visibility = Visibility.Visible;
+                    else
+                        oneElement.Visibility = Visibility.Collapsed;
+                }
+            }        
+            
+            public List&lt;string&gt; GetLayerNames()
+            {
+                if (!Ab.Common.Licensing.ReaderSvg.CommonLicensing.IsCalledFromWellKnowApplication())
+                    CheckIfProVersion(true);
+            
+                if (_visioLayers == null)
+                    return null;
+                else
+                    return _visioLayers.GetLayerNames();
+            }  
+            </code></example></member>
+		<member name="M:Ab2d.ReaderSvg.GetCustomProperties(System.String)"><summary>
+            Returns a Dictionary of custom properties defined for the object with objectName (only custom properties defined in Microsoft Visio are supported).
+            </summary><param name="objectName">object name</param><returns>Dictionary of custom properties defined for the object with objectName - key = custom property name, value = custom property value</returns><remarks><para>
+            Every shape that is defined in Microsoft Visio can contain custom properties.
+            When saving the drawing into svg, the custom properties are preserved and can be get with
+            <see cref="M:Ab2d.ReaderSvg.GetCustomProperties(System.String)" />, <see cref="M:Ab2d.ReaderSvg.GetCustomProperties(System.Object)" />,
+            <see cref="M:Ab2d.ReaderSvg.GetObjectsWithCustomProperties" /> or <see cref="M:Ab2d.ReaderSvg.GetCustomPropertiesDataTable" />.
+            </para><para>
+            Every custom property has its associated object, key as string and a value.
+            The value is not always of type string. The following types are supported: string, double, Boolean, DateTime, TimeSpan, decimal (for Currency).
+            </para><para><b>GetCustomProperties</b> method can be called with object or with string representing an object name. The method returns a Dictionary&lt;string, object&gt;.
+            </para><para>
+            Ab2d.ReaderSvg has some methods that are specialized to read additional data from svg files that were created with <b>Microsoft Visio</b>.
+            </para><para>
+            To get all objects that have custom properties defined use <see cref="M:Ab2d.ReaderSvg.GetObjectsWithCustomProperties" /> method.
+            </para><para>
+            To get all custom properties in a DataTable use <see cref="M:Ab2d.ReaderSvg.GetCustomPropertiesDataTable" /> method.
+            </para><para>
+            Ab2d.ReaderSvg also supports layers defined in Microsoft Visio. To get information about the layers use <see cref="M:Ab2d.ReaderSvg.GetLayerNames" /> or <see cref="M:Ab2d.ReaderSvg.GetElementsForLayerName(System.String)" />.
+            </para></remarks><example><para>
+            The following example shows how to display all the custom properties to the Output window.
+            </para><code lang="cs">
+            Ab2d.ReaderSvg myReaderSvg;
+            
+            myReaderSvg = new Ab2d.ReaderSvg();
+            Viewbox myDiagram = myReaderSvg.Read(@"c:\myDiagram.svg");
+            
+            // NOTE:
+            // When SvgViewbox or SvgDrawing is used in XAML to read the svg file,
+            // use its InnerReaderSvg property to get the ReaderSvg object.
+            
+            
+            // To get all custom properties as a DataTable use GetCustomPropertiesDataTable method:
+            // DataTable svgData = myReaderSvg.GetCustomPropertiesDataTable();
+            
+            // Get all objects that have custom properties defined
+            List&lt;object&gt; objectsList = myReaderSvg.GetObjectsWithCustomProperties();
+            
+            foreach (object oneObject in objectsList)
+            {
+                string objectName;
+            
+                // First display the object name
+                if (oneObject is FrameworkElement)
+                    objectName = ((FrameworkElement)oneObject).Name;
+                else
+                    objectName = "Unknown";
+            
+                System.Diagnostics.Debug.WriteLine("Object name: " + objectName);
+            
+            
+                // Get custom properties dictionary for current object
+                Dictionary&lt;string, object&gt; customProperties;
+                customProperties = myReaderSvg.GetCustomProperties(oneObject);
+            
+                // Display its keys and values
+                foreach (KeyValuePair&lt;string,object&gt; oneProperty in customProperties)
+                    System.Diagnostics.Debug.WriteLine(string.Format("  {0}: {1}", oneProperty.Key, oneProperty.Value));
+            
+                System.Diagnostics.Debug.WriteLine("");
+            }
+            </code></example><overloads><summary>
+            Returns a Dictionary of custom properties defined for the object with objectName (only custom properties defined in Microsoft Visio are supported).
+            </summary><remarks><para>
+            Every shape that is defined in Microsoft Visio can contain custom properties.
+            When saving the drawing into svg, the custom properties are preserved and can be get with
+            <see cref="M:Ab2d.ReaderSvg.GetCustomProperties(System.String)" />, <see cref="M:Ab2d.ReaderSvg.GetCustomProperties(System.Object)" />,
+            <see cref="M:Ab2d.ReaderSvg.GetObjectsWithCustomProperties" /> or <see cref="M:Ab2d.ReaderSvg.GetCustomPropertiesDataTable" />.
+            </para><para>
+            Every custom property has its associated object, key as string and a value.
+            The value is not always of type string. The following types are supported: string, double, Boolean, DateTime, TimeSpan, decimal (for Currency).
+            </para><para><b>GetCustomProperties</b> method can be called with object or with string representing an object name. The method returns a Dictionary&lt;string, object&gt;.
+            </para><para>
+            Ab2d.ReaderSvg has some methods that are specialized to read additional data from svg files that were created with <b>Microsoft Visio</b>.
+            </para><para>
+            To get all objects that have custom properties defined use <see cref="M:Ab2d.ReaderSvg.GetObjectsWithCustomProperties" /> method.
+            </para><para>
+            To get all custom properties in a DataTable use <see cref="M:Ab2d.ReaderSvg.GetCustomPropertiesDataTable" /> method.
+            </para><para>
+            Ab2d.ReaderSvg also supports layers defined in Microsoft Visio. To get information about the layers use <see cref="M:Ab2d.ReaderSvg.GetLayerNames" /> or <see cref="M:Ab2d.ReaderSvg.GetElementsForLayerName(System.String)" />.
+            </para></remarks><example><para>
+            The following example shows how to display all the custom properties to the Output window.
+            </para><code lang="cs">
+            Ab2d.ReaderSvg myReaderSvg;
+            
+            myReaderSvg = new Ab2d.ReaderSvg();
+            Viewbox myDiagram = myReaderSvg.Read(@"c:\myDiagram.svg");
+            
+            // NOTE:
+            // When SvgViewbox or SvgDrawing is used in XAML to read the svg file,
+            // use its InnerReaderSvg property to get the ReaderSvg object.
+            
+            
+            // To get all custom properties as a DataTable use GetCustomPropertiesDataTable method:
+            // DataTable svgData = myReaderSvg.GetCustomPropertiesDataTable();
+            
+            // Get all objects that have custom properties defined
+            List&lt;object&gt; objectsList = myReaderSvg.GetObjectsWithCustomProperties();
+            
+            foreach (object oneObject in objectsList)
+            {
+                string objectName;
+            
+                // First display the object name
+                if (oneObject is FrameworkElement)
+                    objectName = ((FrameworkElement)oneObject).Name;
+                else
+                    objectName = "Unknown";
+            
+                System.Diagnostics.Debug.WriteLine("Object name: " + objectName);
+            
+            
+                // Get custom properties dictionary for current object
+                Dictionary&lt;string, object&gt; customProperties;
+                customProperties = myReaderSvg.GetCustomProperties(oneObject);
+            
+                // Display its keys and values
+                foreach (KeyValuePair&lt;string,object&gt; oneProperty in customProperties)
+                    System.Diagnostics.Debug.WriteLine(string.Format("  {0}: {1}", oneProperty.Key, oneProperty.Value));
+            
+                System.Diagnostics.Debug.WriteLine("");
+            }
+            </code></example></overloads></member>
+		<member name="M:Ab2d.ReaderSvg.GetCustomProperties(System.Object)"><summary>
+            Returns a Dictionary of custom properties defined for the object with objectName (only custom properties defined in Microsoft Visio are supported).
+            </summary><param name="objectWithCustomProperties">object</param><returns>Dictionary of custom properties defined for the object with objectName - key = custom property name, value = custom property value</returns><remarks><para>
+            Every shape that is defined in Microsoft Visio can contain custom properties.
+            When saving the drawing into svg, the custom properties are preserved and can be get with
+            <see cref="M:Ab2d.ReaderSvg.GetCustomProperties(System.String)" />, <see cref="M:Ab2d.ReaderSvg.GetCustomProperties(System.Object)" />,
+            <see cref="M:Ab2d.ReaderSvg.GetObjectsWithCustomProperties" /> or <see cref="M:Ab2d.ReaderSvg.GetCustomPropertiesDataTable" />.
+            </para><para>
+            Every custom property has its associated object, key as string and a value.
+            The value is not always of type string. The following types are supported: string, double, Boolean, DateTime, TimeSpan, decimal (for Currency).
+            </para><para><b>GetCustomProperties</b> method can be called with object or with string representing an object name. The method returns a Dictionary&lt;string, object&gt;.
+            </para><para>
+            Ab2d.ReaderSvg has some methods that are specialized to read additional data from svg files that were created with <b>Microsoft Visio</b>.
+            </para><para>
+            To get all objects that have custom properties defined use <see cref="M:Ab2d.ReaderSvg.GetObjectsWithCustomProperties" /> method.
+            </para><para>
+            To get all custom properties in a DataTable use <see cref="M:Ab2d.ReaderSvg.GetCustomPropertiesDataTable" /> method.
+            </para><para>
+            Ab2d.ReaderSvg also supports layers defined in Microsoft Visio. To get information about the layers use <see cref="M:Ab2d.ReaderSvg.GetLayerNames" /> or <see cref="M:Ab2d.ReaderSvg.GetElementsForLayerName(System.String)" />.
+            </para></remarks><example><para>
+            The following example shows how to display all the custom properties to the Output window.
+            </para><code lang="cs">
+            Ab2d.ReaderSvg myReaderSvg;
+            
+            myReaderSvg = new Ab2d.ReaderSvg();
+            Viewbox myDiagram = myReaderSvg.Read(@"c:\myDiagram.svg");
+            
+            // NOTE:
+            // When SvgViewbox or SvgDrawing is used in XAML to read the svg file,
+            // use its InnerReaderSvg property to get the ReaderSvg object.
+            
+            
+            // To get all custom properties as a DataTable use GetCustomPropertiesDataTable method:
+            // DataTable svgData = myReaderSvg.GetCustomPropertiesDataTable();
+            
+            // Get all objects that have custom properties defined
+            List&lt;object&gt; objectsList = myReaderSvg.GetObjectsWithCustomProperties();
+            
+            foreach (object oneObject in objectsList)
+            {
+                string objectName;
+            
+                // First display the object name
+                if (oneObject is FrameworkElement)
+                    objectName = ((FrameworkElement)oneObject).Name;
+                else
+                    objectName = "Unknown";
+            
+                System.Diagnostics.Debug.WriteLine("Object name: " + objectName);
+            
+            
+                // Get custom properties dictionary for current object
+                Dictionary&lt;string, object&gt; customProperties;
+                customProperties = myReaderSvg.GetCustomProperties(oneObject);
+            
+                // Display its keys and values
+                foreach (KeyValuePair&lt;string,object&gt; oneProperty in customProperties)
+                    System.Diagnostics.Debug.WriteLine(string.Format("  {0}: {1}", oneProperty.Key, oneProperty.Value));
+            
+                System.Diagnostics.Debug.WriteLine("");
+            }
+            </code></example></member>
+		<member name="M:Ab2d.ReaderSvg.GetObjectsWithCustomProperties"><summary>
+            Returns List of objects that have custom properties defined (only custom properties defined in Microsoft Visio are supported).
+            </summary><returns>List of objects that have custom properties</returns><remarks><para>
+            Every shape that is defined in Microsoft Visio can contain custom properties.
+            When saving the drawing into svg, the custom properties are preserved and can be get with
+            <see cref="M:Ab2d.ReaderSvg.GetCustomProperties(System.String)" />, <see cref="M:Ab2d.ReaderSvg.GetCustomProperties(System.Object)" />,
+            <see cref="M:Ab2d.ReaderSvg.GetObjectsWithCustomProperties" /> or <see cref="M:Ab2d.ReaderSvg.GetCustomPropertiesDataTable" />.
+            </para><para>
+            Every custom property has its associated object, key as string and a value.
+            The value is not always of type string. The following types are supported: string, double, Boolean, DateTime, TimeSpan, decimal (for Currency).
+            </para><para><b>GetCustomProperties</b> method can be called with object or with string representing an object name. The method returns a Dictionary&lt;string, object&gt;.
+            </para><para>
+            Ab2d.ReaderSvg has some methods that are specialized to read additional data from svg files that were created with <b>Microsoft Visio</b>.
+            </para><para>
+            To get all objects that have custom properties defined use <see cref="M:Ab2d.ReaderSvg.GetObjectsWithCustomProperties" /> method.
+            </para><para>
+            To get all custom properties in a DataTable use <see cref="M:Ab2d.ReaderSvg.GetCustomPropertiesDataTable" /> method.
+            </para><para>
+            Ab2d.ReaderSvg also supports layers defined in Microsoft Visio. To get information about the layers use <see cref="M:Ab2d.ReaderSvg.GetLayerNames" /> or <see cref="M:Ab2d.ReaderSvg.GetElementsForLayerName(System.String)" />.
+            </para></remarks><example><para>
+            The following example shows how to display all the custom properties to the Output window.
+            </para><code lang="cs">
+            Ab2d.ReaderSvg myReaderSvg;
+            
+            myReaderSvg = new Ab2d.ReaderSvg();
+            Viewbox myDiagram = myReaderSvg.Read(@"c:\myDiagram.svg");
+            
+            // NOTE:
+            // When SvgViewbox or SvgDrawing is used in XAML to read the svg file,
+            // use its InnerReaderSvg property to get the ReaderSvg object.
+            
+            
+            // To get all custom properties as a DataTable use GetCustomPropertiesDataTable method:
+            // DataTable svgData = myReaderSvg.GetCustomPropertiesDataTable();
+            
+            // Get all objects that have custom properties defined
+            List&lt;object&gt; objectsList = myReaderSvg.GetObjectsWithCustomProperties();
+            
+            foreach (object oneObject in objectsList)
+            {
+                string objectName;
+            
+                // First display the object name
+                if (oneObject is FrameworkElement)
+                    objectName = ((FrameworkElement)oneObject).Name;
+                else
+                    objectName = "Unknown";
+            
+                System.Diagnostics.Debug.WriteLine("Object name: " + objectName);
+            
+            
+                // Get custom properties dictionary for current object
+                Dictionary&lt;string, object&gt; customProperties;
+                customProperties = myReaderSvg.GetCustomProperties(oneObject);
+            
+                // Display its keys and values
+                foreach (KeyValuePair&lt;string,object&gt; oneProperty in customProperties)
+                    System.Diagnostics.Debug.WriteLine(string.Format("  {0}: {1}", oneProperty.Key, oneProperty.Value));
+            
+                System.Diagnostics.Debug.WriteLine("");
+            }
+            </code></example></member>
+		<member name="M:Ab2d.ReaderSvg.GetCustomPropertiesDataTable"><summary>
+            Returns a System.Data.DataTable with all custom properties defined in svg file (only custom properties defined in Microsoft Visio are supported).
+            </summary><returns>System.Data.DataTable with all custom properties defined in svg file</returns><remarks><para>
+            Every shape that is defined in Microsoft Visio can contain custom properties.
+            When saving the drawing into svg, the custom properties are preserved and can be get with
+            <see cref="M:Ab2d.ReaderSvg.GetCustomProperties(System.String)" />, <see cref="M:Ab2d.ReaderSvg.GetCustomProperties(System.Object)" />,
+            <see cref="M:Ab2d.ReaderSvg.GetObjectsWithCustomProperties" /> or <see cref="M:Ab2d.ReaderSvg.GetCustomPropertiesDataTable" />.
+            </para><para>
+            Every custom property has its associated object, key as string and a value.
+            The value is not always of type string. The following types are supported: string, double, Boolean, DateTime, TimeSpan, decimal (for Currency).
+            </para><para><b>GetCustomProperties</b> method can be called with object or with string representing an object name. The method returns a Dictionary&lt;string, object&gt;.
+            </para><para>
+            Ab2d.ReaderSvg has some methods that are specialized to read additional data from svg files that were created with <b>Microsoft Visio</b>.
+            </para><para>
+            To get all objects that have custom properties defined use <see cref="M:Ab2d.ReaderSvg.GetObjectsWithCustomProperties" /> method.
+            </para><para>
+            To get all custom properties in a DataTable use <see cref="M:Ab2d.ReaderSvg.GetCustomPropertiesDataTable" /> method.
+            </para><para>
+            The first column of the returned DataTable is named ObjectName and contains the name of the object that is associated with each DataRow.
+            Names of other columns represent the names of custom properties.
+            </para><para>
+            Ab2d.ReaderSvg also supports layers defined in Microsoft Visio. To get information about the layers use <see cref="M:Ab2d.ReaderSvg.GetLayerNames" /> or <see cref="M:Ab2d.ReaderSvg.GetElementsForLayerName(System.String)" />.
+            </para></remarks><example><para>
+            The following example shows how to read all custom properties into a DataTable
+            </para><code lang="cs">
+            Ab2d.ReaderSvg myReaderSvg;
+            
+            myReaderSvg = new Ab2d.ReaderSvg();
+            Viewbox myDiagram = myReaderSvg.Read(@"c:\myDiagram.svg");
+            
+            // NOTE:
+            // When SvgViewbox or SvgDrawing is used in XAML to read the svg file,
+            // use its InnerReaderSvg property to get the ReaderSvg object.
+            
+            
+            // Get all custom properties as a DataTable
+            DataTable svgData = myReaderSvg.GetCustomPropertiesDataTable();
+            </code></example></member>
+	</members>
+</doc>
